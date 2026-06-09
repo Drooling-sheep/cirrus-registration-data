@@ -10,62 +10,11 @@
   },
   {
     "date": "2026-06-09",
-    "transfers": 5,
-    "new": 3,
-    "deregistered": 2,
-    "added": 4,
-    "transfer_sample": [
-      {
-        "key": "hex:A029E5",
-        "n_number": "11AL",
-        "model": "SF50",
-        "previous_name": "LOGISTICS 12 LLC",
-        "current_name": "ZANDERS AIR LLC",
-        "previous_cert_issue_date": "20230302",
-        "current_cert_issue_date": "20260604",
-        "state": "MO"
-      },
-      {
-        "key": "hex:A0A174",
-        "n_number": "14MK",
-        "model": "SR22",
-        "previous_name": "V1 AVIATION LEASING LLC",
-        "current_name": "BURDZY CHRISTOPHER",
-        "previous_cert_issue_date": "20221116",
-        "current_cert_issue_date": "20260605",
-        "state": "NH"
-      },
-      {
-        "key": "hex:A46743",
-        "n_number": "383JM",
-        "model": "SR22",
-        "previous_name": "",
-        "current_name": "",
-        "previous_cert_issue_date": "20110721",
-        "current_cert_issue_date": "20260605",
-        "state": ""
-      },
-      {
-        "key": "hex:A5E2B7",
-        "n_number": "479BW",
-        "model": "SR22T",
-        "previous_name": "BERIT MERKAB LLC",
-        "current_name": "KINGSMAN AVIATION LLC",
-        "previous_cert_issue_date": "20241212",
-        "current_cert_issue_date": "20260604",
-        "state": "WI"
-      },
-      {
-        "key": "hex:A98853",
-        "n_number": "713MP",
-        "model": "SR20",
-        "previous_name": "LEAN OF PEAK AVIATION LLC",
-        "current_name": "ALCYONE TRUST CORP TRUSTEE",
-        "previous_cert_issue_date": "20200810",
-        "current_cert_issue_date": "20260604",
-        "state": "KS"
-      }
-    ],
+    "transfers": 0,
+    "new": 0,
+    "deregistered": 0,
+    "added": 0,
+    "transfer_sample": [],
     "previous_snapshot_available": true
   }
 ]

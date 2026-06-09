@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T02:12:04.975998+00:00",
+  "generated_at": "2026-06-09T02:15:33.192219+00:00",
   "note": "基于 FAA 当前有效 Cirrus 注册记录中的序列号。该指标是美国可见的最大序列号进度，是全球真实产量的下限代理，非精确产量。",
   "serial_parse_rule": "SERIAL NUMBER is parsed by extracting the longest digit group and removing leading zeroes; current Cirrus samples are mostly numeric strings.",
   "model_line_rule": {
@@ -112,8 +112,8 @@
           "model": "SF50",
           "n_number": "11AL",
           "year_mfr": 2022,
-          "cert_issue_date": "20230302",
-          "state": "TN"
+          "cert_issue_date": "20260604",
+          "state": "MO"
         },
         {
           "serial": 703,
@@ -403,8 +403,8 @@
     "SR": {
       "line": "SR",
       "max_serial_us": 11385,
-      "count_registered": 8175,
-      "parsed_serial_count": 8175,
+      "count_registered": 8177,
+      "parsed_serial_count": 8177,
       "parse_failures": 0,
       "raw_serial_samples": [
         {
@@ -747,7 +747,7 @@
         {
           "year": 2008,
           "max_serial": 3368,
-          "count": 317
+          "count": 316
         },
         {
           "year": 2009,
@@ -837,7 +837,7 @@
         {
           "year": 2026,
           "max_serial": 11385,
-          "count": 129
+          "count": 131
         }
       ],
       "max_serial_history": [
@@ -849,7 +849,7 @@
         {
           "date": "2026-06-09",
           "max_serial": 11385,
-          "count": 8175
+          "count": 8177
         }
       ],
       "monthly_serial_deltas": [
