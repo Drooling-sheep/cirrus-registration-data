@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T02:22:47.076650+00:00",
+  "generated_at": "2026-06-09T05:51:22.426351+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -8864,6 +8864,79 @@
     "added_sample": [],
     "removed_sample": [],
     "changed_sample": []
+  },
+  "dashboard_metrics": {
+    "metric_note": "Default FAA metric is lagged estimated new-aircraft registrations: valid Cirrus records where YEAR MFR is the CERT ISSUE DATE year or prior year.",
+    "as_of_cert_issue_date": "2026-06-04",
+    "ytd_same_date": {
+      "current_year": 2026,
+      "comparison_year": 2025,
+      "current_cutoff_date": "2026-06-04",
+      "comparison_cutoff_date": "2025-06-04",
+      "current_ytd": 276,
+      "comparison_ytd": 284,
+      "delta": -8,
+      "yoy_pct": -2.8
+    },
+    "faa_q1_vs_gama": {
+      "year": 2026,
+      "faa_jan_mar_lagged_estimated_new": 143,
+      "gama_q1_units": 196,
+      "gama_period": "q1_ytd",
+      "delta": -53,
+      "delta_pct": -27.0
+    },
+    "seasonality_projection": {
+      "year": 2026,
+      "current_ytd": 276,
+      "as_of_cert_issue_date": "2026-06-04",
+      "history_years_used": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "average_ytd_share_pct": 41.6,
+      "projected_full_year_faa_lagged_estimated_new": 663,
+      "history": [
+        {
+          "year": 2021,
+          "cutoff_date": "2021-06-04",
+          "ytd_count": 81,
+          "annual_count": 168,
+          "ytd_share_pct": 48.2
+        },
+        {
+          "year": 2022,
+          "cutoff_date": "2022-06-04",
+          "ytd_count": 76,
+          "annual_count": 179,
+          "ytd_share_pct": 42.5
+        },
+        {
+          "year": 2023,
+          "cutoff_date": "2023-06-04",
+          "ytd_count": 243,
+          "annual_count": 512,
+          "ytd_share_pct": 47.5
+        },
+        {
+          "year": 2024,
+          "cutoff_date": "2024-06-04",
+          "ytd_count": 191,
+          "annual_count": 589,
+          "ytd_share_pct": 32.4
+        },
+        {
+          "year": 2025,
+          "cutoff_date": "2025-06-04",
+          "ytd_count": 284,
+          "annual_count": 754,
+          "ytd_share_pct": 37.7
+        }
+      ]
+    }
   },
   "serial_tracking": {
     "generated_at": "2026-06-09T02:15:33.192219+00:00",

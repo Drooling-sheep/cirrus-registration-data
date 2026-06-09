@@ -48,6 +48,9 @@ year,model_category,units
 - `monthly_estimated_new_aircraft_lagged` 是默认看板口径，允许 `YEAR MFR` 为注册年份或前一年。
 - `monthly_estimated_new_by_model` 是估算新机注册按月和机型拆分。
 - `monthly_estimated_new_lagged_by_model` 是默认看板口径按月和机型拆分。
+- `dashboard_metrics.ytd_same_date` 用当前年份最新 `CERT ISSUE DATE` 作为日级截止点，对比上一年同月同日的默认口径 YTD。
+- `dashboard_metrics.faa_q1_vs_gama` 对比当前年份 FAA 1-3 月默认口径估算新机注册和 GAMA Q1/YTD 官方交付数。
+- `dashboard_metrics.seasonality_projection` 用近 5 个完整年份同月同日 YTD 占全年比例的平均值，推算当前年份全年 FAA 默认口径估算值。
 - `by_model` 是当前有效注册存量，不是当月产量。
 - `by_model_estimated_new_aircraft` 是历史估算新机注册的机型累计。
 - `by_model_estimated_new_aircraft_lagged` 是默认看板口径的机型累计。

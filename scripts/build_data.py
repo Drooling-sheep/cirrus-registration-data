@@ -8,9 +8,10 @@ import csv
 import json
 import logging
 import sys
-from datetime import datetime, timezone
+from calendar import monthrange
+from datetime import date, datetime, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -23,6 +24,7 @@ DEFAULT_JSON_OUTPUT = PROJECT_ROOT / "data" / "cirrus_registrations.json"
 DEFAULT_CSV_OUTPUT = PROJECT_ROOT / "data" / "cirrus_registrations.csv"
 DEFAULT_SNAPSHOT_OUTPUT = PROJECT_ROOT / "data" / "cirrus_aircraft_snapshot.json"
 GAMA_FIELDS = ["year", "model_category", "units"]
+SEASONALITY_HISTORY_YEARS = 5
 
 
 def parse_args() -> argparse.Namespace:
@@ -221,6 +223,163 @@ def load_previous_snapshot(path: Path) -> List[Dict[str, object]]:
     return snapshot
 
 
+def parse_cert_date(record: Dict[str, object]) -> Optional[date]:
+    text = str(record.get("cert_issue_date") or "").strip()
+    if len(text) == 8 and text.isdigit():
+        try:
+            return date(int(text[:4]), int(text[4:6]), int(text[6:8]))
+        except ValueError:
+            return None
+    if len(text) >= 10:
+        try:
+            return date.fromisoformat(text[:10])
+        except ValueError:
+            return None
+    return None
+
+
+def same_month_day(year: int, month: int, day: int) -> date:
+    return date(year, month, min(day, monthrange(year, month)[1]))
+
+
+def lagged_records_with_dates(
+    aircraft_snapshot: List[Dict[str, object]],
+) -> List[tuple[Dict[str, object], date]]:
+    records = []
+    for record in aircraft_snapshot:
+        if not record.get("estimated_new_aircraft_lagged"):
+            continue
+        cert_date = parse_cert_date(record)
+        if cert_date is None:
+            continue
+        records.append((record, cert_date))
+    return records
+
+
+def count_ytd(records: List[tuple[Dict[str, object], date]], year: int, cutoff: date) -> int:
+    return sum(1 for _, cert_date in records if cert_date.year == year and cert_date <= cutoff)
+
+
+def count_year(records: List[tuple[Dict[str, object], date]], year: int) -> int:
+    return sum(1 for _, cert_date in records if cert_date.year == year)
+
+
+def total_gama_units(row: Dict[str, object]) -> int:
+    return sum(
+        int(value or 0)
+        for key, value in row.items()
+        if key not in {"year", "period"}
+    )
+
+
+def build_dashboard_metrics(
+    aircraft_snapshot: List[Dict[str, object]],
+    gama_deliveries: List[Dict[str, object]],
+) -> Dict[str, object]:
+    dated_records = lagged_records_with_dates(aircraft_snapshot)
+    if not dated_records:
+        return {
+            "metric_note": "No dated lagged estimated new-aircraft records are available.",
+        }
+
+    as_of_date = max(cert_date for _, cert_date in dated_records)
+    current_year = as_of_date.year
+    previous_year = current_year - 1
+    previous_cutoff = same_month_day(previous_year, as_of_date.month, as_of_date.day)
+    current_ytd = count_ytd(dated_records, current_year, as_of_date)
+    previous_ytd = count_ytd(dated_records, previous_year, previous_cutoff)
+    yoy_pct = (
+        round((current_ytd - previous_ytd) / previous_ytd * 100, 1)
+        if previous_ytd
+        else None
+    )
+
+    faa_q1 = sum(
+        1
+        for _, cert_date in dated_records
+        if cert_date.year == current_year and 1 <= cert_date.month <= 3
+    )
+    gama_q1_row = next(
+        (
+            row
+            for row in gama_deliveries
+            if int(row.get("year", 0)) == current_year
+            and str(row.get("period") or "").lower().startswith("q1")
+        ),
+        None,
+    )
+    gama_q1 = total_gama_units(gama_q1_row) if gama_q1_row else None
+    q1_delta = faa_q1 - gama_q1 if gama_q1 is not None else None
+    q1_delta_pct = round(q1_delta / gama_q1 * 100, 1) if gama_q1 else None
+
+    complete_years = [
+        year
+        for year in sorted({cert_date.year for _, cert_date in dated_records})
+        if year < current_year and count_year(dated_records, year) > 0
+    ][-SEASONALITY_HISTORY_YEARS:]
+    seasonal_rows = []
+    for year in complete_years:
+        cutoff = same_month_day(year, as_of_date.month, as_of_date.day)
+        annual = count_year(dated_records, year)
+        ytd = count_ytd(dated_records, year, cutoff)
+        share = ytd / annual if annual else 0.0
+        if share > 0:
+            seasonal_rows.append(
+                {
+                    "year": year,
+                    "cutoff_date": cutoff.isoformat(),
+                    "ytd_count": ytd,
+                    "annual_count": annual,
+                    "ytd_share_pct": round(share * 100, 1),
+                    "ytd_share": share,
+                }
+            )
+    average_share = (
+        sum(float(row["ytd_share"]) for row in seasonal_rows) / len(seasonal_rows)
+        if seasonal_rows
+        else None
+    )
+    projected_full_year = round(current_ytd / average_share) if average_share else None
+
+    return {
+        "metric_note": (
+            "Default FAA metric is lagged estimated new-aircraft registrations: "
+            "valid Cirrus records where YEAR MFR is the CERT ISSUE DATE year or prior year."
+        ),
+        "as_of_cert_issue_date": as_of_date.isoformat(),
+        "ytd_same_date": {
+            "current_year": current_year,
+            "comparison_year": previous_year,
+            "current_cutoff_date": as_of_date.isoformat(),
+            "comparison_cutoff_date": previous_cutoff.isoformat(),
+            "current_ytd": current_ytd,
+            "comparison_ytd": previous_ytd,
+            "delta": current_ytd - previous_ytd,
+            "yoy_pct": yoy_pct,
+        },
+        "faa_q1_vs_gama": {
+            "year": current_year,
+            "faa_jan_mar_lagged_estimated_new": faa_q1,
+            "gama_q1_units": gama_q1,
+            "gama_period": gama_q1_row.get("period") if gama_q1_row else None,
+            "delta": q1_delta,
+            "delta_pct": q1_delta_pct,
+        },
+        "seasonality_projection": {
+            "year": current_year,
+            "current_ytd": current_ytd,
+            "as_of_cert_issue_date": as_of_date.isoformat(),
+            "history_years_used": [row["year"] for row in seasonal_rows],
+            "average_ytd_share_pct": round(average_share * 100, 1) if average_share else None,
+            "projected_full_year_faa_lagged_estimated_new": projected_full_year,
+            "history": [
+                {key: value for key, value in row.items() if key != "ytd_share"}
+                for row in seasonal_rows
+            ],
+        },
+    }
+
+
 def build_final_payload(
     parsed: Dict[str, object],
     gama_deliveries: List[Dict[str, object]],
@@ -269,6 +428,7 @@ def build_final_payload(
         "gama_deliveries": gama_deliveries,
         "by_state": by_state,
         "snapshot_diff": snapshot_diff(previous_snapshot, aircraft_snapshot),
+        "dashboard_metrics": build_dashboard_metrics(aircraft_snapshot, gama_deliveries),
         "serial_tracking": serial_tracking,
         "flight_activity": flight_activity,
         "used_market": used_market,
@@ -444,6 +604,9 @@ def self_test(json_path: Path, payload: Dict[str, object]) -> None:
     used_market = loaded.get("used_market")
     if not isinstance(used_market, dict) or "transfer_proxy" not in used_market:
         raise RuntimeError("Expected used_market.transfer_proxy in final JSON")
+    dashboard_metrics = loaded.get("dashboard_metrics")
+    if not isinstance(dashboard_metrics, dict) or "ytd_same_date" not in dashboard_metrics:
+        raise RuntimeError("Expected dashboard_metrics.ytd_same_date in final JSON")
 
     monthly_total = sum(int(item["count"]) for item in payload["monthly_new"])
     yearly_total = sum(int(item["registrations"]) for item in payload["by_year"])
@@ -536,6 +699,27 @@ def print_summary(payload: Dict[str, object]) -> None:
         "Used market: "
         f"transfers={latest_transfer.get('transfers')} "
         f"listings={used_market['listings'].get('active_listing_count')}"
+    )
+    metrics = payload["dashboard_metrics"]
+    ytd = metrics["ytd_same_date"]
+    q1 = metrics["faa_q1_vs_gama"]
+    projection = metrics["seasonality_projection"]
+    print(
+        "Same-date YTD: "
+        f"{ytd['current_year']}={ytd['current_ytd']} "
+        f"{ytd['comparison_year']}={ytd['comparison_ytd']} "
+        f"yoy={ytd['yoy_pct']}%"
+    )
+    print(
+        "FAA Q1 vs GAMA Q1: "
+        f"faa={q1['faa_jan_mar_lagged_estimated_new']} "
+        f"gama={q1['gama_q1_units']} "
+        f"delta={q1['delta']}"
+    )
+    print(
+        "Seasonality projection: "
+        f"{projection['year']}={projection['projected_full_year_faa_lagged_estimated_new']} "
+        f"avg_share={projection['average_ytd_share_pct']}%"
     )
 
 

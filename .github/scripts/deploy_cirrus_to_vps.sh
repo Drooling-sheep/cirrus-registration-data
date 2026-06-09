@@ -14,6 +14,9 @@ trap 'rm -rf "$DEPLOY_DIR"' EXIT
 
 mkdir -p "$DEPLOY_DIR/cirrus" "$DEPLOY_DIR/data"
 cp web/index.html "$DEPLOY_DIR/cirrus/index.html"
+if [[ -f web/chart.js ]]; then
+  cp web/chart.js "$DEPLOY_DIR/cirrus/chart.js"
+fi
 
 DATA_FILES=(
   cirrus_registrations.json

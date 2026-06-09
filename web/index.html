@@ -124,14 +124,23 @@
       margin: 18px 0;
     }
 
+    .insights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin: 0 0 18px;
+    }
+
     .kpi,
+    .insight,
     .panel {
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
     }
 
-    .kpi {
+    .kpi,
+    .insight {
       padding: 14px;
     }
 
@@ -159,6 +168,25 @@
 
     .delta.negative {
       color: var(--danger);
+    }
+
+    .insight-title {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .insight-value {
+      margin-top: 7px;
+      font-size: 24px;
+      font-weight: 750;
+      line-height: 1.15;
+    }
+
+    .insight-detail {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 13px;
     }
 
     .grid {
@@ -238,6 +266,7 @@
       }
 
       .kpis,
+      .insights,
       .grid {
         grid-template-columns: 1fr;
       }
@@ -290,6 +319,24 @@
           <div class="value" id="kpiTotal">0</div>
           <div class="delta" id="kpiTotalLabel"></div>
         </div>
+      </section>
+
+      <section class="insights" aria-label="对照指标">
+        <article class="insight">
+          <div class="insight-title">2026 YTD vs 2025 同日 YTD</div>
+          <div class="insight-value" id="sameDateYtdValue">等待数据</div>
+          <div class="insight-detail" id="sameDateYtdDetail"></div>
+        </article>
+        <article class="insight">
+          <div class="insight-title">2026 FAA Jan-Mar vs GAMA Q1</div>
+          <div class="insight-value" id="q1GamaValue">等待数据</div>
+          <div class="insight-detail" id="q1GamaDetail"></div>
+        </article>
+        <article class="insight">
+          <div class="insight-title">历史季节性推算 2026 全年 FAA</div>
+          <div class="insight-value" id="seasonalityValue">等待数据</div>
+          <div class="insight-detail" id="seasonalityDetail"></div>
+        </article>
       </section>
 
       <section class="grid" aria-label="图表">
@@ -406,25 +453,71 @@
       if (value < 0) element.classList.add('negative');
     }
 
+    function formatSignedPercent(value) {
+      if (value === null || value === undefined) return 'N/A';
+      return `${value > 0 ? '+' : ''}${Number(value).toFixed(1)}%`;
+    }
+
+    function formatSignedInteger(value) {
+      if (value === null || value === undefined) return 'N/A';
+      return `${value > 0 ? '+' : ''}${numberFormat.format(value)}`;
+    }
+
     function gamaTotal(row) {
       return Object.entries(row)
         .filter(([key]) => key !== 'year' && key !== 'period')
         .reduce((total, [, value]) => total + Number(value || 0), 0);
     }
 
+    function renderDashboardMetrics(data) {
+      const metrics = data.dashboard_metrics || {};
+      const ytd = metrics.ytd_same_date || {};
+      const q1 = metrics.faa_q1_vs_gama || {};
+      const projection = metrics.seasonality_projection || {};
+
+      const sameValue = document.getElementById('sameDateYtdValue');
+      sameValue.textContent = formatSignedPercent(ytd.yoy_pct);
+      setDelta(sameValue, Number(ytd.yoy_pct || 0));
+      document.getElementById('sameDateYtdDetail').textContent =
+        `${ytd.current_year || ''} ${numberFormat.format(ytd.current_ytd || 0)} 架 vs ` +
+        `${ytd.comparison_year || ''} ${numberFormat.format(ytd.comparison_ytd || 0)} 架，` +
+        `截至 ${ytd.current_cutoff_date || '未知日期'}`;
+
+      const q1Value = document.getElementById('q1GamaValue');
+      q1Value.textContent =
+        `${numberFormat.format(q1.faa_jan_mar_lagged_estimated_new || 0)} / ` +
+        `${q1.gama_q1_units === null || q1.gama_q1_units === undefined ? 'N/A' : numberFormat.format(q1.gama_q1_units)}`;
+      setDelta(q1Value, Number(q1.delta || 0));
+      document.getElementById('q1GamaDetail').textContent =
+        `FAA 估算 vs GAMA ${q1.gama_period || 'Q1'}，差额 ${formatSignedInteger(q1.delta)} ` +
+        `(${formatSignedPercent(q1.delta_pct)})`;
+
+      document.getElementById('seasonalityValue').textContent =
+        projection.projected_full_year_faa_lagged_estimated_new
+          ? numberFormat.format(projection.projected_full_year_faa_lagged_estimated_new)
+          : 'N/A';
+      document.getElementById('seasonalityDetail').textContent =
+        `当前 YTD ${numberFormat.format(projection.current_ytd || 0)} 架，` +
+        `历史同期占全年约 ${projection.average_ytd_share_pct ?? 'N/A'}%，` +
+        `样本 ${projection.history_years_used?.join(', ') || '不足'}`;
+    }
+
     function renderKpis(data) {
       const monthly = data.monthly_estimated_new_aircraft_lagged;
       const latest = monthly[monthly.length - 1];
       const latestParts = monthParts(latest.month);
-      const currentYtd = ytdTotal(monthly, latestParts.year, latestParts.monthNumber);
-      const previousYtd = ytdTotal(monthly, latestParts.year - 1, latestParts.monthNumber);
-      const yoy = previousYtd ? ((currentYtd - previousYtd) / previousYtd) * 100 : null;
+      const sameDateYtd = data.dashboard_metrics?.ytd_same_date;
+      const currentYtd = sameDateYtd?.current_ytd ?? ytdTotal(monthly, latestParts.year, latestParts.monthNumber);
+      const previousYtd = sameDateYtd?.comparison_ytd ?? ytdTotal(monthly, latestParts.year - 1, latestParts.monthNumber);
+      const yoy = sameDateYtd?.yoy_pct ?? (previousYtd ? ((currentYtd - previousYtd) / previousYtd) * 100 : null);
       const total = sum(data.by_model, item => Number(item.count));
 
       document.getElementById('kpiMonth').textContent = numberFormat.format(latest.count);
       document.getElementById('kpiMonthLabel').textContent = `${latest.month} 估算`;
       document.getElementById('kpiYtd').textContent = numberFormat.format(currentYtd);
-      document.getElementById('kpiYtdLabel').textContent = `${latestParts.year} 年截至 ${latestParts.monthNumber} 月估算`;
+      document.getElementById('kpiYtdLabel').textContent = sameDateYtd
+        ? `${sameDateYtd.current_year} 年截至 ${sameDateYtd.current_cutoff_date} 估算`
+        : `${latestParts.year} 年截至 ${latestParts.monthNumber} 月估算`;
       document.getElementById('kpiTotal').textContent = numberFormat.format(total);
       document.getElementById('kpiTotalLabel').textContent = `全部有效注册，状态码 ${data.valid_registration_status_codes.join(', ')}`;
 
@@ -435,7 +528,9 @@
         yoyLabel.textContent = '缺少上年同期';
       } else {
         yoyEl.textContent = `${yoy > 0 ? '+' : ''}${yoy.toFixed(1)}%`;
-        yoyLabel.textContent = `上年同期 ${numberFormat.format(previousYtd)}`;
+        yoyLabel.textContent = sameDateYtd
+          ? `${sameDateYtd.comparison_year} 同日 ${numberFormat.format(previousYtd)}`
+          : `上年同期 ${numberFormat.format(previousYtd)}`;
         setDelta(yoyEl, yoy);
       }
     }
@@ -770,24 +865,46 @@
 
     function loadChartJs() {
       if (window.Chart) return Promise.resolve();
-      return new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        const timeout = window.setTimeout(() => {
-          script.remove();
-          reject(new Error('Chart.js CDN 加载超时'));
-        }, 12000);
-        script.src = 'https://cdn.jsdelivr.net/npm/chart.js';
-        script.async = true;
-        script.onload = () => {
-          window.clearTimeout(timeout);
-          resolve();
-        };
-        script.onerror = () => {
-          window.clearTimeout(timeout);
-          reject(new Error('Chart.js CDN 加载失败'));
-        };
-        document.head.appendChild(script);
-      });
+      const sources = ['chart.js', 'https://cdn.jsdelivr.net/npm/chart.js'];
+
+      function trySource(index) {
+        return new Promise((resolve, reject) => {
+          const url = sources[index];
+          if (!url) {
+            reject(new Error('Chart.js 加载失败'));
+            return;
+          }
+
+          const script = document.createElement('script');
+          const timeout = window.setTimeout(() => {
+            script.remove();
+            if (index + 1 < sources.length) {
+              trySource(index + 1).then(resolve).catch(reject);
+            } else {
+              reject(new Error('Chart.js 加载超时'));
+            }
+          }, 12000);
+
+          script.src = url;
+          script.async = true;
+          script.onload = () => {
+            window.clearTimeout(timeout);
+            resolve();
+          };
+          script.onerror = () => {
+            window.clearTimeout(timeout);
+            script.remove();
+            if (index + 1 < sources.length) {
+              trySource(index + 1).then(resolve).catch(reject);
+            } else {
+              reject(new Error('Chart.js 加载失败'));
+            }
+          };
+          document.head.appendChild(script);
+        });
+      }
+
+      return trySource(0);
     }
 
     async function fetchDashboardData() {
@@ -819,6 +936,7 @@
         document.getElementById('sourceNote').textContent = data.source_note;
 
         renderKpis(data);
+        renderDashboardMetrics(data);
         renderMonthlyChart(data);
         renderModelChart(data);
         renderYearChart(data);
