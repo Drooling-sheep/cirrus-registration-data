@@ -619,8 +619,24 @@
       },
     };
 
+    function readStoredLanguage(key) {
+      try {
+        return localStorage.getItem(key);
+      } catch (error) {
+        return '';
+      }
+    }
+
+    function storeLanguage(key, language) {
+      try {
+        localStorage.setItem(key, language);
+      } catch (error) {
+        return;
+      }
+    }
+
     function preferredLanguage() {
-      const saved = localStorage.getItem('cirrusLanguage') || localStorage.getItem('siteLanguage');
+      const saved = readStoredLanguage('cirrusLanguage') || readStoredLanguage('siteLanguage');
       if (saved === 'zh' || saved === 'en') return saved;
       return (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
     }
@@ -634,8 +650,8 @@
 
     function applyLanguage(language, reload = false) {
       currentLanguage = language === 'zh' ? 'zh' : 'en';
-      localStorage.setItem('cirrusLanguage', currentLanguage);
-      localStorage.setItem('siteLanguage', currentLanguage);
+      storeLanguage('cirrusLanguage', currentLanguage);
+      storeLanguage('siteLanguage', currentLanguage);
       document.documentElement.lang = currentLanguage === 'zh' ? 'zh-CN' : 'en';
       document.title = t('title');
       document.querySelectorAll('[data-i18n]').forEach(node => {
