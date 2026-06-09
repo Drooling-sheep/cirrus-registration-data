@@ -48,7 +48,6 @@
     .home-link {
       display: inline-flex;
       width: fit-content;
-      margin-bottom: 16px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--panel);
@@ -62,6 +61,46 @@
     .home-link:hover {
       color: var(--text);
       border-color: var(--accent);
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .lang-switch {
+      display: inline-flex;
+      flex: 0 0 auto;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .lang-switch button {
+      min-width: 44px;
+      min-height: 36px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 800;
+      padding: 0 10px;
+    }
+
+    .lang-switch button:last-child {
+      border-right: 0;
+    }
+
+    .lang-switch button.active {
+      background: var(--accent);
+      color: #fff;
     }
 
     h1 {
@@ -259,6 +298,11 @@
         display: block;
       }
 
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
       .stamp {
         margin-top: 12px;
         min-width: 0;
@@ -281,41 +325,47 @@
 </head>
 <body>
   <main>
-    <a class="home-link" href="/">返回博客首页</a>
+    <div class="topbar">
+      <a class="home-link" href="/" data-i18n="home">返回博客首页</a>
+      <div class="lang-switch" aria-label="Language">
+        <button type="button" data-lang-choice="zh">中文</button>
+        <button type="button" data-lang-choice="en">EN</button>
+      </div>
+    </div>
     <header>
       <div>
-        <h1>Cirrus 美国注册跟踪看板</h1>
-        <p class="subhead">基于 FAA Releasable Aircraft Database 的美国新机注册估算。默认口径为有效 Cirrus 记录且出厂年份等于证书签发年份或前一年；它比总注册量更接近新机交付节奏，但仍不是 GAMA 官方全球交付量。</p>
+        <h1 data-i18n="title">Cirrus 美国注册跟踪看板</h1>
+        <p class="subhead" data-i18n="subhead">基于 FAA Releasable Aircraft Database 的美国新机注册估算。默认口径为有效 Cirrus 记录且出厂年份等于证书签发年份或前一年；它比总注册量更接近新机交付节奏，但仍不是 GAMA 官方全球交付量。</p>
       </div>
       <div class="stamp">
-        <div id="generatedAt">等待数据加载</div>
-        <div class="status"><span class="dot"></span><span id="dataStatus">读取 JSON</span></div>
+        <div id="generatedAt" data-i18n="generated.wait">等待数据加载</div>
+        <div class="status"><span class="dot"></span><span id="dataStatus" data-i18n="status.reading">读取 JSON</span></div>
       </div>
     </header>
 
-    <div id="message" class="loading">正在加载注册数据...</div>
+    <div id="message" class="loading" data-i18n="loading">正在加载注册数据...</div>
 
     <section id="dashboard" hidden>
       <div class="notice" id="sourceNote"></div>
 
       <section class="kpis" aria-label="关键指标">
         <div class="kpi">
-          <div class="label">本月估算新机</div>
+          <div class="label" data-i18n="kpi.month">本月估算新机</div>
           <div class="value" id="kpiMonth">0</div>
           <div class="delta" id="kpiMonthLabel"></div>
         </div>
         <div class="kpi">
-          <div class="label">今年累计</div>
+          <div class="label" data-i18n="kpi.ytd">今年累计</div>
           <div class="value" id="kpiYtd">0</div>
           <div class="delta" id="kpiYtdLabel"></div>
         </div>
         <div class="kpi">
-          <div class="label">同比变化</div>
+          <div class="label" data-i18n="kpi.yoy">同比变化</div>
           <div class="value" id="kpiYoy">0%</div>
-          <div class="delta" id="kpiYoyLabel">同口径 YTD</div>
+          <div class="delta" id="kpiYoyLabel" data-i18n="kpi.yoy.label">同口径 YTD</div>
         </div>
         <div class="kpi">
-          <div class="label">当前有效存量</div>
+          <div class="label" data-i18n="kpi.total">当前有效存量</div>
           <div class="value" id="kpiTotal">0</div>
           <div class="delta" id="kpiTotalLabel"></div>
         </div>
@@ -324,17 +374,17 @@
       <section class="insights" aria-label="对照指标">
         <article class="insight">
           <div class="insight-title">2026 YTD vs 2025 同日 YTD</div>
-          <div class="insight-value" id="sameDateYtdValue">等待数据</div>
+          <div class="insight-value" id="sameDateYtdValue" data-i18n="wait.data">等待数据</div>
           <div class="insight-detail" id="sameDateYtdDetail"></div>
         </article>
         <article class="insight">
           <div class="insight-title">2026 FAA Jan-Mar vs GAMA Q1</div>
-          <div class="insight-value" id="q1GamaValue">等待数据</div>
+          <div class="insight-value" id="q1GamaValue" data-i18n="wait.data">等待数据</div>
           <div class="insight-detail" id="q1GamaDetail"></div>
         </article>
         <article class="insight">
-          <div class="insight-title">历史季节性推算 2026 全年 FAA</div>
-          <div class="insight-value" id="seasonalityValue">等待数据</div>
+          <div class="insight-title" data-i18n="insight.seasonality">历史季节性推算 2026 全年 FAA</div>
+          <div class="insight-value" id="seasonalityValue" data-i18n="wait.data">等待数据</div>
           <div class="insight-detail" id="seasonalityDetail"></div>
         </article>
       </section>
@@ -342,56 +392,56 @@
       <section class="grid" aria-label="图表">
         <article class="panel wide">
           <div class="panel-head">
-            <h2>按月估算新机注册</h2>
-            <span class="hint">YEAR MFR = 注册年份或前一年</span>
+            <h2 data-i18n="chart.monthly">按月估算新机注册</h2>
+            <span class="hint" data-i18n="hint.lagged">YEAR MFR = 注册年份或前一年</span>
           </div>
           <div class="chart-wrap"><canvas id="monthlyChart"></canvas></div>
         </article>
 
         <article class="panel">
           <div class="panel-head">
-            <h2>估算新机机型占比</h2>
-            <span class="hint">按历史新机估算累计</span>
+            <h2 data-i18n="chart.model">估算新机机型占比</h2>
+            <span class="hint" data-i18n="hint.model">按历史新机估算累计</span>
           </div>
           <div class="chart-wrap"><canvas id="modelChart"></canvas></div>
         </article>
 
         <article class="panel">
           <div class="panel-head">
-            <h2>年度估算新机 vs GAMA</h2>
-            <span class="hint" id="gamaHint">等待 GAMA</span>
+            <h2 data-i18n="chart.year">年度估算新机 vs GAMA</h2>
+            <span class="hint" id="gamaHint" data-i18n="hint.gama.wait">等待 GAMA</span>
           </div>
           <div class="chart-wrap"><canvas id="yearChart"></canvas></div>
         </article>
 
         <article class="panel wide">
           <div class="panel-head">
-            <h2>最大序列号进度</h2>
-            <span class="hint">美国可见下限，非全球产量</span>
+            <h2 data-i18n="chart.serial.progress">最大序列号进度</h2>
+            <span class="hint" data-i18n="hint.serial.progress">美国可见下限，非全球产量</span>
           </div>
           <div class="chart-wrap"><canvas id="serialProgressChart"></canvas></div>
         </article>
 
         <article class="panel wide">
           <div class="panel-head">
-            <h2>序列号月度推进量</h2>
-            <span class="hint">相邻快照差分，后续自动更新后更有意义</span>
+            <h2 data-i18n="chart.serial.rate">序列号月度推进量</h2>
+            <span class="hint" data-i18n="hint.serial.rate">相邻快照差分，后续自动更新后更有意义</span>
           </div>
           <div class="chart-wrap"><canvas id="serialRateChart"></canvas></div>
         </article>
 
         <article class="panel">
           <div class="panel-head">
-            <h2>ADS-B 机队利用率</h2>
-            <span class="hint">覆盖盲区/PIA 会低估</span>
+            <h2 data-i18n="chart.flight.utilization">ADS-B 机队利用率</h2>
+            <span class="hint" data-i18n="hint.flight.utilization">覆盖盲区/PIA 会低估</span>
           </div>
           <div class="chart-wrap"><canvas id="flightUtilizationChart"></canvas></div>
         </article>
 
         <article class="panel">
           <div class="panel-head">
-            <h2>ADS-B 分线活动</h2>
-            <span class="hint">当前状态抽样</span>
+            <h2 data-i18n="chart.flight.line">ADS-B 分线活动</h2>
+            <span class="hint" data-i18n="hint.flight.line">当前状态抽样</span>
           </div>
           <div class="chart-wrap"><canvas id="flightLineChart"></canvas></div>
           <div class="hint" id="flightLineSummary" style="margin-top: 10px;"></div>
@@ -399,16 +449,16 @@
 
         <article class="panel wide">
           <div class="panel-head">
-            <h2>二手/续期注册代理</h2>
-            <span class="hint">YEAR MFR 缺口 >= 2，含续期</span>
+            <h2 data-i18n="chart.used.proxy">二手/续期注册代理</h2>
+            <span class="hint" data-i18n="hint.used.proxy">YEAR MFR 缺口 >= 2，含续期</span>
           </div>
           <div class="chart-wrap"><canvas id="usedProxyChart"></canvas></div>
         </article>
 
         <article class="panel wide">
           <div class="panel-head">
-            <h2>二手挂牌库存</h2>
-            <span class="hint">手工/合规导入，要价不等于成交价</span>
+            <h2 data-i18n="chart.listings">二手挂牌库存</h2>
+            <span class="hint" data-i18n="hint.listings">手工/合规导入，要价不等于成交价</span>
           </div>
           <div class="chart-wrap"><canvas id="listingInventoryChart"></canvas></div>
           <div class="hint" id="listingInventorySummary" style="margin-top: 10px;"></div>
@@ -418,7 +468,194 @@
   </main>
 
   <script>
-    const numberFormat = new Intl.NumberFormat('zh-CN');
+    const messages = {
+      zh: {
+        home: '返回博客首页',
+        title: 'Cirrus 美国注册跟踪看板',
+        subhead: '基于 FAA Releasable Aircraft Database 的美国新机注册估算。默认口径为有效 Cirrus 记录且出厂年份等于证书签发年份或前一年；它比总注册量更接近新机交付节奏，但仍不是 GAMA 官方全球交付量。',
+        'generated.wait': '等待数据加载',
+        'status.reading': '读取 JSON',
+        loading: '正在加载注册数据...',
+        'wait.data': '等待数据',
+        'kpi.month': '本月估算新机',
+        'kpi.ytd': '今年累计',
+        'kpi.yoy': '同比变化',
+        'kpi.yoy.label': '同口径 YTD',
+        'kpi.total': '当前有效存量',
+        'insight.seasonality': '历史季节性推算 2026 全年 FAA',
+        'chart.monthly': '按月估算新机注册',
+        'chart.model': '估算新机机型占比',
+        'chart.year': '年度估算新机 vs GAMA',
+        'chart.serial.progress': '最大序列号进度',
+        'chart.serial.rate': '序列号月度推进量',
+        'chart.flight.utilization': 'ADS-B 机队利用率',
+        'chart.flight.line': 'ADS-B 分线活动',
+        'chart.used.proxy': '二手/续期注册代理',
+        'chart.listings': '二手挂牌库存',
+        'hint.lagged': 'YEAR MFR = 注册年份或前一年',
+        'hint.model': '按历史新机估算累计',
+        'hint.gama.wait': '等待 GAMA',
+        'hint.gama.ready': '年度/已发布YTD',
+        'hint.gama.missing': 'GAMA 待录入',
+        'hint.serial.progress': '美国可见下限，非全球产量',
+        'hint.serial.rate': '相邻快照差分，后续自动更新后更有意义',
+        'hint.flight.utilization': '覆盖盲区/PIA 会低估',
+        'hint.flight.line': '当前状态抽样',
+        'hint.used.proxy': 'YEAR MFR 缺口 >= 2，含续期',
+        'hint.listings': '手工/合规导入，要价不等于成交价',
+        'generated.at': '数据生成：{date}',
+        'status.loaded': '数据已加载',
+        'status.failed': '加载失败',
+        'unknown.generated': '生成时间未知',
+        'month.estimate': '{month} 估算',
+        'ytd.same.date': '{year} 年截至 {date} 估算',
+        'ytd.month': '{year} 年截至 {month} 月估算',
+        'valid.total': '全部有效注册，状态码 {codes}',
+        'missing.previous': '缺少上年同期',
+        'same.date.previous': '{year} 同日 {count}',
+        'previous.same.period': '上年同期 {count}',
+        'aircraft.unit': '架',
+        'same.ytd.detail': '{currentYear} {current} 架 vs {comparisonYear} {comparison} 架，截至 {date}',
+        'unknown.date': '未知日期',
+        'q1.detail': 'FAA 估算 vs GAMA {period}，差额 {delta} ({pct})',
+        'seasonality.detail': '当前 YTD {current} 架，历史同期占全年约 {share}%，样本 {years}',
+        insufficient: '不足',
+        'dataset.estimated.new': '估算新机注册',
+        'dataset.faa.total': 'FAA 总注册',
+        'dataset.faa.estimated': 'FAA 估算新机',
+        'dataset.gama': 'GAMA 交付/已发布YTD',
+        'dataset.max.serial': '{line} 最大序列号',
+        'dataset.serial.rate': '{line} 序列号/月',
+        'dataset.utilization': '利用率代理 %',
+        'dataset.active.aircraft': '观测到活动飞机',
+        'dataset.new.like': '新机类注册',
+        'dataset.used.like': '二手/续期类注册',
+        'dataset.unknown.year': 'YEAR MFR 缺失',
+        'dataset.listings': '在售挂牌数',
+        annual: '全年数据',
+        period: '期间：{period}',
+        'serial.tooltip': '基于美国 FAA 可见最大序列号差分；首期或同日覆盖时为 0。',
+        'flight.tooltip': '跟踪 {count} 个 hex，利用率 {pct}%',
+        'listing.ask': '，中位要价 {ask}',
+        'listing.empty': '暂无挂牌输入数据',
+        'chart.timeout': 'Chart.js 加载超时',
+        'chart.failed': 'Chart.js 加载失败',
+        'load.failed': '无法加载注册数据或图表库：{error}',
+        'first.snapshot': '首期快照',
+      },
+      en: {
+        home: 'Back to Blog',
+        title: 'Cirrus U.S. Registration Dashboard',
+        subhead: 'A U.S. new-aircraft registration estimate based on the FAA Releasable Aircraft Database. The default metric uses valid Cirrus records where the manufacture year equals the certificate issue year or the prior year. It is closer to new-delivery timing than total registrations, but it is not official global GAMA delivery data.',
+        'generated.wait': 'Waiting for data',
+        'status.reading': 'Reading JSON',
+        loading: 'Loading registration data...',
+        'wait.data': 'Waiting for data',
+        'kpi.month': 'Estimated New This Month',
+        'kpi.ytd': 'Year to Date',
+        'kpi.yoy': 'YoY Change',
+        'kpi.yoy.label': 'Like-for-like YTD',
+        'kpi.total': 'Active U.S. Fleet',
+        'insight.seasonality': 'Historical Seasonality Projection for 2026 FAA',
+        'chart.monthly': 'Monthly Estimated New Registrations',
+        'chart.model': 'Estimated New Aircraft by Model',
+        'chart.year': 'Annual Estimated New vs GAMA',
+        'chart.serial.progress': 'Maximum Serial Number Progress',
+        'chart.serial.rate': 'Monthly Serial Number Delta',
+        'chart.flight.utilization': 'ADS-B Fleet Utilization',
+        'chart.flight.line': 'ADS-B Activity by Line',
+        'chart.used.proxy': 'Used / Renewal Registration Proxy',
+        'chart.listings': 'Used Listing Inventory',
+        'hint.lagged': 'YEAR MFR = registration year or previous year',
+        'hint.model': 'Cumulative historical new-aircraft estimate',
+        'hint.gama.wait': 'Waiting for GAMA',
+        'hint.gama.ready': 'Annual / published YTD',
+        'hint.gama.missing': 'GAMA pending',
+        'hint.serial.progress': 'U.S.-visible lower bound, not global production',
+        'hint.serial.rate': 'Snapshot deltas; more useful after automated updates',
+        'hint.flight.utilization': 'Coverage gaps and PIA may undercount',
+        'hint.flight.line': 'Current status sample',
+        'hint.used.proxy': 'YEAR MFR gap >= 2, includes renewals',
+        'hint.listings': 'Manual/compliant imports; asking price is not sale price',
+        'generated.at': 'Generated: {date}',
+        'status.loaded': 'Data loaded',
+        'status.failed': 'Load failed',
+        'unknown.generated': 'Generated time unknown',
+        'month.estimate': '{month} estimate',
+        'ytd.same.date': '{year} estimate through {date}',
+        'ytd.month': '{year} estimate through month {month}',
+        'valid.total': 'All valid registrations, status codes {codes}',
+        'missing.previous': 'Missing prior-year comparison',
+        'same.date.previous': '{year} same-date {count}',
+        'previous.same.period': 'Prior-year same period {count}',
+        'aircraft.unit': 'aircraft',
+        'same.ytd.detail': '{currentYear} {current} aircraft vs {comparisonYear} {comparison} aircraft, through {date}',
+        'unknown.date': 'unknown date',
+        'q1.detail': 'FAA estimate vs GAMA {period}, delta {delta} ({pct})',
+        'seasonality.detail': 'Current YTD {current} aircraft; historical YTD share about {share}%; sample {years}',
+        insufficient: 'insufficient',
+        'dataset.estimated.new': 'Estimated new registrations',
+        'dataset.faa.total': 'FAA total registrations',
+        'dataset.faa.estimated': 'FAA estimated new',
+        'dataset.gama': 'GAMA deliveries / published YTD',
+        'dataset.max.serial': '{line} max serial',
+        'dataset.serial.rate': '{line} serials/month',
+        'dataset.utilization': 'Utilization proxy %',
+        'dataset.active.aircraft': 'Observed active aircraft',
+        'dataset.new.like': 'New-like registrations',
+        'dataset.used.like': 'Used / renewal-like registrations',
+        'dataset.unknown.year': 'Missing YEAR MFR',
+        'dataset.listings': 'Active listings',
+        annual: 'Full-year data',
+        period: 'Period: {period}',
+        'serial.tooltip': 'Based on U.S.-visible FAA maximum-serial deltas; first snapshot or same-day coverage is 0.',
+        'flight.tooltip': 'Tracking {count} hex IDs, utilization {pct}%',
+        'listing.ask': ', median ask {ask}',
+        'listing.empty': 'No listing input data yet',
+        'chart.timeout': 'Chart.js timed out',
+        'chart.failed': 'Chart.js failed to load',
+        'load.failed': 'Could not load registration data or chart library: {error}',
+        'first.snapshot': 'First snapshot',
+      },
+    };
+
+    function preferredLanguage() {
+      const saved = localStorage.getItem('cirrusLanguage') || localStorage.getItem('siteLanguage');
+      if (saved === 'zh' || saved === 'en') return saved;
+      return (navigator.language || '').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+    }
+
+    let currentLanguage = preferredLanguage();
+
+    function t(key, values = {}) {
+      const template = messages[currentLanguage][key] || messages.zh[key] || key;
+      return template.replace(/\{(\w+)\}/g, (_, name) => values[name] ?? '');
+    }
+
+    function applyLanguage(language, reload = false) {
+      currentLanguage = language === 'zh' ? 'zh' : 'en';
+      localStorage.setItem('cirrusLanguage', currentLanguage);
+      localStorage.setItem('siteLanguage', currentLanguage);
+      document.documentElement.lang = currentLanguage === 'zh' ? 'zh-CN' : 'en';
+      document.title = t('title');
+      document.querySelectorAll('[data-i18n]').forEach(node => {
+        node.textContent = t(node.dataset.i18n);
+      });
+      document.querySelectorAll('[data-lang-choice]').forEach(button => {
+        const active = button.dataset.langChoice === currentLanguage;
+        button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      if (reload) window.location.reload();
+    }
+
+    document.querySelectorAll('[data-lang-choice]').forEach(button => {
+      button.addEventListener('click', () => applyLanguage(button.dataset.langChoice, true));
+    });
+
+    applyLanguage(currentLanguage);
+
+    const numberFormat = new Intl.NumberFormat(currentLanguage === 'zh' ? 'zh-CN' : 'en-US');
     const currencyFormat = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
     const chartColors = ['#0f8b6d', '#1aa6a8', '#83b735', '#c79415', '#447d69', '#6aa96f', '#28967f'];
 
@@ -432,8 +669,8 @@
     }
 
     function formatDate(value) {
-      if (!value) return '生成时间未知';
-      return new Date(value).toLocaleString('zh-CN', { hour12: false });
+      if (!value) return t('unknown.generated');
+      return new Date(value).toLocaleString(currentLanguage === 'zh' ? 'zh-CN' : 'en-US', { hour12: false });
     }
 
     function latestMonths(monthly, count) {
@@ -479,9 +716,13 @@
       sameValue.textContent = formatSignedPercent(ytd.yoy_pct);
       setDelta(sameValue, Number(ytd.yoy_pct || 0));
       document.getElementById('sameDateYtdDetail').textContent =
-        `${ytd.current_year || ''} ${numberFormat.format(ytd.current_ytd || 0)} 架 vs ` +
-        `${ytd.comparison_year || ''} ${numberFormat.format(ytd.comparison_ytd || 0)} 架，` +
-        `截至 ${ytd.current_cutoff_date || '未知日期'}`;
+        t('same.ytd.detail', {
+          currentYear: ytd.current_year || '',
+          current: numberFormat.format(ytd.current_ytd || 0),
+          comparisonYear: ytd.comparison_year || '',
+          comparison: numberFormat.format(ytd.comparison_ytd || 0),
+          date: ytd.current_cutoff_date || t('unknown.date')
+        });
 
       const q1Value = document.getElementById('q1GamaValue');
       q1Value.textContent =
@@ -489,17 +730,22 @@
         `${q1.gama_q1_units === null || q1.gama_q1_units === undefined ? 'N/A' : numberFormat.format(q1.gama_q1_units)}`;
       setDelta(q1Value, Number(q1.delta || 0));
       document.getElementById('q1GamaDetail').textContent =
-        `FAA 估算 vs GAMA ${q1.gama_period || 'Q1'}，差额 ${formatSignedInteger(q1.delta)} ` +
-        `(${formatSignedPercent(q1.delta_pct)})`;
+        t('q1.detail', {
+          period: q1.gama_period || 'Q1',
+          delta: formatSignedInteger(q1.delta),
+          pct: formatSignedPercent(q1.delta_pct)
+        });
 
       document.getElementById('seasonalityValue').textContent =
         projection.projected_full_year_faa_lagged_estimated_new
           ? numberFormat.format(projection.projected_full_year_faa_lagged_estimated_new)
           : 'N/A';
       document.getElementById('seasonalityDetail').textContent =
-        `当前 YTD ${numberFormat.format(projection.current_ytd || 0)} 架，` +
-        `历史同期占全年约 ${projection.average_ytd_share_pct ?? 'N/A'}%，` +
-        `样本 ${projection.history_years_used?.join(', ') || '不足'}`;
+        t('seasonality.detail', {
+          current: numberFormat.format(projection.current_ytd || 0),
+          share: projection.average_ytd_share_pct ?? 'N/A',
+          years: projection.history_years_used?.join(', ') || t('insufficient')
+        });
     }
 
     function renderKpis(data) {
@@ -513,24 +759,24 @@
       const total = sum(data.by_model, item => Number(item.count));
 
       document.getElementById('kpiMonth').textContent = numberFormat.format(latest.count);
-      document.getElementById('kpiMonthLabel').textContent = `${latest.month} 估算`;
+      document.getElementById('kpiMonthLabel').textContent = t('month.estimate', { month: latest.month });
       document.getElementById('kpiYtd').textContent = numberFormat.format(currentYtd);
       document.getElementById('kpiYtdLabel').textContent = sameDateYtd
-        ? `${sameDateYtd.current_year} 年截至 ${sameDateYtd.current_cutoff_date} 估算`
-        : `${latestParts.year} 年截至 ${latestParts.monthNumber} 月估算`;
+        ? t('ytd.same.date', { year: sameDateYtd.current_year, date: sameDateYtd.current_cutoff_date })
+        : t('ytd.month', { year: latestParts.year, month: latestParts.monthNumber });
       document.getElementById('kpiTotal').textContent = numberFormat.format(total);
-      document.getElementById('kpiTotalLabel').textContent = `全部有效注册，状态码 ${data.valid_registration_status_codes.join(', ')}`;
+      document.getElementById('kpiTotalLabel').textContent = t('valid.total', { codes: data.valid_registration_status_codes.join(', ') });
 
       const yoyEl = document.getElementById('kpiYoy');
       const yoyLabel = document.getElementById('kpiYoyLabel');
       if (yoy === null) {
         yoyEl.textContent = 'N/A';
-        yoyLabel.textContent = '缺少上年同期';
+        yoyLabel.textContent = t('missing.previous');
       } else {
         yoyEl.textContent = `${yoy > 0 ? '+' : ''}${yoy.toFixed(1)}%`;
         yoyLabel.textContent = sameDateYtd
-          ? `${sameDateYtd.comparison_year} 同日 ${numberFormat.format(previousYtd)}`
-          : `上年同期 ${numberFormat.format(previousYtd)}`;
+          ? t('same.date.previous', { year: sameDateYtd.comparison_year, count: numberFormat.format(previousYtd) })
+          : t('previous.same.period', { count: numberFormat.format(previousYtd) });
         setDelta(yoyEl, yoy);
       }
     }
@@ -542,7 +788,7 @@
         data: {
           labels: recent.map(item => item.month),
           datasets: [{
-            label: '估算新机注册',
+            label: t('dataset.estimated.new'),
             data: recent.map(item => item.count),
             borderColor: '#0f8b6d',
             backgroundColor: 'rgba(15, 139, 109, 0.14)',
@@ -589,7 +835,7 @@
       const gamaByYear = new Map(data.gama_deliveries.map(row => [Number(row.year), gamaTotal(row)]));
       const gamaPeriods = new Map(data.gama_deliveries.map(row => [Number(row.year), row.period || 'annual']));
       const recentYears = data.by_year.slice(Math.max(0, data.by_year.length - 12));
-      document.getElementById('gamaHint').textContent = data.gama_deliveries.length ? '年度/已发布YTD' : 'GAMA 待录入';
+      document.getElementById('gamaHint').textContent = data.gama_deliveries.length ? t('hint.gama.ready') : t('hint.gama.missing');
 
       new Chart(document.getElementById('yearChart'), {
         type: 'bar',
@@ -597,17 +843,17 @@
           labels: recentYears.map(item => item.year),
           datasets: [
             {
-              label: 'FAA 总注册',
+              label: t('dataset.faa.total'),
               data: recentYears.map(item => item.registrations),
               backgroundColor: '#0f8b6d'
             },
             {
-              label: 'FAA 估算新机',
+              label: t('dataset.faa.estimated'),
               data: recentYears.map(item => item.estimated_new_aircraft_lagged),
               backgroundColor: '#83b735'
             },
             {
-              label: 'GAMA 交付/已发布YTD',
+              label: t('dataset.gama'),
               data: recentYears.map(item => gamaByYear.get(Number(item.year)) || null),
               backgroundColor: '#1aa6a8'
             }
@@ -623,8 +869,8 @@
                 afterLabel: context => {
                   const year = Number(context.label);
                   const period = gamaPeriods.get(year);
-                  if (context.dataset.label !== 'GAMA 交付/已发布YTD' || !period) return '';
-                  return period === 'annual' ? '全年数据' : `期间：${period.toUpperCase()}`;
+                  if (context.dataset.label !== t('dataset.gama') || !period) return '';
+                  return period === 'annual' ? t('annual') : t('period', { period: period.toUpperCase() });
                 }
               }
             }
@@ -654,7 +900,7 @@
           datasets: lines.map((item, index) => {
             const lookup = new Map(item.metrics.max_serial_history.map(row => [row.date, row.max_serial]));
             return {
-              label: `${item.line} 最大序列号`,
+              label: t('dataset.max.serial', { line: item.line }),
               data: labels.map(label => lookup.get(label) ?? null),
               borderColor: chartColors[index],
               backgroundColor: chartColors[index],
@@ -685,7 +931,7 @@
     function renderSerialRateChart(data) {
       const lines = serialLines(data);
       const labels = [...new Set(lines.flatMap(item => item.metrics.monthly_serial_deltas.map(row => row.date)))].sort();
-      const chartLabels = labels.length ? labels : ['首期快照'];
+      const chartLabels = labels.length ? labels : [t('first.snapshot')];
       new Chart(document.getElementById('serialRateChart'), {
         type: 'bar',
         data: {
@@ -693,7 +939,7 @@
           datasets: lines.map((item, index) => {
             const lookup = new Map(item.metrics.monthly_serial_deltas.map(row => [row.date, row.rate_per_month]));
             return {
-              label: `${item.line} 序列号/月`,
+              label: t('dataset.serial.rate', { line: item.line }),
               data: chartLabels.map(label => lookup.get(label) ?? 0),
               backgroundColor: chartColors[index]
             };
@@ -706,7 +952,7 @@
             legend: { position: 'bottom' },
             tooltip: {
               callbacks: {
-                afterBody: () => '基于美国 FAA 可见最大序列号差分；首期或同日覆盖时为 0。'
+                afterBody: () => t('serial.tooltip')
               }
             }
           },
@@ -725,7 +971,7 @@
         data: {
           labels: rows.map(item => item.date),
           datasets: [{
-            label: '利用率代理 %',
+            label: t('dataset.utilization'),
             data: rows.map(item => item.utilization_pct),
             borderColor: '#0f8b6d',
             backgroundColor: 'rgba(15, 139, 109, 0.14)',
@@ -759,7 +1005,7 @@
         data: {
           labels: rows.map(item => item.line),
           datasets: [{
-            label: '观测到活动飞机',
+            label: t('dataset.active.aircraft'),
             data: rows.map(item => item.distinct_aircraft_seen),
             backgroundColor: ['#1aa6a8', '#0f8b6d']
           }]
@@ -773,7 +1019,7 @@
               callbacks: {
                 afterLabel: context => {
                   const row = rows[context.dataIndex];
-                  return `跟踪 ${numberFormat.format(row.fleet_hex_count)} 个 hex，利用率 ${row.utilization_pct}%`;
+                  return t('flight.tooltip', { count: numberFormat.format(row.fleet_hex_count), pct: row.utilization_pct });
                 }
               }
             }
@@ -791,17 +1037,17 @@
           labels: rows.map(item => item.cert_year),
           datasets: [
             {
-              label: '新机类注册',
+              label: t('dataset.new.like'),
               data: rows.map(item => item.new_like),
               backgroundColor: '#83b735'
             },
             {
-              label: '二手/续期类注册',
+              label: t('dataset.used.like'),
               data: rows.map(item => item.used_like_incl_renewals),
               backgroundColor: '#c79415'
             },
             {
-              label: 'YEAR MFR 缺失',
+              label: t('dataset.unknown.year'),
               data: rows.map(item => item.unknown_year_mfr),
               backgroundColor: '#b8453c'
             }
@@ -829,17 +1075,17 @@
       if (summaryEl) {
         summaryEl.textContent = byModel.length
           ? byModel.map(item => {
-              const ask = item.median_ask ? `，中位要价 ${currencyFormat.format(item.median_ask)}` : '';
+              const ask = item.median_ask ? t('listing.ask', { ask: currencyFormat.format(item.median_ask) }) : '';
               return `${item.model}: ${item.active_listings}${ask}`;
             }).join('；')
-          : '暂无挂牌输入数据';
+          : t('listing.empty');
       }
       new Chart(document.getElementById('listingInventoryChart'), {
         type: 'line',
         data: {
           labels: rows.map(item => item.date),
           datasets: [{
-            label: '在售挂牌数',
+            label: t('dataset.listings'),
             data: rows.map(item => item.active_listing_count),
             borderColor: '#1aa6a8',
             backgroundColor: 'rgba(26, 166, 168, 0.16)',
@@ -871,7 +1117,7 @@
         return new Promise((resolve, reject) => {
           const url = sources[index];
           if (!url) {
-            reject(new Error('Chart.js 加载失败'));
+            reject(new Error(t('chart.failed')));
             return;
           }
 
@@ -881,7 +1127,7 @@
             if (index + 1 < sources.length) {
               trySource(index + 1).then(resolve).catch(reject);
             } else {
-              reject(new Error('Chart.js 加载超时'));
+              reject(new Error(t('chart.timeout')));
             }
           }, 12000);
 
@@ -897,7 +1143,7 @@
             if (index + 1 < sources.length) {
               trySource(index + 1).then(resolve).catch(reject);
             } else {
-              reject(new Error('Chart.js 加载失败'));
+              reject(new Error(t('chart.failed')));
             }
           };
           document.head.appendChild(script);
@@ -931,8 +1177,8 @@
         ]);
         const data = await response.json();
 
-        document.getElementById('generatedAt').textContent = `数据生成：${formatDate(data.generated_at)}`;
-        document.getElementById('dataStatus').textContent = '数据已加载';
+        document.getElementById('generatedAt').textContent = t('generated.at', { date: formatDate(data.generated_at) });
+        document.getElementById('dataStatus').textContent = t('status.loaded');
         document.getElementById('sourceNote').textContent = data.source_note;
 
         renderKpis(data);
@@ -950,9 +1196,9 @@
         message.hidden = true;
         document.getElementById('dashboard').hidden = false;
       } catch (error) {
-        document.getElementById('dataStatus').textContent = '加载失败';
+        document.getElementById('dataStatus').textContent = t('status.failed');
         message.className = 'error';
-        message.textContent = `无法加载注册数据或图表库：${error.message}`;
+        message.textContent = t('load.failed', { error: error.message });
       }
     }
 
