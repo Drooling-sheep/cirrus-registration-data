@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T02:17:36.435763+00:00",
+  "generated_at": "2026-06-09T02:22:47.076650+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -9773,7 +9773,7 @@
   "flight_activity": {
     "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
     "source": "airplanes_live",
-    "as_of": "2026-06-09T02:17:36.302673+00:00",
+    "as_of": "2026-06-09T02:22:46.919987+00:00",
     "window": "current_state_sample",
     "fleet_hex_count": 8851,
     "tracked_lines": {
@@ -9781,9 +9781,9 @@
       "SF50": 673,
       "other": 1
     },
-    "distinct_aircraft_seen": 43,
+    "distinct_aircraft_seen": 39,
     "flights": 0,
-    "utilization_pct": 0.486,
+    "utilization_pct": 0.441,
     "by_period": [
       {
         "date": "2026-06-04",
@@ -9794,9 +9794,9 @@
       },
       {
         "date": "2026-06-09",
-        "distinct_aircraft_seen": 43,
+        "distinct_aircraft_seen": 39,
         "flights": 0,
-        "utilization_pct": 0.486,
+        "utilization_pct": 0.441,
         "source": "airplanes_live"
       }
     ],
@@ -9810,8 +9810,8 @@
       {
         "line": "SR",
         "fleet_hex_count": 8177,
-        "distinct_aircraft_seen": 39,
-        "utilization_pct": 0.477
+        "distinct_aircraft_seen": 35,
+        "utilization_pct": 0.428
       },
       {
         "line": "other",
@@ -9912,16 +9912,16 @@
         "n_number": "421CB"
       },
       {
-        "hex": "a51381",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "426SH"
-      },
-      {
         "hex": "a5717c",
         "model": "SR22T",
         "line": "SR",
         "n_number": "45TR"
+      },
+      {
+        "hex": "a5a95a",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "464KB"
       },
       {
         "hex": "a5c4e5",
@@ -9930,16 +9930,16 @@
         "n_number": "471AV"
       },
       {
-        "hex": "a64529",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "503AV"
-      },
-      {
         "hex": "a66ca8",
         "model": "SR20",
         "line": "SR",
         "n_number": "513AV"
+      },
+      {
+        "hex": "a6bbd2",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "533CP"
       }
     ],
     "errors": []
