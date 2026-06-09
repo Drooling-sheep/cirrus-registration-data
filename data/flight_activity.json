@@ -1,0 +1,167 @@
+{
+  "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
+  "source": "airplanes_live",
+  "as_of": "2026-06-04T14:37:18.460732+00:00",
+  "window": "current_state_sample",
+  "fleet_hex_count": 8849,
+  "tracked_lines": {
+    "SR": 8175,
+    "SF50": 673,
+    "other": 1
+  },
+  "distinct_aircraft_seen": 246,
+  "flights": 0,
+  "utilization_pct": 2.78,
+  "by_period": [
+    {
+      "date": "2026-06-04",
+      "distinct_aircraft_seen": 246,
+      "flights": 0,
+      "utilization_pct": 2.78,
+      "source": "airplanes_live"
+    }
+  ],
+  "by_line": [
+    {
+      "line": "SF50",
+      "fleet_hex_count": 673,
+      "distinct_aircraft_seen": 24,
+      "utilization_pct": 3.566
+    },
+    {
+      "line": "SR",
+      "fleet_hex_count": 8175,
+      "distinct_aircraft_seen": 222,
+      "utilization_pct": 2.716
+    },
+    {
+      "line": "other",
+      "fleet_hex_count": 1,
+      "distinct_aircraft_seen": 0,
+      "utilization_pct": 0.0
+    }
+  ],
+  "active_sample": [
+    {
+      "hex": "a003d3",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "10RA"
+    },
+    {
+      "hex": "a02c61",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "110BW"
+    },
+    {
+      "hex": "a033dd",
+      "model": "SF50",
+      "line": "SF50",
+      "n_number": "112CK"
+    },
+    {
+      "hex": "a05a3e",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "1213V"
+    },
+    {
+      "hex": "a05b31",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "122AS"
+    },
+    {
+      "hex": "a05c49",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "122MX"
+    },
+    {
+      "hex": "a06624",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "1249C"
+    },
+    {
+      "hex": "a06f4d",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "127SK"
+    },
+    {
+      "hex": "a075c5",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "129GP"
+    },
+    {
+      "hex": "a07671",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "129PL"
+    },
+    {
+      "hex": "a078f4",
+      "model": "SF50",
+      "line": "SF50",
+      "n_number": "13BC"
+    },
+    {
+      "hex": "a079c1",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "13KH"
+    },
+    {
+      "hex": "a08378",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "132JS"
+    },
+    {
+      "hex": "a09232",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "136HH"
+    },
+    {
+      "hex": "a09d81",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "139K"
+    },
+    {
+      "hex": "a0a064",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "14AN"
+    },
+    {
+      "hex": "a0a75a",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "141KT"
+    },
+    {
+      "hex": "a0aa50",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "142C"
+    },
+    {
+      "hex": "a0ae39",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "143E"
+    },
+    {
+      "hex": "a0ae5d",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "143FL"
+    }
+  ],
+  "errors": []
+}

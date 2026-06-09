@@ -1,0 +1,10503 @@
+{
+  "generated_at": "2026-06-04T14:51:35.469488+00:00",
+  "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
+  "valid_registration_status_codes": [
+    "T",
+    "V"
+  ],
+  "monthly_new": [
+    {
+      "month": "2001-05",
+      "count": 1
+    },
+    {
+      "month": "2001-06",
+      "count": 1
+    },
+    {
+      "month": "2001-11",
+      "count": 1
+    },
+    {
+      "month": "2002-03",
+      "count": 3
+    },
+    {
+      "month": "2002-04",
+      "count": 1
+    },
+    {
+      "month": "2002-06",
+      "count": 3
+    },
+    {
+      "month": "2002-07",
+      "count": 2
+    },
+    {
+      "month": "2002-09",
+      "count": 2
+    },
+    {
+      "month": "2002-10",
+      "count": 2
+    },
+    {
+      "month": "2002-11",
+      "count": 2
+    },
+    {
+      "month": "2002-12",
+      "count": 2
+    },
+    {
+      "month": "2003-01",
+      "count": 4
+    },
+    {
+      "month": "2003-02",
+      "count": 3
+    },
+    {
+      "month": "2003-03",
+      "count": 2
+    },
+    {
+      "month": "2003-04",
+      "count": 1
+    },
+    {
+      "month": "2003-05",
+      "count": 4
+    },
+    {
+      "month": "2003-06",
+      "count": 3
+    },
+    {
+      "month": "2003-07",
+      "count": 2
+    },
+    {
+      "month": "2003-08",
+      "count": 1
+    },
+    {
+      "month": "2003-09",
+      "count": 2
+    },
+    {
+      "month": "2003-10",
+      "count": 2
+    },
+    {
+      "month": "2003-11",
+      "count": 3
+    },
+    {
+      "month": "2003-12",
+      "count": 3
+    },
+    {
+      "month": "2004-01",
+      "count": 1
+    },
+    {
+      "month": "2004-02",
+      "count": 2
+    },
+    {
+      "month": "2004-03",
+      "count": 5
+    },
+    {
+      "month": "2004-04",
+      "count": 2
+    },
+    {
+      "month": "2004-06",
+      "count": 3
+    },
+    {
+      "month": "2004-07",
+      "count": 2
+    },
+    {
+      "month": "2004-08",
+      "count": 1
+    },
+    {
+      "month": "2004-09",
+      "count": 5
+    },
+    {
+      "month": "2004-10",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "count": 4
+    },
+    {
+      "month": "2004-12",
+      "count": 3
+    },
+    {
+      "month": "2005-01",
+      "count": 6
+    },
+    {
+      "month": "2005-02",
+      "count": 2
+    },
+    {
+      "month": "2005-03",
+      "count": 4
+    },
+    {
+      "month": "2005-04",
+      "count": 3
+    },
+    {
+      "month": "2005-05",
+      "count": 2
+    },
+    {
+      "month": "2005-06",
+      "count": 3
+    },
+    {
+      "month": "2005-08",
+      "count": 1
+    },
+    {
+      "month": "2005-10",
+      "count": 1
+    },
+    {
+      "month": "2005-11",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "count": 3
+    },
+    {
+      "month": "2006-01",
+      "count": 2
+    },
+    {
+      "month": "2006-02",
+      "count": 2
+    },
+    {
+      "month": "2006-03",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "count": 4
+    },
+    {
+      "month": "2006-05",
+      "count": 6
+    },
+    {
+      "month": "2006-06",
+      "count": 4
+    },
+    {
+      "month": "2006-07",
+      "count": 4
+    },
+    {
+      "month": "2006-08",
+      "count": 4
+    },
+    {
+      "month": "2006-10",
+      "count": 1
+    },
+    {
+      "month": "2006-11",
+      "count": 3
+    },
+    {
+      "month": "2006-12",
+      "count": 2
+    },
+    {
+      "month": "2007-01",
+      "count": 4
+    },
+    {
+      "month": "2007-02",
+      "count": 6
+    },
+    {
+      "month": "2007-03",
+      "count": 1
+    },
+    {
+      "month": "2007-04",
+      "count": 3
+    },
+    {
+      "month": "2007-05",
+      "count": 4
+    },
+    {
+      "month": "2007-06",
+      "count": 6
+    },
+    {
+      "month": "2007-08",
+      "count": 2
+    },
+    {
+      "month": "2007-09",
+      "count": 3
+    },
+    {
+      "month": "2007-10",
+      "count": 2
+    },
+    {
+      "month": "2007-11",
+      "count": 4
+    },
+    {
+      "month": "2007-12",
+      "count": 1
+    },
+    {
+      "month": "2008-01",
+      "count": 7
+    },
+    {
+      "month": "2008-02",
+      "count": 3
+    },
+    {
+      "month": "2008-03",
+      "count": 1
+    },
+    {
+      "month": "2008-04",
+      "count": 7
+    },
+    {
+      "month": "2008-05",
+      "count": 2
+    },
+    {
+      "month": "2008-06",
+      "count": 5
+    },
+    {
+      "month": "2008-07",
+      "count": 4
+    },
+    {
+      "month": "2008-08",
+      "count": 3
+    },
+    {
+      "month": "2008-09",
+      "count": 9
+    },
+    {
+      "month": "2008-10",
+      "count": 5
+    },
+    {
+      "month": "2008-11",
+      "count": 2
+    },
+    {
+      "month": "2008-12",
+      "count": 5
+    },
+    {
+      "month": "2009-01",
+      "count": 7
+    },
+    {
+      "month": "2009-04",
+      "count": 4
+    },
+    {
+      "month": "2009-05",
+      "count": 1
+    },
+    {
+      "month": "2009-06",
+      "count": 5
+    },
+    {
+      "month": "2009-07",
+      "count": 6
+    },
+    {
+      "month": "2009-08",
+      "count": 3
+    },
+    {
+      "month": "2009-09",
+      "count": 3
+    },
+    {
+      "month": "2009-10",
+      "count": 3
+    },
+    {
+      "month": "2009-11",
+      "count": 5
+    },
+    {
+      "month": "2009-12",
+      "count": 4
+    },
+    {
+      "month": "2010-01",
+      "count": 5
+    },
+    {
+      "month": "2010-02",
+      "count": 3
+    },
+    {
+      "month": "2010-03",
+      "count": 1
+    },
+    {
+      "month": "2010-04",
+      "count": 6
+    },
+    {
+      "month": "2010-05",
+      "count": 3
+    },
+    {
+      "month": "2010-06",
+      "count": 7
+    },
+    {
+      "month": "2010-07",
+      "count": 2
+    },
+    {
+      "month": "2010-08",
+      "count": 7
+    },
+    {
+      "month": "2010-09",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "count": 7
+    },
+    {
+      "month": "2010-11",
+      "count": 2
+    },
+    {
+      "month": "2010-12",
+      "count": 2
+    },
+    {
+      "month": "2011-01",
+      "count": 5
+    },
+    {
+      "month": "2011-02",
+      "count": 1
+    },
+    {
+      "month": "2011-03",
+      "count": 5
+    },
+    {
+      "month": "2011-04",
+      "count": 10
+    },
+    {
+      "month": "2011-05",
+      "count": 4
+    },
+    {
+      "month": "2011-06",
+      "count": 5
+    },
+    {
+      "month": "2011-07",
+      "count": 7
+    },
+    {
+      "month": "2011-08",
+      "count": 19
+    },
+    {
+      "month": "2011-09",
+      "count": 8
+    },
+    {
+      "month": "2011-10",
+      "count": 7
+    },
+    {
+      "month": "2011-11",
+      "count": 4
+    },
+    {
+      "month": "2011-12",
+      "count": 6
+    },
+    {
+      "month": "2012-01",
+      "count": 12
+    },
+    {
+      "month": "2012-02",
+      "count": 9
+    },
+    {
+      "month": "2012-03",
+      "count": 8
+    },
+    {
+      "month": "2012-04",
+      "count": 7
+    },
+    {
+      "month": "2012-05",
+      "count": 3
+    },
+    {
+      "month": "2012-06",
+      "count": 4
+    },
+    {
+      "month": "2012-07",
+      "count": 7
+    },
+    {
+      "month": "2012-08",
+      "count": 9
+    },
+    {
+      "month": "2012-09",
+      "count": 10
+    },
+    {
+      "month": "2012-10",
+      "count": 9
+    },
+    {
+      "month": "2012-11",
+      "count": 9
+    },
+    {
+      "month": "2012-12",
+      "count": 2
+    },
+    {
+      "month": "2013-01",
+      "count": 8
+    },
+    {
+      "month": "2013-02",
+      "count": 5
+    },
+    {
+      "month": "2013-03",
+      "count": 10
+    },
+    {
+      "month": "2013-04",
+      "count": 4
+    },
+    {
+      "month": "2013-05",
+      "count": 8
+    },
+    {
+      "month": "2013-06",
+      "count": 4
+    },
+    {
+      "month": "2013-07",
+      "count": 10
+    },
+    {
+      "month": "2013-08",
+      "count": 12
+    },
+    {
+      "month": "2013-09",
+      "count": 5
+    },
+    {
+      "month": "2013-10",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "count": 9
+    },
+    {
+      "month": "2013-12",
+      "count": 9
+    },
+    {
+      "month": "2014-01",
+      "count": 8
+    },
+    {
+      "month": "2014-02",
+      "count": 8
+    },
+    {
+      "month": "2014-03",
+      "count": 2
+    },
+    {
+      "month": "2014-04",
+      "count": 11
+    },
+    {
+      "month": "2014-05",
+      "count": 10
+    },
+    {
+      "month": "2014-06",
+      "count": 13
+    },
+    {
+      "month": "2014-07",
+      "count": 11
+    },
+    {
+      "month": "2014-08",
+      "count": 7
+    },
+    {
+      "month": "2014-09",
+      "count": 9
+    },
+    {
+      "month": "2014-10",
+      "count": 7
+    },
+    {
+      "month": "2014-11",
+      "count": 10
+    },
+    {
+      "month": "2014-12",
+      "count": 10
+    },
+    {
+      "month": "2015-01",
+      "count": 8
+    },
+    {
+      "month": "2015-02",
+      "count": 5
+    },
+    {
+      "month": "2015-03",
+      "count": 13
+    },
+    {
+      "month": "2015-04",
+      "count": 12
+    },
+    {
+      "month": "2015-05",
+      "count": 10
+    },
+    {
+      "month": "2015-06",
+      "count": 13
+    },
+    {
+      "month": "2015-07",
+      "count": 14
+    },
+    {
+      "month": "2015-08",
+      "count": 11
+    },
+    {
+      "month": "2015-09",
+      "count": 14
+    },
+    {
+      "month": "2015-10",
+      "count": 12
+    },
+    {
+      "month": "2015-11",
+      "count": 11
+    },
+    {
+      "month": "2015-12",
+      "count": 12
+    },
+    {
+      "month": "2016-01",
+      "count": 5
+    },
+    {
+      "month": "2016-02",
+      "count": 6
+    },
+    {
+      "month": "2016-03",
+      "count": 8
+    },
+    {
+      "month": "2016-04",
+      "count": 9
+    },
+    {
+      "month": "2016-05",
+      "count": 12
+    },
+    {
+      "month": "2016-06",
+      "count": 13
+    },
+    {
+      "month": "2016-07",
+      "count": 12
+    },
+    {
+      "month": "2016-08",
+      "count": 21
+    },
+    {
+      "month": "2016-09",
+      "count": 17
+    },
+    {
+      "month": "2016-10",
+      "count": 14
+    },
+    {
+      "month": "2016-11",
+      "count": 19
+    },
+    {
+      "month": "2016-12",
+      "count": 44
+    },
+    {
+      "month": "2017-01",
+      "count": 28
+    },
+    {
+      "month": "2017-02",
+      "count": 15
+    },
+    {
+      "month": "2017-03",
+      "count": 15
+    },
+    {
+      "month": "2017-04",
+      "count": 19
+    },
+    {
+      "month": "2017-05",
+      "count": 26
+    },
+    {
+      "month": "2017-06",
+      "count": 13
+    },
+    {
+      "month": "2017-07",
+      "count": 15
+    },
+    {
+      "month": "2017-08",
+      "count": 16
+    },
+    {
+      "month": "2017-09",
+      "count": 12
+    },
+    {
+      "month": "2017-10",
+      "count": 10
+    },
+    {
+      "month": "2017-11",
+      "count": 23
+    },
+    {
+      "month": "2017-12",
+      "count": 28
+    },
+    {
+      "month": "2018-01",
+      "count": 20
+    },
+    {
+      "month": "2018-02",
+      "count": 13
+    },
+    {
+      "month": "2018-03",
+      "count": 23
+    },
+    {
+      "month": "2018-04",
+      "count": 22
+    },
+    {
+      "month": "2018-05",
+      "count": 20
+    },
+    {
+      "month": "2018-06",
+      "count": 27
+    },
+    {
+      "month": "2018-07",
+      "count": 20
+    },
+    {
+      "month": "2018-08",
+      "count": 21
+    },
+    {
+      "month": "2018-09",
+      "count": 18
+    },
+    {
+      "month": "2018-10",
+      "count": 13
+    },
+    {
+      "month": "2018-11",
+      "count": 23
+    },
+    {
+      "month": "2018-12",
+      "count": 21
+    },
+    {
+      "month": "2019-01",
+      "count": 26
+    },
+    {
+      "month": "2019-02",
+      "count": 30
+    },
+    {
+      "month": "2019-03",
+      "count": 33
+    },
+    {
+      "month": "2019-04",
+      "count": 34
+    },
+    {
+      "month": "2019-05",
+      "count": 26
+    },
+    {
+      "month": "2019-06",
+      "count": 32
+    },
+    {
+      "month": "2019-07",
+      "count": 27
+    },
+    {
+      "month": "2019-08",
+      "count": 31
+    },
+    {
+      "month": "2019-09",
+      "count": 24
+    },
+    {
+      "month": "2019-10",
+      "count": 29
+    },
+    {
+      "month": "2019-11",
+      "count": 32
+    },
+    {
+      "month": "2019-12",
+      "count": 34
+    },
+    {
+      "month": "2020-01",
+      "count": 65
+    },
+    {
+      "month": "2020-02",
+      "count": 23
+    },
+    {
+      "month": "2020-03",
+      "count": 37
+    },
+    {
+      "month": "2020-04",
+      "count": 52
+    },
+    {
+      "month": "2020-05",
+      "count": 23
+    },
+    {
+      "month": "2020-06",
+      "count": 25
+    },
+    {
+      "month": "2020-07",
+      "count": 32
+    },
+    {
+      "month": "2020-08",
+      "count": 47
+    },
+    {
+      "month": "2020-09",
+      "count": 45
+    },
+    {
+      "month": "2020-10",
+      "count": 40
+    },
+    {
+      "month": "2020-11",
+      "count": 40
+    },
+    {
+      "month": "2020-12",
+      "count": 41
+    },
+    {
+      "month": "2021-01",
+      "count": 63
+    },
+    {
+      "month": "2021-02",
+      "count": 72
+    },
+    {
+      "month": "2021-03",
+      "count": 55
+    },
+    {
+      "month": "2021-04",
+      "count": 50
+    },
+    {
+      "month": "2021-05",
+      "count": 52
+    },
+    {
+      "month": "2021-06",
+      "count": 55
+    },
+    {
+      "month": "2021-07",
+      "count": 46
+    },
+    {
+      "month": "2021-08",
+      "count": 51
+    },
+    {
+      "month": "2021-09",
+      "count": 47
+    },
+    {
+      "month": "2021-10",
+      "count": 46
+    },
+    {
+      "month": "2021-11",
+      "count": 36
+    },
+    {
+      "month": "2021-12",
+      "count": 51
+    },
+    {
+      "month": "2022-01",
+      "count": 58
+    },
+    {
+      "month": "2022-02",
+      "count": 47
+    },
+    {
+      "month": "2022-03",
+      "count": 54
+    },
+    {
+      "month": "2022-04",
+      "count": 58
+    },
+    {
+      "month": "2022-05",
+      "count": 62
+    },
+    {
+      "month": "2022-06",
+      "count": 30
+    },
+    {
+      "month": "2022-07",
+      "count": 40
+    },
+    {
+      "month": "2022-08",
+      "count": 63
+    },
+    {
+      "month": "2022-09",
+      "count": 66
+    },
+    {
+      "month": "2022-10",
+      "count": 42
+    },
+    {
+      "month": "2022-11",
+      "count": 70
+    },
+    {
+      "month": "2022-12",
+      "count": 72
+    },
+    {
+      "month": "2023-01",
+      "count": 113
+    },
+    {
+      "month": "2023-02",
+      "count": 153
+    },
+    {
+      "month": "2023-03",
+      "count": 176
+    },
+    {
+      "month": "2023-04",
+      "count": 72
+    },
+    {
+      "month": "2023-05",
+      "count": 110
+    },
+    {
+      "month": "2023-06",
+      "count": 82
+    },
+    {
+      "month": "2023-07",
+      "count": 64
+    },
+    {
+      "month": "2023-08",
+      "count": 100
+    },
+    {
+      "month": "2023-09",
+      "count": 88
+    },
+    {
+      "month": "2023-10",
+      "count": 92
+    },
+    {
+      "month": "2023-11",
+      "count": 102
+    },
+    {
+      "month": "2023-12",
+      "count": 131
+    },
+    {
+      "month": "2024-01",
+      "count": 175
+    },
+    {
+      "month": "2024-02",
+      "count": 67
+    },
+    {
+      "month": "2024-03",
+      "count": 92
+    },
+    {
+      "month": "2024-04",
+      "count": 91
+    },
+    {
+      "month": "2024-05",
+      "count": 124
+    },
+    {
+      "month": "2024-06",
+      "count": 128
+    },
+    {
+      "month": "2024-07",
+      "count": 139
+    },
+    {
+      "month": "2024-08",
+      "count": 111
+    },
+    {
+      "month": "2024-09",
+      "count": 106
+    },
+    {
+      "month": "2024-10",
+      "count": 153
+    },
+    {
+      "month": "2024-11",
+      "count": 128
+    },
+    {
+      "month": "2024-12",
+      "count": 92
+    },
+    {
+      "month": "2025-01",
+      "count": 204
+    },
+    {
+      "month": "2025-02",
+      "count": 94
+    },
+    {
+      "month": "2025-03",
+      "count": 166
+    },
+    {
+      "month": "2025-04",
+      "count": 107
+    },
+    {
+      "month": "2025-05",
+      "count": 133
+    },
+    {
+      "month": "2025-06",
+      "count": 139
+    },
+    {
+      "month": "2025-07",
+      "count": 151
+    },
+    {
+      "month": "2025-08",
+      "count": 168
+    },
+    {
+      "month": "2025-09",
+      "count": 142
+    },
+    {
+      "month": "2025-10",
+      "count": 174
+    },
+    {
+      "month": "2025-11",
+      "count": 137
+    },
+    {
+      "month": "2025-12",
+      "count": 158
+    },
+    {
+      "month": "2026-01",
+      "count": 164
+    },
+    {
+      "month": "2026-02",
+      "count": 204
+    },
+    {
+      "month": "2026-03",
+      "count": 113
+    },
+    {
+      "month": "2026-04",
+      "count": 142
+    },
+    {
+      "month": "2026-05",
+      "count": 139
+    },
+    {
+      "month": "2026-06",
+      "count": 22
+    }
+  ],
+  "monthly_estimated_new_aircraft": [
+    {
+      "month": "2001-05",
+      "count": 1
+    },
+    {
+      "month": "2001-06",
+      "count": 1
+    },
+    {
+      "month": "2001-11",
+      "count": 1
+    },
+    {
+      "month": "2002-03",
+      "count": 3
+    },
+    {
+      "month": "2002-04",
+      "count": 1
+    },
+    {
+      "month": "2002-06",
+      "count": 3
+    },
+    {
+      "month": "2002-07",
+      "count": 2
+    },
+    {
+      "month": "2002-09",
+      "count": 2
+    },
+    {
+      "month": "2002-10",
+      "count": 2
+    },
+    {
+      "month": "2002-11",
+      "count": 2
+    },
+    {
+      "month": "2002-12",
+      "count": 2
+    },
+    {
+      "month": "2003-03",
+      "count": 2
+    },
+    {
+      "month": "2003-04",
+      "count": 1
+    },
+    {
+      "month": "2003-05",
+      "count": 2
+    },
+    {
+      "month": "2003-06",
+      "count": 3
+    },
+    {
+      "month": "2003-07",
+      "count": 1
+    },
+    {
+      "month": "2003-09",
+      "count": 2
+    },
+    {
+      "month": "2003-10",
+      "count": 1
+    },
+    {
+      "month": "2003-11",
+      "count": 2
+    },
+    {
+      "month": "2003-12",
+      "count": 1
+    },
+    {
+      "month": "2004-04",
+      "count": 1
+    },
+    {
+      "month": "2004-06",
+      "count": 2
+    },
+    {
+      "month": "2004-07",
+      "count": 2
+    },
+    {
+      "month": "2004-08",
+      "count": 1
+    },
+    {
+      "month": "2004-09",
+      "count": 5
+    },
+    {
+      "month": "2004-10",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "count": 4
+    },
+    {
+      "month": "2004-12",
+      "count": 3
+    },
+    {
+      "month": "2005-03",
+      "count": 2
+    },
+    {
+      "month": "2005-04",
+      "count": 1
+    },
+    {
+      "month": "2005-06",
+      "count": 2
+    },
+    {
+      "month": "2005-10",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "count": 1
+    },
+    {
+      "month": "2006-01",
+      "count": 1
+    },
+    {
+      "month": "2006-03",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "count": 3
+    },
+    {
+      "month": "2006-05",
+      "count": 4
+    },
+    {
+      "month": "2006-06",
+      "count": 2
+    },
+    {
+      "month": "2006-08",
+      "count": 3
+    },
+    {
+      "month": "2006-10",
+      "count": 1
+    },
+    {
+      "month": "2006-11",
+      "count": 1
+    },
+    {
+      "month": "2006-12",
+      "count": 1
+    },
+    {
+      "month": "2007-02",
+      "count": 2
+    },
+    {
+      "month": "2007-04",
+      "count": 2
+    },
+    {
+      "month": "2007-05",
+      "count": 1
+    },
+    {
+      "month": "2007-06",
+      "count": 3
+    },
+    {
+      "month": "2007-08",
+      "count": 2
+    },
+    {
+      "month": "2007-09",
+      "count": 2
+    },
+    {
+      "month": "2007-10",
+      "count": 1
+    },
+    {
+      "month": "2007-11",
+      "count": 1
+    },
+    {
+      "month": "2008-04",
+      "count": 2
+    },
+    {
+      "month": "2008-06",
+      "count": 1
+    },
+    {
+      "month": "2008-07",
+      "count": 1
+    },
+    {
+      "month": "2008-08",
+      "count": 2
+    },
+    {
+      "month": "2008-09",
+      "count": 5
+    },
+    {
+      "month": "2008-10",
+      "count": 1
+    },
+    {
+      "month": "2008-12",
+      "count": 2
+    },
+    {
+      "month": "2009-04",
+      "count": 1
+    },
+    {
+      "month": "2009-05",
+      "count": 1
+    },
+    {
+      "month": "2009-06",
+      "count": 2
+    },
+    {
+      "month": "2009-07",
+      "count": 1
+    },
+    {
+      "month": "2009-10",
+      "count": 1
+    },
+    {
+      "month": "2009-11",
+      "count": 1
+    },
+    {
+      "month": "2010-04",
+      "count": 1
+    },
+    {
+      "month": "2010-05",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "count": 3
+    },
+    {
+      "month": "2011-04",
+      "count": 3
+    },
+    {
+      "month": "2011-05",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "count": 2
+    },
+    {
+      "month": "2011-07",
+      "count": 2
+    },
+    {
+      "month": "2011-09",
+      "count": 1
+    },
+    {
+      "month": "2011-10",
+      "count": 3
+    },
+    {
+      "month": "2011-11",
+      "count": 1
+    },
+    {
+      "month": "2011-12",
+      "count": 1
+    },
+    {
+      "month": "2012-02",
+      "count": 2
+    },
+    {
+      "month": "2012-03",
+      "count": 1
+    },
+    {
+      "month": "2012-04",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "count": 2
+    },
+    {
+      "month": "2012-07",
+      "count": 1
+    },
+    {
+      "month": "2012-08",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "count": 2
+    },
+    {
+      "month": "2012-10",
+      "count": 2
+    },
+    {
+      "month": "2012-11",
+      "count": 1
+    },
+    {
+      "month": "2013-04",
+      "count": 1
+    },
+    {
+      "month": "2013-06",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "count": 2
+    },
+    {
+      "month": "2013-08",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "count": 2
+    },
+    {
+      "month": "2014-04",
+      "count": 2
+    },
+    {
+      "month": "2014-05",
+      "count": 2
+    },
+    {
+      "month": "2014-06",
+      "count": 2
+    },
+    {
+      "month": "2014-07",
+      "count": 2
+    },
+    {
+      "month": "2014-09",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "count": 2
+    },
+    {
+      "month": "2014-12",
+      "count": 4
+    },
+    {
+      "month": "2015-03",
+      "count": 1
+    },
+    {
+      "month": "2015-04",
+      "count": 2
+    },
+    {
+      "month": "2015-05",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "count": 4
+    },
+    {
+      "month": "2015-07",
+      "count": 2
+    },
+    {
+      "month": "2015-08",
+      "count": 2
+    },
+    {
+      "month": "2015-09",
+      "count": 4
+    },
+    {
+      "month": "2015-10",
+      "count": 4
+    },
+    {
+      "month": "2015-11",
+      "count": 2
+    },
+    {
+      "month": "2015-12",
+      "count": 2
+    },
+    {
+      "month": "2016-04",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "count": 6
+    },
+    {
+      "month": "2016-06",
+      "count": 2
+    },
+    {
+      "month": "2016-07",
+      "count": 2
+    },
+    {
+      "month": "2016-08",
+      "count": 8
+    },
+    {
+      "month": "2016-09",
+      "count": 4
+    },
+    {
+      "month": "2016-10",
+      "count": 2
+    },
+    {
+      "month": "2016-11",
+      "count": 3
+    },
+    {
+      "month": "2016-12",
+      "count": 3
+    },
+    {
+      "month": "2017-02",
+      "count": 2
+    },
+    {
+      "month": "2017-03",
+      "count": 2
+    },
+    {
+      "month": "2017-04",
+      "count": 2
+    },
+    {
+      "month": "2017-05",
+      "count": 5
+    },
+    {
+      "month": "2017-06",
+      "count": 1
+    },
+    {
+      "month": "2017-07",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "count": 5
+    },
+    {
+      "month": "2017-09",
+      "count": 1
+    },
+    {
+      "month": "2017-10",
+      "count": 5
+    },
+    {
+      "month": "2017-11",
+      "count": 12
+    },
+    {
+      "month": "2017-12",
+      "count": 9
+    },
+    {
+      "month": "2018-02",
+      "count": 5
+    },
+    {
+      "month": "2018-03",
+      "count": 5
+    },
+    {
+      "month": "2018-04",
+      "count": 7
+    },
+    {
+      "month": "2018-05",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "count": 13
+    },
+    {
+      "month": "2018-07",
+      "count": 9
+    },
+    {
+      "month": "2018-08",
+      "count": 6
+    },
+    {
+      "month": "2018-09",
+      "count": 6
+    },
+    {
+      "month": "2018-10",
+      "count": 2
+    },
+    {
+      "month": "2018-11",
+      "count": 4
+    },
+    {
+      "month": "2018-12",
+      "count": 5
+    },
+    {
+      "month": "2019-03",
+      "count": 3
+    },
+    {
+      "month": "2019-04",
+      "count": 10
+    },
+    {
+      "month": "2019-05",
+      "count": 7
+    },
+    {
+      "month": "2019-06",
+      "count": 3
+    },
+    {
+      "month": "2019-07",
+      "count": 6
+    },
+    {
+      "month": "2019-08",
+      "count": 7
+    },
+    {
+      "month": "2019-09",
+      "count": 7
+    },
+    {
+      "month": "2019-10",
+      "count": 5
+    },
+    {
+      "month": "2019-11",
+      "count": 8
+    },
+    {
+      "month": "2019-12",
+      "count": 14
+    },
+    {
+      "month": "2020-02",
+      "count": 8
+    },
+    {
+      "month": "2020-03",
+      "count": 5
+    },
+    {
+      "month": "2020-04",
+      "count": 12
+    },
+    {
+      "month": "2020-05",
+      "count": 3
+    },
+    {
+      "month": "2020-06",
+      "count": 3
+    },
+    {
+      "month": "2020-07",
+      "count": 6
+    },
+    {
+      "month": "2020-08",
+      "count": 13
+    },
+    {
+      "month": "2020-09",
+      "count": 11
+    },
+    {
+      "month": "2020-10",
+      "count": 5
+    },
+    {
+      "month": "2020-11",
+      "count": 7
+    },
+    {
+      "month": "2020-12",
+      "count": 10
+    },
+    {
+      "month": "2021-03",
+      "count": 2
+    },
+    {
+      "month": "2021-04",
+      "count": 8
+    },
+    {
+      "month": "2021-05",
+      "count": 13
+    },
+    {
+      "month": "2021-06",
+      "count": 11
+    },
+    {
+      "month": "2021-07",
+      "count": 10
+    },
+    {
+      "month": "2021-08",
+      "count": 10
+    },
+    {
+      "month": "2021-09",
+      "count": 10
+    },
+    {
+      "month": "2021-10",
+      "count": 14
+    },
+    {
+      "month": "2021-11",
+      "count": 9
+    },
+    {
+      "month": "2021-12",
+      "count": 14
+    },
+    {
+      "month": "2022-02",
+      "count": 1
+    },
+    {
+      "month": "2022-03",
+      "count": 2
+    },
+    {
+      "month": "2022-04",
+      "count": 1
+    },
+    {
+      "month": "2022-05",
+      "count": 1
+    },
+    {
+      "month": "2022-06",
+      "count": 7
+    },
+    {
+      "month": "2022-07",
+      "count": 7
+    },
+    {
+      "month": "2022-08",
+      "count": 10
+    },
+    {
+      "month": "2022-09",
+      "count": 15
+    },
+    {
+      "month": "2022-10",
+      "count": 13
+    },
+    {
+      "month": "2022-11",
+      "count": 11
+    },
+    {
+      "month": "2022-12",
+      "count": 19
+    },
+    {
+      "month": "2023-02",
+      "count": 2
+    },
+    {
+      "month": "2023-03",
+      "count": 3
+    },
+    {
+      "month": "2023-04",
+      "count": 14
+    },
+    {
+      "month": "2023-05",
+      "count": 35
+    },
+    {
+      "month": "2023-06",
+      "count": 22
+    },
+    {
+      "month": "2023-07",
+      "count": 27
+    },
+    {
+      "month": "2023-08",
+      "count": 40
+    },
+    {
+      "month": "2023-09",
+      "count": 32
+    },
+    {
+      "month": "2023-10",
+      "count": 39
+    },
+    {
+      "month": "2023-11",
+      "count": 32
+    },
+    {
+      "month": "2023-12",
+      "count": 52
+    },
+    {
+      "month": "2024-01",
+      "count": 1
+    },
+    {
+      "month": "2024-02",
+      "count": 8
+    },
+    {
+      "month": "2024-03",
+      "count": 17
+    },
+    {
+      "month": "2024-04",
+      "count": 25
+    },
+    {
+      "month": "2024-05",
+      "count": 37
+    },
+    {
+      "month": "2024-06",
+      "count": 51
+    },
+    {
+      "month": "2024-07",
+      "count": 60
+    },
+    {
+      "month": "2024-08",
+      "count": 42
+    },
+    {
+      "month": "2024-09",
+      "count": 42
+    },
+    {
+      "month": "2024-10",
+      "count": 77
+    },
+    {
+      "month": "2024-11",
+      "count": 51
+    },
+    {
+      "month": "2024-12",
+      "count": 45
+    },
+    {
+      "month": "2025-02",
+      "count": 24
+    },
+    {
+      "month": "2025-03",
+      "count": 72
+    },
+    {
+      "month": "2025-04",
+      "count": 44
+    },
+    {
+      "month": "2025-05",
+      "count": 41
+    },
+    {
+      "month": "2025-06",
+      "count": 49
+    },
+    {
+      "month": "2025-07",
+      "count": 68
+    },
+    {
+      "month": "2025-08",
+      "count": 64
+    },
+    {
+      "month": "2025-09",
+      "count": 51
+    },
+    {
+      "month": "2025-10",
+      "count": 73
+    },
+    {
+      "month": "2025-11",
+      "count": 64
+    },
+    {
+      "month": "2025-12",
+      "count": 61
+    },
+    {
+      "month": "2026-01",
+      "count": 4
+    },
+    {
+      "month": "2026-02",
+      "count": 11
+    },
+    {
+      "month": "2026-03",
+      "count": 32
+    },
+    {
+      "month": "2026-04",
+      "count": 57
+    },
+    {
+      "month": "2026-05",
+      "count": 45
+    },
+    {
+      "month": "2026-06",
+      "count": 9
+    }
+  ],
+  "monthly_estimated_new_aircraft_lagged": [
+    {
+      "month": "2001-05",
+      "count": 1
+    },
+    {
+      "month": "2001-06",
+      "count": 1
+    },
+    {
+      "month": "2001-11",
+      "count": 1
+    },
+    {
+      "month": "2002-03",
+      "count": 3
+    },
+    {
+      "month": "2002-04",
+      "count": 1
+    },
+    {
+      "month": "2002-06",
+      "count": 3
+    },
+    {
+      "month": "2002-07",
+      "count": 2
+    },
+    {
+      "month": "2002-09",
+      "count": 2
+    },
+    {
+      "month": "2002-10",
+      "count": 2
+    },
+    {
+      "month": "2002-11",
+      "count": 2
+    },
+    {
+      "month": "2002-12",
+      "count": 2
+    },
+    {
+      "month": "2003-01",
+      "count": 3
+    },
+    {
+      "month": "2003-02",
+      "count": 3
+    },
+    {
+      "month": "2003-03",
+      "count": 2
+    },
+    {
+      "month": "2003-04",
+      "count": 1
+    },
+    {
+      "month": "2003-05",
+      "count": 3
+    },
+    {
+      "month": "2003-06",
+      "count": 3
+    },
+    {
+      "month": "2003-07",
+      "count": 1
+    },
+    {
+      "month": "2003-08",
+      "count": 1
+    },
+    {
+      "month": "2003-09",
+      "count": 2
+    },
+    {
+      "month": "2003-10",
+      "count": 2
+    },
+    {
+      "month": "2003-11",
+      "count": 3
+    },
+    {
+      "month": "2003-12",
+      "count": 2
+    },
+    {
+      "month": "2004-01",
+      "count": 1
+    },
+    {
+      "month": "2004-02",
+      "count": 2
+    },
+    {
+      "month": "2004-03",
+      "count": 5
+    },
+    {
+      "month": "2004-04",
+      "count": 1
+    },
+    {
+      "month": "2004-06",
+      "count": 2
+    },
+    {
+      "month": "2004-07",
+      "count": 2
+    },
+    {
+      "month": "2004-08",
+      "count": 1
+    },
+    {
+      "month": "2004-09",
+      "count": 5
+    },
+    {
+      "month": "2004-10",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "count": 4
+    },
+    {
+      "month": "2004-12",
+      "count": 3
+    },
+    {
+      "month": "2005-01",
+      "count": 6
+    },
+    {
+      "month": "2005-02",
+      "count": 2
+    },
+    {
+      "month": "2005-03",
+      "count": 2
+    },
+    {
+      "month": "2005-04",
+      "count": 1
+    },
+    {
+      "month": "2005-06",
+      "count": 3
+    },
+    {
+      "month": "2005-10",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "count": 2
+    },
+    {
+      "month": "2006-01",
+      "count": 2
+    },
+    {
+      "month": "2006-02",
+      "count": 1
+    },
+    {
+      "month": "2006-03",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "count": 3
+    },
+    {
+      "month": "2006-05",
+      "count": 4
+    },
+    {
+      "month": "2006-06",
+      "count": 3
+    },
+    {
+      "month": "2006-07",
+      "count": 1
+    },
+    {
+      "month": "2006-08",
+      "count": 3
+    },
+    {
+      "month": "2006-10",
+      "count": 1
+    },
+    {
+      "month": "2006-11",
+      "count": 1
+    },
+    {
+      "month": "2006-12",
+      "count": 1
+    },
+    {
+      "month": "2007-01",
+      "count": 3
+    },
+    {
+      "month": "2007-02",
+      "count": 5
+    },
+    {
+      "month": "2007-04",
+      "count": 3
+    },
+    {
+      "month": "2007-05",
+      "count": 2
+    },
+    {
+      "month": "2007-06",
+      "count": 3
+    },
+    {
+      "month": "2007-08",
+      "count": 2
+    },
+    {
+      "month": "2007-09",
+      "count": 2
+    },
+    {
+      "month": "2007-10",
+      "count": 1
+    },
+    {
+      "month": "2007-11",
+      "count": 1
+    },
+    {
+      "month": "2008-01",
+      "count": 5
+    },
+    {
+      "month": "2008-02",
+      "count": 2
+    },
+    {
+      "month": "2008-04",
+      "count": 2
+    },
+    {
+      "month": "2008-05",
+      "count": 1
+    },
+    {
+      "month": "2008-06",
+      "count": 1
+    },
+    {
+      "month": "2008-07",
+      "count": 1
+    },
+    {
+      "month": "2008-08",
+      "count": 2
+    },
+    {
+      "month": "2008-09",
+      "count": 5
+    },
+    {
+      "month": "2008-10",
+      "count": 1
+    },
+    {
+      "month": "2008-12",
+      "count": 2
+    },
+    {
+      "month": "2009-04",
+      "count": 1
+    },
+    {
+      "month": "2009-05",
+      "count": 1
+    },
+    {
+      "month": "2009-06",
+      "count": 2
+    },
+    {
+      "month": "2009-07",
+      "count": 2
+    },
+    {
+      "month": "2009-10",
+      "count": 1
+    },
+    {
+      "month": "2009-11",
+      "count": 1
+    },
+    {
+      "month": "2009-12",
+      "count": 1
+    },
+    {
+      "month": "2010-01",
+      "count": 1
+    },
+    {
+      "month": "2010-04",
+      "count": 1
+    },
+    {
+      "month": "2010-05",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "count": 3
+    },
+    {
+      "month": "2011-04",
+      "count": 5
+    },
+    {
+      "month": "2011-05",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "count": 2
+    },
+    {
+      "month": "2011-07",
+      "count": 2
+    },
+    {
+      "month": "2011-08",
+      "count": 2
+    },
+    {
+      "month": "2011-09",
+      "count": 1
+    },
+    {
+      "month": "2011-10",
+      "count": 3
+    },
+    {
+      "month": "2011-11",
+      "count": 1
+    },
+    {
+      "month": "2011-12",
+      "count": 1
+    },
+    {
+      "month": "2012-01",
+      "count": 2
+    },
+    {
+      "month": "2012-02",
+      "count": 3
+    },
+    {
+      "month": "2012-03",
+      "count": 1
+    },
+    {
+      "month": "2012-04",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "count": 2
+    },
+    {
+      "month": "2012-07",
+      "count": 1
+    },
+    {
+      "month": "2012-08",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "count": 2
+    },
+    {
+      "month": "2012-10",
+      "count": 2
+    },
+    {
+      "month": "2012-11",
+      "count": 1
+    },
+    {
+      "month": "2013-01",
+      "count": 1
+    },
+    {
+      "month": "2013-02",
+      "count": 1
+    },
+    {
+      "month": "2013-03",
+      "count": 1
+    },
+    {
+      "month": "2013-04",
+      "count": 1
+    },
+    {
+      "month": "2013-06",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "count": 2
+    },
+    {
+      "month": "2013-08",
+      "count": 2
+    },
+    {
+      "month": "2013-11",
+      "count": 2
+    },
+    {
+      "month": "2014-01",
+      "count": 1
+    },
+    {
+      "month": "2014-04",
+      "count": 2
+    },
+    {
+      "month": "2014-05",
+      "count": 2
+    },
+    {
+      "month": "2014-06",
+      "count": 3
+    },
+    {
+      "month": "2014-07",
+      "count": 2
+    },
+    {
+      "month": "2014-09",
+      "count": 1
+    },
+    {
+      "month": "2014-10",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "count": 2
+    },
+    {
+      "month": "2014-12",
+      "count": 4
+    },
+    {
+      "month": "2015-01",
+      "count": 3
+    },
+    {
+      "month": "2015-03",
+      "count": 1
+    },
+    {
+      "month": "2015-04",
+      "count": 3
+    },
+    {
+      "month": "2015-05",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "count": 4
+    },
+    {
+      "month": "2015-07",
+      "count": 2
+    },
+    {
+      "month": "2015-08",
+      "count": 2
+    },
+    {
+      "month": "2015-09",
+      "count": 4
+    },
+    {
+      "month": "2015-10",
+      "count": 4
+    },
+    {
+      "month": "2015-11",
+      "count": 2
+    },
+    {
+      "month": "2015-12",
+      "count": 2
+    },
+    {
+      "month": "2016-01",
+      "count": 2
+    },
+    {
+      "month": "2016-02",
+      "count": 1
+    },
+    {
+      "month": "2016-04",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "count": 6
+    },
+    {
+      "month": "2016-06",
+      "count": 3
+    },
+    {
+      "month": "2016-07",
+      "count": 4
+    },
+    {
+      "month": "2016-08",
+      "count": 8
+    },
+    {
+      "month": "2016-09",
+      "count": 4
+    },
+    {
+      "month": "2016-10",
+      "count": 3
+    },
+    {
+      "month": "2016-11",
+      "count": 3
+    },
+    {
+      "month": "2016-12",
+      "count": 5
+    },
+    {
+      "month": "2017-01",
+      "count": 6
+    },
+    {
+      "month": "2017-02",
+      "count": 3
+    },
+    {
+      "month": "2017-03",
+      "count": 2
+    },
+    {
+      "month": "2017-04",
+      "count": 2
+    },
+    {
+      "month": "2017-05",
+      "count": 5
+    },
+    {
+      "month": "2017-06",
+      "count": 2
+    },
+    {
+      "month": "2017-07",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "count": 5
+    },
+    {
+      "month": "2017-09",
+      "count": 1
+    },
+    {
+      "month": "2017-10",
+      "count": 6
+    },
+    {
+      "month": "2017-11",
+      "count": 12
+    },
+    {
+      "month": "2017-12",
+      "count": 10
+    },
+    {
+      "month": "2018-01",
+      "count": 5
+    },
+    {
+      "month": "2018-02",
+      "count": 5
+    },
+    {
+      "month": "2018-03",
+      "count": 6
+    },
+    {
+      "month": "2018-04",
+      "count": 7
+    },
+    {
+      "month": "2018-05",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "count": 13
+    },
+    {
+      "month": "2018-07",
+      "count": 9
+    },
+    {
+      "month": "2018-08",
+      "count": 6
+    },
+    {
+      "month": "2018-09",
+      "count": 6
+    },
+    {
+      "month": "2018-10",
+      "count": 3
+    },
+    {
+      "month": "2018-11",
+      "count": 5
+    },
+    {
+      "month": "2018-12",
+      "count": 6
+    },
+    {
+      "month": "2019-01",
+      "count": 8
+    },
+    {
+      "month": "2019-02",
+      "count": 9
+    },
+    {
+      "month": "2019-03",
+      "count": 5
+    },
+    {
+      "month": "2019-04",
+      "count": 11
+    },
+    {
+      "month": "2019-05",
+      "count": 8
+    },
+    {
+      "month": "2019-06",
+      "count": 4
+    },
+    {
+      "month": "2019-07",
+      "count": 6
+    },
+    {
+      "month": "2019-08",
+      "count": 8
+    },
+    {
+      "month": "2019-09",
+      "count": 8
+    },
+    {
+      "month": "2019-10",
+      "count": 5
+    },
+    {
+      "month": "2019-11",
+      "count": 8
+    },
+    {
+      "month": "2019-12",
+      "count": 16
+    },
+    {
+      "month": "2020-01",
+      "count": 16
+    },
+    {
+      "month": "2020-02",
+      "count": 9
+    },
+    {
+      "month": "2020-03",
+      "count": 7
+    },
+    {
+      "month": "2020-04",
+      "count": 13
+    },
+    {
+      "month": "2020-05",
+      "count": 3
+    },
+    {
+      "month": "2020-06",
+      "count": 3
+    },
+    {
+      "month": "2020-07",
+      "count": 9
+    },
+    {
+      "month": "2020-08",
+      "count": 14
+    },
+    {
+      "month": "2020-09",
+      "count": 13
+    },
+    {
+      "month": "2020-10",
+      "count": 5
+    },
+    {
+      "month": "2020-11",
+      "count": 9
+    },
+    {
+      "month": "2020-12",
+      "count": 11
+    },
+    {
+      "month": "2021-01",
+      "count": 18
+    },
+    {
+      "month": "2021-02",
+      "count": 21
+    },
+    {
+      "month": "2021-03",
+      "count": 16
+    },
+    {
+      "month": "2021-04",
+      "count": 9
+    },
+    {
+      "month": "2021-05",
+      "count": 13
+    },
+    {
+      "month": "2021-06",
+      "count": 14
+    },
+    {
+      "month": "2021-07",
+      "count": 11
+    },
+    {
+      "month": "2021-08",
+      "count": 12
+    },
+    {
+      "month": "2021-09",
+      "count": 14
+    },
+    {
+      "month": "2021-10",
+      "count": 15
+    },
+    {
+      "month": "2021-11",
+      "count": 10
+    },
+    {
+      "month": "2021-12",
+      "count": 15
+    },
+    {
+      "month": "2022-01",
+      "count": 12
+    },
+    {
+      "month": "2022-02",
+      "count": 9
+    },
+    {
+      "month": "2022-03",
+      "count": 15
+    },
+    {
+      "month": "2022-04",
+      "count": 14
+    },
+    {
+      "month": "2022-05",
+      "count": 25
+    },
+    {
+      "month": "2022-06",
+      "count": 8
+    },
+    {
+      "month": "2022-07",
+      "count": 9
+    },
+    {
+      "month": "2022-08",
+      "count": 18
+    },
+    {
+      "month": "2022-09",
+      "count": 17
+    },
+    {
+      "month": "2022-10",
+      "count": 16
+    },
+    {
+      "month": "2022-11",
+      "count": 15
+    },
+    {
+      "month": "2022-12",
+      "count": 21
+    },
+    {
+      "month": "2023-01",
+      "count": 39
+    },
+    {
+      "month": "2023-02",
+      "count": 65
+    },
+    {
+      "month": "2023-03",
+      "count": 79
+    },
+    {
+      "month": "2023-04",
+      "count": 16
+    },
+    {
+      "month": "2023-05",
+      "count": 43
+    },
+    {
+      "month": "2023-06",
+      "count": 27
+    },
+    {
+      "month": "2023-07",
+      "count": 29
+    },
+    {
+      "month": "2023-08",
+      "count": 45
+    },
+    {
+      "month": "2023-09",
+      "count": 36
+    },
+    {
+      "month": "2023-10",
+      "count": 41
+    },
+    {
+      "month": "2023-11",
+      "count": 34
+    },
+    {
+      "month": "2023-12",
+      "count": 59
+    },
+    {
+      "month": "2024-01",
+      "count": 83
+    },
+    {
+      "month": "2024-02",
+      "count": 15
+    },
+    {
+      "month": "2024-03",
+      "count": 22
+    },
+    {
+      "month": "2024-04",
+      "count": 27
+    },
+    {
+      "month": "2024-05",
+      "count": 41
+    },
+    {
+      "month": "2024-06",
+      "count": 55
+    },
+    {
+      "month": "2024-07",
+      "count": 65
+    },
+    {
+      "month": "2024-08",
+      "count": 45
+    },
+    {
+      "month": "2024-09",
+      "count": 49
+    },
+    {
+      "month": "2024-10",
+      "count": 83
+    },
+    {
+      "month": "2024-11",
+      "count": 59
+    },
+    {
+      "month": "2024-12",
+      "count": 46
+    },
+    {
+      "month": "2025-01",
+      "count": 75
+    },
+    {
+      "month": "2025-02",
+      "count": 30
+    },
+    {
+      "month": "2025-03",
+      "count": 79
+    },
+    {
+      "month": "2025-04",
+      "count": 45
+    },
+    {
+      "month": "2025-05",
+      "count": 45
+    },
+    {
+      "month": "2025-06",
+      "count": 57
+    },
+    {
+      "month": "2025-07",
+      "count": 73
+    },
+    {
+      "month": "2025-08",
+      "count": 71
+    },
+    {
+      "month": "2025-09",
+      "count": 60
+    },
+    {
+      "month": "2025-10",
+      "count": 79
+    },
+    {
+      "month": "2025-11",
+      "count": 67
+    },
+    {
+      "month": "2025-12",
+      "count": 73
+    },
+    {
+      "month": "2026-01",
+      "count": 56
+    },
+    {
+      "month": "2026-02",
+      "count": 46
+    },
+    {
+      "month": "2026-03",
+      "count": 41
+    },
+    {
+      "month": "2026-04",
+      "count": 68
+    },
+    {
+      "month": "2026-05",
+      "count": 53
+    },
+    {
+      "month": "2026-06",
+      "count": 10
+    }
+  ],
+  "monthly_estimated_new_by_model": [
+    {
+      "month": "2001-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2001-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2001-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-03",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2002-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2002-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2002-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2002-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2002-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2002-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-05",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2003-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2004-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2004-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-09",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2004-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2004-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2005-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2005-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2005-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2005-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2005-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-05",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2006-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2006-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2007-02",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2007-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2007-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2008-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2008-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2008-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2008-09",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2008-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2009-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2009-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2009-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-04",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2011-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-10",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2011-10",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-02",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2012-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2012-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2012-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-08",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-05",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2014-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2014-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2014-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-09",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-12",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2015-03",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2015-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-05",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2015-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2015-09",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2015-10",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2015-11",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2016-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2016-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-08",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2016-08",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2016-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2016-09",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2016-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2016-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2016-12",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2017-02",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-05",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2017-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2017-09",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-10",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2017-11",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2017-11",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2017-11",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-02",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2018-02",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-03",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2018-04",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-04",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2018-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-06",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2018-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-08",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2018-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2018-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-09",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2018-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2018-11",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2018-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-12",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-12",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2019-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2019-04",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-04",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2019-04",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-05",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-05",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2019-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2019-05",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2019-06",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2019-07",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2019-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2019-08",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2019-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2019-10",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2019-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2019-11",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-12",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-12",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2019-12",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2019-12",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-02",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2020-02",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2020-02",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2020-03",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2020-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-04",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2020-04",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2020-04",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2020-05",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2020-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-07",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-07",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-08",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-08",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2020-08",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2020-08",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-09",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-09",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2020-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2020-09",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2020-10",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-11",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2020-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2020-11",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-12",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2020-12",
+      "model": "SR22T",
+      "count": 6
+    },
+    {
+      "month": "2021-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2021-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2021-04",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-04",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2021-05",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2021-05",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-05",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2021-06",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2021-06",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2021-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2021-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2021-07",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2021-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-07",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2021-08",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2021-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-08",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2021-09",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2021-09",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2021-10",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2021-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2021-10",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2021-10",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2021-11",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2021-11",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-11",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2021-12",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2021-12",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-12",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2022-02",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2022-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2022-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2022-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2022-06",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-06",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2022-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2022-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2022-07",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2022-08",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2022-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2022-08",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2022-09",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2022-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2022-09",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-10",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-10",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2022-10",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2022-10",
+      "model": "SR22T",
+      "count": 6
+    },
+    {
+      "month": "2022-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2022-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2022-11",
+      "model": "SR22T",
+      "count": 7
+    },
+    {
+      "month": "2022-12",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2022-12",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2022-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2022-12",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2023-02",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2023-02",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2023-03",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2023-03",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2023-04",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-04",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2023-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2023-04",
+      "model": "SR22T",
+      "count": 7
+    },
+    {
+      "month": "2023-05",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2023-05",
+      "model": "SR20",
+      "count": 7
+    },
+    {
+      "month": "2023-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2023-05",
+      "model": "SR22T",
+      "count": 22
+    },
+    {
+      "month": "2023-06",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2023-06",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2023-06",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2023-06",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2023-07",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2023-07",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2023-07",
+      "model": "SR22T",
+      "count": 15
+    },
+    {
+      "month": "2023-08",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2023-08",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2023-08",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2023-08",
+      "model": "SR22T",
+      "count": 15
+    },
+    {
+      "month": "2023-09",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-09",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2023-09",
+      "model": "SR22",
+      "count": 10
+    },
+    {
+      "month": "2023-09",
+      "model": "SR22T",
+      "count": 15
+    },
+    {
+      "month": "2023-10",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2023-10",
+      "model": "SR20",
+      "count": 12
+    },
+    {
+      "month": "2023-10",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2023-10",
+      "model": "SR22T",
+      "count": 20
+    },
+    {
+      "month": "2023-11",
+      "model": "SF50",
+      "count": 6
+    },
+    {
+      "month": "2023-11",
+      "model": "SR20",
+      "count": 8
+    },
+    {
+      "month": "2023-11",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2023-11",
+      "model": "SR22T",
+      "count": 12
+    },
+    {
+      "month": "2023-12",
+      "model": "SF50",
+      "count": 10
+    },
+    {
+      "month": "2023-12",
+      "model": "SR20",
+      "count": 14
+    },
+    {
+      "month": "2023-12",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2023-12",
+      "model": "SR22T",
+      "count": 21
+    },
+    {
+      "month": "2024-01",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2024-02",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2024-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2024-02",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2024-03",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2024-03",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2024-03",
+      "model": "SR22T",
+      "count": 11
+    },
+    {
+      "month": "2024-04",
+      "model": "SF50",
+      "count": 6
+    },
+    {
+      "month": "2024-04",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2024-04",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2024-04",
+      "model": "SR22T",
+      "count": 13
+    },
+    {
+      "month": "2024-05",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2024-05",
+      "model": "SR20",
+      "count": 19
+    },
+    {
+      "month": "2024-05",
+      "model": "SR22T",
+      "count": 17
+    },
+    {
+      "month": "2024-06",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2024-06",
+      "model": "SR20",
+      "count": 12
+    },
+    {
+      "month": "2024-06",
+      "model": "SR22",
+      "count": 8
+    },
+    {
+      "month": "2024-06",
+      "model": "SR22T",
+      "count": 24
+    },
+    {
+      "month": "2024-07",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2024-07",
+      "model": "SR20",
+      "count": 19
+    },
+    {
+      "month": "2024-07",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2024-07",
+      "model": "SR22T",
+      "count": 25
+    },
+    {
+      "month": "2024-08",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2024-08",
+      "model": "SR20",
+      "count": 13
+    },
+    {
+      "month": "2024-08",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2024-08",
+      "model": "SR22T",
+      "count": 14
+    },
+    {
+      "month": "2024-09",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2024-09",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2024-09",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2024-09",
+      "model": "SR22T",
+      "count": 11
+    },
+    {
+      "month": "2024-10",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2024-10",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2024-10",
+      "model": "SR22",
+      "count": 15
+    },
+    {
+      "month": "2024-10",
+      "model": "SR22T",
+      "count": 48
+    },
+    {
+      "month": "2024-11",
+      "model": "SF50",
+      "count": 10
+    },
+    {
+      "month": "2024-11",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2024-11",
+      "model": "SR22",
+      "count": 16
+    },
+    {
+      "month": "2024-11",
+      "model": "SR22T",
+      "count": 19
+    },
+    {
+      "month": "2024-12",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2024-12",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2024-12",
+      "model": "SR22",
+      "count": 8
+    },
+    {
+      "month": "2024-12",
+      "model": "SR22T",
+      "count": 25
+    },
+    {
+      "month": "2025-02",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2025-02",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2025-02",
+      "model": "SR22T",
+      "count": 20
+    },
+    {
+      "month": "2025-03",
+      "model": "SF50",
+      "count": 14
+    },
+    {
+      "month": "2025-03",
+      "model": "SR20",
+      "count": 14
+    },
+    {
+      "month": "2025-03",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2025-03",
+      "model": "SR22T",
+      "count": 37
+    },
+    {
+      "month": "2025-04",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2025-04",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2025-04",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2025-04",
+      "model": "SR22T",
+      "count": 18
+    },
+    {
+      "month": "2025-05",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2025-05",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2025-05",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2025-05",
+      "model": "SR22T",
+      "count": 21
+    },
+    {
+      "month": "2025-06",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2025-06",
+      "model": "SR20",
+      "count": 9
+    },
+    {
+      "month": "2025-06",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2025-06",
+      "model": "SR22T",
+      "count": 20
+    },
+    {
+      "month": "2025-07",
+      "model": "SF50",
+      "count": 11
+    },
+    {
+      "month": "2025-07",
+      "model": "SR20",
+      "count": 14
+    },
+    {
+      "month": "2025-07",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2025-07",
+      "model": "SR22T",
+      "count": 29
+    },
+    {
+      "month": "2025-08",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2025-08",
+      "model": "SR20",
+      "count": 15
+    },
+    {
+      "month": "2025-08",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2025-08",
+      "model": "SR22T",
+      "count": 28
+    },
+    {
+      "month": "2025-09",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2025-09",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2025-09",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2025-09",
+      "model": "SR22T",
+      "count": 27
+    },
+    {
+      "month": "2025-10",
+      "model": "SF50",
+      "count": 12
+    },
+    {
+      "month": "2025-10",
+      "model": "SR20",
+      "count": 18
+    },
+    {
+      "month": "2025-10",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2025-10",
+      "model": "SR22T",
+      "count": 30
+    },
+    {
+      "month": "2025-11",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2025-11",
+      "model": "SR20",
+      "count": 9
+    },
+    {
+      "month": "2025-11",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2025-11",
+      "model": "SR22T",
+      "count": 37
+    },
+    {
+      "month": "2025-12",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2025-12",
+      "model": "SR20",
+      "count": 16
+    },
+    {
+      "month": "2025-12",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2025-12",
+      "model": "SR22T",
+      "count": 31
+    },
+    {
+      "month": "2026-01",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2026-01",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2026-02",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2026-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2026-02",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2026-03",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2026-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2026-03",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2026-03",
+      "model": "SR22T",
+      "count": 26
+    },
+    {
+      "month": "2026-04",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2026-04",
+      "model": "SR20",
+      "count": 15
+    },
+    {
+      "month": "2026-04",
+      "model": "SR22",
+      "count": 8
+    },
+    {
+      "month": "2026-04",
+      "model": "SR22T",
+      "count": 26
+    },
+    {
+      "month": "2026-05",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2026-05",
+      "model": "SR20",
+      "count": 16
+    },
+    {
+      "month": "2026-05",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2026-05",
+      "model": "SR22T",
+      "count": 20
+    },
+    {
+      "month": "2026-06",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2026-06",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2026-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2026-06",
+      "model": "SR22T",
+      "count": 2
+    }
+  ],
+  "monthly_estimated_new_lagged_by_model": [
+    {
+      "month": "2001-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2001-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2001-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-03",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2002-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2002-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2002-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2002-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2002-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2002-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2002-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-01",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2003-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-05",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2003-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2003-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-10",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2003-11",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2003-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2004-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2004-03",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2004-03",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2004-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2004-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2004-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-09",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2004-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2004-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2004-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2005-01",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2005-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2005-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2005-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2005-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2005-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2005-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2005-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-01",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-02",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2006-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-05",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2006-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2006-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2006-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2006-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2006-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-01",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2007-02",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2007-02",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2007-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2007-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-05",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2007-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2007-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2007-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-01",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2008-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2008-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2008-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2008-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2008-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2008-09",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2008-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2008-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2009-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2009-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2009-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2009-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2009-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2010-10",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-04",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2011-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2011-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-10",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2011-10",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2011-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2011-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-01",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2012-02",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2012-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2012-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2012-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2012-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2012-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-02",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-03",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-08",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2013-08",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2013-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-05",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2014-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2014-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2014-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2014-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-09",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-11",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2014-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2014-12",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2015-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2015-01",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-03",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2015-04",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2015-05",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2015-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2015-09",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2015-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2015-10",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2015-11",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2015-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2016-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-01",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-02",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-05",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2016-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2016-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2016-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2016-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2016-08",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2016-08",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2016-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2016-09",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2016-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2016-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2016-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2016-12",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2017-01",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2017-01",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-02",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-02",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-03",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-05",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2017-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2017-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2017-08",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2017-09",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2017-10",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2017-10",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2017-11",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2017-11",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2017-11",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2017-12",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2018-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-01",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2018-02",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2018-02",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-03",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2018-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-04",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-04",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2018-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-04",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2018-06",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2018-06",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2018-06",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2018-07",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-08",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2018-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2018-09",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-09",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2018-10",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2018-11",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2018-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-11",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2018-12",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2018-12",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2018-12",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-01",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-01",
+      "model": "SR22T",
+      "count": 6
+    },
+    {
+      "month": "2019-02",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-02",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2019-02",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2019-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2019-03",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-04",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-04",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2019-04",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2019-05",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-05",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2019-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2019-05",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2019-06",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2019-06",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2019-07",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2019-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2019-08",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2019-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-08",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2019-09",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-10",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2019-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2019-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2019-11",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2019-11",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2019-12",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2019-12",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2019-12",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2019-12",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-01",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2020-01",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2020-01",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2020-01",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-02",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2020-02",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2020-02",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-03",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2020-03",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2020-04",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2020-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-04",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2020-04",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2020-05",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-05",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-05",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2020-06",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-07",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2020-07",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2020-08",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2020-08",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2020-08",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2020-08",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2020-09",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2020-09",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2020-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2020-09",
+      "model": "SR22T",
+      "count": 6
+    },
+    {
+      "month": "2020-10",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2020-10",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2020-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2020-11",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2020-11",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2020-11",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2020-12",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2020-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2020-12",
+      "model": "SR22T",
+      "count": 7
+    },
+    {
+      "month": "2021-01",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2021-01",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2021-01",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2021-01",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2021-02",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2021-02",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-02",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2021-02",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2021-03",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2021-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2021-03",
+      "model": "SR22T",
+      "count": 13
+    },
+    {
+      "month": "2021-04",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-04",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-04",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2021-05",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2021-05",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-05",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2021-06",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2021-06",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2021-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-06",
+      "model": "SR22T",
+      "count": 3
+    },
+    {
+      "month": "2021-07",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2021-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-07",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-07",
+      "model": "SR22T",
+      "count": 1
+    },
+    {
+      "month": "2021-08",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2021-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-08",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2021-08",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2021-09",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2021-09",
+      "model": "SR22T",
+      "count": 11
+    },
+    {
+      "month": "2021-10",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2021-10",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2021-10",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2021-10",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2021-11",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2021-11",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-11",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2021-11",
+      "model": "SR22T",
+      "count": 4
+    },
+    {
+      "month": "2021-12",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2021-12",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2021-12",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2021-12",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-01",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-01",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2022-01",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2022-01",
+      "model": "SR22T",
+      "count": 7
+    },
+    {
+      "month": "2022-02",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-02",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2022-02",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2022-03",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2022-03",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2022-03",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2022-03",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-04",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-04",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-04",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2022-04",
+      "model": "SR22T",
+      "count": 6
+    },
+    {
+      "month": "2022-05",
+      "model": "SF50",
+      "count": 6
+    },
+    {
+      "month": "2022-05",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2022-05",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2022-05",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-06",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2022-06",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2022-06",
+      "model": "SR22T",
+      "count": 2
+    },
+    {
+      "month": "2022-07",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2022-07",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-07",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2022-07",
+      "model": "SR22T",
+      "count": 5
+    },
+    {
+      "month": "2022-08",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2022-08",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2022-08",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2022-08",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-09",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2022-09",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2022-09",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2022-09",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2022-10",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2022-10",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2022-10",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2022-10",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2022-11",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2022-11",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2022-11",
+      "model": "SR22T",
+      "count": 10
+    },
+    {
+      "month": "2022-12",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2022-12",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2022-12",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2022-12",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2023-01",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2023-01",
+      "model": "SR20",
+      "count": 16
+    },
+    {
+      "month": "2023-01",
+      "model": "SR22",
+      "count": 8
+    },
+    {
+      "month": "2023-01",
+      "model": "SR22T",
+      "count": 10
+    },
+    {
+      "month": "2023-02",
+      "model": "SF50",
+      "count": 11
+    },
+    {
+      "month": "2023-02",
+      "model": "SR20",
+      "count": 18
+    },
+    {
+      "month": "2023-02",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2023-02",
+      "model": "SR22T",
+      "count": 30
+    },
+    {
+      "month": "2023-03",
+      "model": "SF50",
+      "count": 10
+    },
+    {
+      "month": "2023-03",
+      "model": "SR20",
+      "count": 11
+    },
+    {
+      "month": "2023-03",
+      "model": "SR22",
+      "count": 21
+    },
+    {
+      "month": "2023-03",
+      "model": "SR22T",
+      "count": 37
+    },
+    {
+      "month": "2023-04",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-04",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2023-04",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2023-04",
+      "model": "SR22T",
+      "count": 8
+    },
+    {
+      "month": "2023-05",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2023-05",
+      "model": "SR20",
+      "count": 9
+    },
+    {
+      "month": "2023-05",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2023-05",
+      "model": "SR22T",
+      "count": 27
+    },
+    {
+      "month": "2023-06",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2023-06",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2023-06",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2023-06",
+      "model": "SR22T",
+      "count": 11
+    },
+    {
+      "month": "2023-07",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-07",
+      "model": "SR20",
+      "count": 2
+    },
+    {
+      "month": "2023-07",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2023-07",
+      "model": "SR22T",
+      "count": 16
+    },
+    {
+      "month": "2023-08",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2023-08",
+      "model": "SR20",
+      "count": 12
+    },
+    {
+      "month": "2023-08",
+      "model": "SR22",
+      "count": 7
+    },
+    {
+      "month": "2023-08",
+      "model": "SR22T",
+      "count": 18
+    },
+    {
+      "month": "2023-09",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2023-09",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2023-09",
+      "model": "SR22",
+      "count": 10
+    },
+    {
+      "month": "2023-09",
+      "model": "SR22T",
+      "count": 18
+    },
+    {
+      "month": "2023-10",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2023-10",
+      "model": "SR20",
+      "count": 12
+    },
+    {
+      "month": "2023-10",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2023-10",
+      "model": "SR22T",
+      "count": 21
+    },
+    {
+      "month": "2023-11",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2023-11",
+      "model": "SR20",
+      "count": 8
+    },
+    {
+      "month": "2023-11",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2023-11",
+      "model": "SR22T",
+      "count": 13
+    },
+    {
+      "month": "2023-12",
+      "model": "SF50",
+      "count": 10
+    },
+    {
+      "month": "2023-12",
+      "model": "SR20",
+      "count": 14
+    },
+    {
+      "month": "2023-12",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2023-12",
+      "model": "SR22T",
+      "count": 24
+    },
+    {
+      "month": "2024-01",
+      "model": "SF50",
+      "count": 14
+    },
+    {
+      "month": "2024-01",
+      "model": "SR20",
+      "count": 8
+    },
+    {
+      "month": "2024-01",
+      "model": "SR22",
+      "count": 12
+    },
+    {
+      "month": "2024-01",
+      "model": "SR22T",
+      "count": 49
+    },
+    {
+      "month": "2024-02",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2024-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2024-02",
+      "model": "SR22",
+      "count": 2
+    },
+    {
+      "month": "2024-02",
+      "model": "SR22T",
+      "count": 9
+    },
+    {
+      "month": "2024-03",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2024-03",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2024-03",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2024-03",
+      "model": "SR22T",
+      "count": 12
+    },
+    {
+      "month": "2024-04",
+      "model": "SF50",
+      "count": 6
+    },
+    {
+      "month": "2024-04",
+      "model": "SR20",
+      "count": 3
+    },
+    {
+      "month": "2024-04",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2024-04",
+      "model": "SR22T",
+      "count": 15
+    },
+    {
+      "month": "2024-05",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2024-05",
+      "model": "SR20",
+      "count": 19
+    },
+    {
+      "month": "2024-05",
+      "model": "SR22",
+      "count": 1
+    },
+    {
+      "month": "2024-05",
+      "model": "SR22T",
+      "count": 20
+    },
+    {
+      "month": "2024-06",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2024-06",
+      "model": "SR20",
+      "count": 13
+    },
+    {
+      "month": "2024-06",
+      "model": "SR22",
+      "count": 10
+    },
+    {
+      "month": "2024-06",
+      "model": "SR22T",
+      "count": 25
+    },
+    {
+      "month": "2024-07",
+      "model": "SF50",
+      "count": 11
+    },
+    {
+      "month": "2024-07",
+      "model": "SR20",
+      "count": 20
+    },
+    {
+      "month": "2024-07",
+      "model": "SR22",
+      "count": 8
+    },
+    {
+      "month": "2024-07",
+      "model": "SR22T",
+      "count": 26
+    },
+    {
+      "month": "2024-08",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2024-08",
+      "model": "SR20",
+      "count": 13
+    },
+    {
+      "month": "2024-08",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2024-08",
+      "model": "SR22T",
+      "count": 16
+    },
+    {
+      "month": "2024-09",
+      "model": "SF50",
+      "count": 7
+    },
+    {
+      "month": "2024-09",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2024-09",
+      "model": "SR22",
+      "count": 15
+    },
+    {
+      "month": "2024-09",
+      "model": "SR22T",
+      "count": 17
+    },
+    {
+      "month": "2024-10",
+      "model": "SF50",
+      "count": 10
+    },
+    {
+      "month": "2024-10",
+      "model": "SR20",
+      "count": 5
+    },
+    {
+      "month": "2024-10",
+      "model": "SR22",
+      "count": 15
+    },
+    {
+      "month": "2024-10",
+      "model": "SR22T",
+      "count": 53
+    },
+    {
+      "month": "2024-11",
+      "model": "SF50",
+      "count": 11
+    },
+    {
+      "month": "2024-11",
+      "model": "SR20",
+      "count": 7
+    },
+    {
+      "month": "2024-11",
+      "model": "SR22",
+      "count": 17
+    },
+    {
+      "month": "2024-11",
+      "model": "SR22T",
+      "count": 24
+    },
+    {
+      "month": "2024-12",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2024-12",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2024-12",
+      "model": "SR22",
+      "count": 9
+    },
+    {
+      "month": "2024-12",
+      "model": "SR22T",
+      "count": 25
+    },
+    {
+      "month": "2025-01",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2025-01",
+      "model": "SR20",
+      "count": 8
+    },
+    {
+      "month": "2025-01",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2025-01",
+      "model": "SR22T",
+      "count": 49
+    },
+    {
+      "month": "2025-02",
+      "model": "SF50",
+      "count": 2
+    },
+    {
+      "month": "2025-02",
+      "model": "SR20",
+      "count": 1
+    },
+    {
+      "month": "2025-02",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2025-02",
+      "model": "SR22T",
+      "count": 24
+    },
+    {
+      "month": "2025-03",
+      "model": "SF50",
+      "count": 16
+    },
+    {
+      "month": "2025-03",
+      "model": "SR20",
+      "count": 14
+    },
+    {
+      "month": "2025-03",
+      "model": "SR22",
+      "count": 9
+    },
+    {
+      "month": "2025-03",
+      "model": "SR22T",
+      "count": 40
+    },
+    {
+      "month": "2025-04",
+      "model": "SF50",
+      "count": 6
+    },
+    {
+      "month": "2025-04",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2025-04",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2025-04",
+      "model": "SR22T",
+      "count": 18
+    },
+    {
+      "month": "2025-05",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2025-05",
+      "model": "SR20",
+      "count": 11
+    },
+    {
+      "month": "2025-05",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2025-05",
+      "model": "SR22T",
+      "count": 24
+    },
+    {
+      "month": "2025-06",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2025-06",
+      "model": "SR20",
+      "count": 12
+    },
+    {
+      "month": "2025-06",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2025-06",
+      "model": "SR22T",
+      "count": 23
+    },
+    {
+      "month": "2025-07",
+      "model": "SF50",
+      "count": 11
+    },
+    {
+      "month": "2025-07",
+      "model": "SR20",
+      "count": 16
+    },
+    {
+      "month": "2025-07",
+      "model": "SR22",
+      "count": 14
+    },
+    {
+      "month": "2025-07",
+      "model": "SR22T",
+      "count": 32
+    },
+    {
+      "month": "2025-08",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2025-08",
+      "model": "SR20",
+      "count": 15
+    },
+    {
+      "month": "2025-08",
+      "model": "SR22",
+      "count": 13
+    },
+    {
+      "month": "2025-08",
+      "model": "SR22T",
+      "count": 35
+    },
+    {
+      "month": "2025-09",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2025-09",
+      "model": "SR20",
+      "count": 6
+    },
+    {
+      "month": "2025-09",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2025-09",
+      "model": "SR22T",
+      "count": 34
+    },
+    {
+      "month": "2025-10",
+      "model": "SF50",
+      "count": 12
+    },
+    {
+      "month": "2025-10",
+      "model": "SR20",
+      "count": 20
+    },
+    {
+      "month": "2025-10",
+      "model": "SR22",
+      "count": 15
+    },
+    {
+      "month": "2025-10",
+      "model": "SR22T",
+      "count": 32
+    },
+    {
+      "month": "2025-11",
+      "model": "SF50",
+      "count": 5
+    },
+    {
+      "month": "2025-11",
+      "model": "SR20",
+      "count": 10
+    },
+    {
+      "month": "2025-11",
+      "model": "SR22",
+      "count": 15
+    },
+    {
+      "month": "2025-11",
+      "model": "SR22T",
+      "count": 37
+    },
+    {
+      "month": "2025-12",
+      "model": "SF50",
+      "count": 8
+    },
+    {
+      "month": "2025-12",
+      "model": "SR20",
+      "count": 17
+    },
+    {
+      "month": "2025-12",
+      "model": "SR22",
+      "count": 11
+    },
+    {
+      "month": "2025-12",
+      "model": "SR22T",
+      "count": 37
+    },
+    {
+      "month": "2026-01",
+      "model": "SF50",
+      "count": 4
+    },
+    {
+      "month": "2026-01",
+      "model": "SR20",
+      "count": 13
+    },
+    {
+      "month": "2026-01",
+      "model": "SR22",
+      "count": 12
+    },
+    {
+      "month": "2026-01",
+      "model": "SR22T",
+      "count": 27
+    },
+    {
+      "month": "2026-02",
+      "model": "SF50",
+      "count": 16
+    },
+    {
+      "month": "2026-02",
+      "model": "SR20",
+      "count": 7
+    },
+    {
+      "month": "2026-02",
+      "model": "SR22",
+      "count": 6
+    },
+    {
+      "month": "2026-02",
+      "model": "SR22T",
+      "count": 17
+    },
+    {
+      "month": "2026-03",
+      "model": "SF50",
+      "count": 3
+    },
+    {
+      "month": "2026-03",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2026-03",
+      "model": "SR22",
+      "count": 5
+    },
+    {
+      "month": "2026-03",
+      "model": "SR22T",
+      "count": 29
+    },
+    {
+      "month": "2026-04",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2026-04",
+      "model": "SR20",
+      "count": 15
+    },
+    {
+      "month": "2026-04",
+      "model": "SR22",
+      "count": 10
+    },
+    {
+      "month": "2026-04",
+      "model": "SR22T",
+      "count": 34
+    },
+    {
+      "month": "2026-05",
+      "model": "SF50",
+      "count": 9
+    },
+    {
+      "month": "2026-05",
+      "model": "SR20",
+      "count": 18
+    },
+    {
+      "month": "2026-05",
+      "model": "SR22",
+      "count": 4
+    },
+    {
+      "month": "2026-05",
+      "model": "SR22T",
+      "count": 22
+    },
+    {
+      "month": "2026-06",
+      "model": "SF50",
+      "count": 1
+    },
+    {
+      "month": "2026-06",
+      "model": "SR20",
+      "count": 4
+    },
+    {
+      "month": "2026-06",
+      "model": "SR22",
+      "count": 3
+    },
+    {
+      "month": "2026-06",
+      "model": "SR22T",
+      "count": 2
+    }
+  ],
+  "by_model": [
+    {
+      "model": "SR22",
+      "count": 3903
+    },
+    {
+      "model": "SR22T",
+      "count": 2774
+    },
+    {
+      "model": "SR20",
+      "count": 1498
+    },
+    {
+      "model": "SF50",
+      "count": 673
+    },
+    {
+      "model": "SRT",
+      "count": 1
+    }
+  ],
+  "by_model_estimated_new_aircraft": [
+    {
+      "model": "SR22T",
+      "count": 978
+    },
+    {
+      "model": "SR22",
+      "count": 494
+    },
+    {
+      "model": "SR20",
+      "count": 424
+    },
+    {
+      "model": "SF50",
+      "count": 302
+    }
+  ],
+  "by_model_estimated_new_aircraft_lagged": [
+    {
+      "model": "SR22T",
+      "count": 1410
+    },
+    {
+      "model": "SR22",
+      "count": 724
+    },
+    {
+      "model": "SR20",
+      "count": 567
+    },
+    {
+      "model": "SF50",
+      "count": 417
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2001,
+      "registrations": 3,
+      "estimated_new_aircraft": 3,
+      "estimated_new_aircraft_lagged": 3,
+      "year_built_matches": 3
+    },
+    {
+      "year": 2002,
+      "registrations": 17,
+      "estimated_new_aircraft": 17,
+      "estimated_new_aircraft_lagged": 17,
+      "year_built_matches": 17
+    },
+    {
+      "year": 2003,
+      "registrations": 30,
+      "estimated_new_aircraft": 15,
+      "estimated_new_aircraft_lagged": 26,
+      "year_built_matches": 15
+    },
+    {
+      "year": 2004,
+      "registrations": 29,
+      "estimated_new_aircraft": 19,
+      "estimated_new_aircraft_lagged": 27,
+      "year_built_matches": 19
+    },
+    {
+      "year": 2005,
+      "registrations": 26,
+      "estimated_new_aircraft": 7,
+      "estimated_new_aircraft_lagged": 17,
+      "year_built_matches": 7
+    },
+    {
+      "year": 2006,
+      "registrations": 33,
+      "estimated_new_aircraft": 17,
+      "estimated_new_aircraft_lagged": 21,
+      "year_built_matches": 17
+    },
+    {
+      "year": 2007,
+      "registrations": 36,
+      "estimated_new_aircraft": 14,
+      "estimated_new_aircraft_lagged": 22,
+      "year_built_matches": 14
+    },
+    {
+      "year": 2008,
+      "registrations": 53,
+      "estimated_new_aircraft": 14,
+      "estimated_new_aircraft_lagged": 22,
+      "year_built_matches": 14
+    },
+    {
+      "year": 2009,
+      "registrations": 41,
+      "estimated_new_aircraft": 7,
+      "estimated_new_aircraft_lagged": 9,
+      "year_built_matches": 7
+    },
+    {
+      "year": 2010,
+      "registrations": 46,
+      "estimated_new_aircraft": 6,
+      "estimated_new_aircraft_lagged": 7,
+      "year_built_matches": 6
+    },
+    {
+      "year": 2011,
+      "registrations": 81,
+      "estimated_new_aircraft": 14,
+      "estimated_new_aircraft_lagged": 18,
+      "year_built_matches": 14
+    },
+    {
+      "year": 2012,
+      "registrations": 89,
+      "estimated_new_aircraft": 13,
+      "estimated_new_aircraft_lagged": 16,
+      "year_built_matches": 13
+    },
+    {
+      "year": 2013,
+      "registrations": 85,
+      "estimated_new_aircraft": 7,
+      "estimated_new_aircraft_lagged": 11,
+      "year_built_matches": 7
+    },
+    {
+      "year": 2014,
+      "registrations": 106,
+      "estimated_new_aircraft": 15,
+      "estimated_new_aircraft_lagged": 18,
+      "year_built_matches": 15
+    },
+    {
+      "year": 2015,
+      "registrations": 135,
+      "estimated_new_aircraft": 25,
+      "estimated_new_aircraft_lagged": 29,
+      "year_built_matches": 25
+    },
+    {
+      "year": 2016,
+      "registrations": 180,
+      "estimated_new_aircraft": 31,
+      "estimated_new_aircraft_lagged": 40,
+      "year_built_matches": 31
+    },
+    {
+      "year": 2017,
+      "registrations": 220,
+      "estimated_new_aircraft": 46,
+      "estimated_new_aircraft_lagged": 56,
+      "year_built_matches": 46
+    },
+    {
+      "year": 2018,
+      "registrations": 241,
+      "estimated_new_aircraft": 64,
+      "estimated_new_aircraft_lagged": 73,
+      "year_built_matches": 64
+    },
+    {
+      "year": 2019,
+      "registrations": 358,
+      "estimated_new_aircraft": 70,
+      "estimated_new_aircraft_lagged": 96,
+      "year_built_matches": 70
+    },
+    {
+      "year": 2020,
+      "registrations": 470,
+      "estimated_new_aircraft": 83,
+      "estimated_new_aircraft_lagged": 112,
+      "year_built_matches": 83
+    },
+    {
+      "year": 2021,
+      "registrations": 624,
+      "estimated_new_aircraft": 101,
+      "estimated_new_aircraft_lagged": 168,
+      "year_built_matches": 101
+    },
+    {
+      "year": 2022,
+      "registrations": 662,
+      "estimated_new_aircraft": 87,
+      "estimated_new_aircraft_lagged": 179,
+      "year_built_matches": 87
+    },
+    {
+      "year": 2023,
+      "registrations": 1283,
+      "estimated_new_aircraft": 298,
+      "estimated_new_aircraft_lagged": 513,
+      "year_built_matches": 298
+    },
+    {
+      "year": 2024,
+      "registrations": 1406,
+      "estimated_new_aircraft": 456,
+      "estimated_new_aircraft_lagged": 590,
+      "year_built_matches": 456
+    },
+    {
+      "year": 2025,
+      "registrations": 1773,
+      "estimated_new_aircraft": 611,
+      "estimated_new_aircraft_lagged": 754,
+      "year_built_matches": 611
+    },
+    {
+      "year": 2026,
+      "registrations": 784,
+      "estimated_new_aircraft": 158,
+      "estimated_new_aircraft_lagged": 274,
+      "year_built_matches": 158
+    }
+  ],
+  "gama_deliveries": [
+    {
+      "year": 2022,
+      "period": "annual",
+      "sr20": 100,
+      "sr22": 159,
+      "sr22t": 280,
+      "sf50": 90
+    },
+    {
+      "year": 2023,
+      "period": "annual",
+      "sr20": 115,
+      "sr22": 142,
+      "sr22t": 355,
+      "sf50": 96
+    },
+    {
+      "year": 2024,
+      "period": "annual",
+      "sr20": 121,
+      "sr22": 145,
+      "sr22t": 364,
+      "sf50": 101
+    },
+    {
+      "year": 2025,
+      "period": "annual",
+      "sr20": 152,
+      "sr22": 155,
+      "sr22t": 384,
+      "sf50": 106
+    },
+    {
+      "year": 2026,
+      "period": "q1_ytd",
+      "sr20": 49,
+      "sr22": 31,
+      "sr22t": 95,
+      "sf50": 21
+    }
+  ],
+  "by_state": [
+    {
+      "state": "FL",
+      "count": 846
+    },
+    {
+      "state": "CA",
+      "count": 747
+    },
+    {
+      "state": "TX",
+      "count": 687
+    },
+    {
+      "state": "DE",
+      "count": 537
+    },
+    {
+      "state": "AZ",
+      "count": 310
+    },
+    {
+      "state": "GA",
+      "count": 284
+    },
+    {
+      "state": "TN",
+      "count": 282
+    },
+    {
+      "state": "NC",
+      "count": 250
+    },
+    {
+      "state": "OK",
+      "count": 229
+    },
+    {
+      "state": "OH",
+      "count": 216
+    },
+    {
+      "state": "NY",
+      "count": 215
+    },
+    {
+      "state": "MT",
+      "count": 214
+    },
+    {
+      "state": "WY",
+      "count": 213
+    },
+    {
+      "state": "CO",
+      "count": 209
+    },
+    {
+      "state": "UT",
+      "count": 207
+    },
+    {
+      "state": "MI",
+      "count": 185
+    },
+    {
+      "state": "VA",
+      "count": 182
+    },
+    {
+      "state": "MN",
+      "count": 182
+    },
+    {
+      "state": "PA",
+      "count": 180
+    },
+    {
+      "state": "NV",
+      "count": 162
+    },
+    {
+      "state": "IN",
+      "count": 156
+    },
+    {
+      "state": "WA",
+      "count": 152
+    },
+    {
+      "state": "SC",
+      "count": 151
+    },
+    {
+      "state": "WI",
+      "count": 149
+    },
+    {
+      "state": "MA",
+      "count": 145
+    },
+    {
+      "state": "IL",
+      "count": 135
+    },
+    {
+      "state": "LA",
+      "count": 130
+    },
+    {
+      "state": "AL",
+      "count": 120
+    },
+    {
+      "state": "MO",
+      "count": 106
+    },
+    {
+      "state": "OR",
+      "count": 102
+    },
+    {
+      "state": "AR",
+      "count": 98
+    },
+    {
+      "state": "NJ",
+      "count": 92
+    },
+    {
+      "state": "IA",
+      "count": 87
+    },
+    {
+      "state": "KY",
+      "count": 85
+    },
+    {
+      "state": "KS",
+      "count": 77
+    },
+    {
+      "state": "MD",
+      "count": 72
+    },
+    {
+      "state": "NE",
+      "count": 60
+    },
+    {
+      "state": "MS",
+      "count": 59
+    },
+    {
+      "state": "NM",
+      "count": 57
+    },
+    {
+      "state": "CT",
+      "count": 54
+    },
+    {
+      "state": "ND",
+      "count": 51
+    },
+    {
+      "state": "NH",
+      "count": 51
+    },
+    {
+      "state": "ID",
+      "count": 40
+    },
+    {
+      "state": "ME",
+      "count": 32
+    },
+    {
+      "state": "WV",
+      "count": 31
+    },
+    {
+      "state": "SD",
+      "count": 22
+    },
+    {
+      "state": "VT",
+      "count": 12
+    },
+    {
+      "state": "RI",
+      "count": 10
+    },
+    {
+      "state": "DC",
+      "count": 9
+    },
+    {
+      "state": "PR",
+      "count": 7
+    },
+    {
+      "state": "HI",
+      "count": 7
+    },
+    {
+      "state": "AK",
+      "count": 4
+    },
+    {
+      "state": "VI",
+      "count": 1
+    }
+  ],
+  "snapshot_diff": {
+    "previous_snapshot_available": true,
+    "previous_count": 8849,
+    "current_count": 8849,
+    "added_count": 0,
+    "removed_count": 0,
+    "changed_count": 0,
+    "added_estimated_new_aircraft_count": 0,
+    "added_estimated_new_aircraft_lagged_count": 0,
+    "added_by_model": [],
+    "added_estimated_new_aircraft_by_model": [],
+    "added_estimated_new_aircraft_lagged_by_model": [],
+    "removed_by_model": [],
+    "added_sample": [],
+    "removed_sample": [],
+    "changed_sample": []
+  },
+  "serial_tracking": {
+    "generated_at": "2026-06-04T14:34:43.637555+00:00",
+    "note": "基于 FAA 当前有效 Cirrus 注册记录中的序列号。该指标是美国可见的最大序列号进度，是全球真实产量的下限代理，非精确产量。",
+    "serial_parse_rule": "SERIAL NUMBER is parsed by extracting the longest digit group and removing leading zeroes; current Cirrus samples are mostly numeric strings.",
+    "model_line_rule": {
+      "SR": "MODEL starts with SR20 or SR22",
+      "SF50": "MODEL equals SF50",
+      "other": "unclassified models kept separate for review"
+    },
+    "models_seen": [
+      "SF50",
+      "SR20",
+      "SR22",
+      "SR22T",
+      "SRT"
+    ],
+    "unclassified_models": {
+      "SRT": 1
+    },
+    "by_line": {
+      "SF50": {
+        "line": "SF50",
+        "max_serial_us": 774,
+        "count_registered": 673,
+        "parsed_serial_count": 673,
+        "parse_failures": 0,
+        "raw_serial_samples": [
+          {
+            "serial": 57,
+            "raw_serial": "0057",
+            "model": "SF50",
+            "n_number": "603AP",
+            "year_mfr": 2018,
+            "cert_issue_date": "20260101",
+            "state": "CO"
+          },
+          {
+            "serial": 4,
+            "raw_serial": "0004",
+            "model": "SF50",
+            "n_number": "252CV",
+            "year_mfr": 2014,
+            "cert_issue_date": "",
+            "state": "MN"
+          },
+          {
+            "serial": 3,
+            "raw_serial": "0003",
+            "model": "SF50",
+            "n_number": "251CV",
+            "year_mfr": 2014,
+            "cert_issue_date": "",
+            "state": "MN"
+          },
+          {
+            "serial": 2,
+            "raw_serial": "0002",
+            "model": "SF50",
+            "n_number": "250CV",
+            "year_mfr": 2014,
+            "cert_issue_date": "",
+            "state": "MN"
+          },
+          {
+            "serial": 5,
+            "raw_serial": "0005",
+            "model": "SF50",
+            "n_number": "585PK",
+            "year_mfr": 2016,
+            "cert_issue_date": "20200115",
+            "state": "DE"
+          },
+          {
+            "serial": 6,
+            "raw_serial": "0006",
+            "model": "SF50",
+            "n_number": "51FC",
+            "year_mfr": 2016,
+            "cert_issue_date": "20180911",
+            "state": "VA"
+          },
+          {
+            "serial": 7,
+            "raw_serial": "0007",
+            "model": "SF50",
+            "n_number": "82WF",
+            "year_mfr": 2016,
+            "cert_issue_date": "20211029",
+            "state": "WY"
+          },
+          {
+            "serial": 8,
+            "raw_serial": "0008",
+            "model": "SF50",
+            "n_number": "730FA",
+            "year_mfr": 2016,
+            "cert_issue_date": "20190309",
+            "state": "TN"
+          },
+          {
+            "serial": 9,
+            "raw_serial": "0009",
+            "model": "SF50",
+            "n_number": "313BN",
+            "year_mfr": 2017,
+            "cert_issue_date": "20221223",
+            "state": "WY"
+          },
+          {
+            "serial": 11,
+            "raw_serial": "0011",
+            "model": "SF50",
+            "n_number": "517AB",
+            "year_mfr": 2017,
+            "cert_issue_date": "20250505",
+            "state": "AL"
+          },
+          {
+            "serial": 13,
+            "raw_serial": "0013",
+            "model": "SF50",
+            "n_number": "7776W",
+            "year_mfr": 2017,
+            "cert_issue_date": "20250128",
+            "state": "TX"
+          },
+          {
+            "serial": 12,
+            "raw_serial": "0012",
+            "model": "SF50",
+            "n_number": "468CV",
+            "year_mfr": 2017,
+            "cert_issue_date": "20231110",
+            "state": "DE"
+          }
+        ],
+        "recent_serials": [
+          {
+            "serial": 774,
+            "raw_serial": "0774",
+            "model": "SF50",
+            "n_number": "774VJ",
+            "year_mfr": null,
+            "cert_issue_date": "20260527",
+            "state": "MN"
+          },
+          {
+            "serial": 766,
+            "raw_serial": "0766",
+            "model": "SF50",
+            "n_number": "15RU",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260518",
+            "state": "NV"
+          },
+          {
+            "serial": 764,
+            "raw_serial": "0764",
+            "model": "SF50",
+            "n_number": "528U",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260603",
+            "state": "NV"
+          },
+          {
+            "serial": 762,
+            "raw_serial": "0762",
+            "model": "SF50",
+            "n_number": "122D",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260429",
+            "state": "MT"
+          },
+          {
+            "serial": 760,
+            "raw_serial": "0760",
+            "model": "SF50",
+            "n_number": "864MA",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260427",
+            "state": "TX"
+          },
+          {
+            "serial": 759,
+            "raw_serial": "0759",
+            "model": "SF50",
+            "n_number": "316JJ",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260526",
+            "state": "MT"
+          },
+          {
+            "serial": 757,
+            "raw_serial": "0757",
+            "model": "SF50",
+            "n_number": "68PA",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260529",
+            "state": "UT"
+          },
+          {
+            "serial": 756,
+            "raw_serial": "0756",
+            "model": "SF50",
+            "n_number": "2121C",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260414",
+            "state": "MN"
+          },
+          {
+            "serial": 754,
+            "raw_serial": "0754",
+            "model": "SF50",
+            "n_number": "278T",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260420",
+            "state": "NV"
+          },
+          {
+            "serial": 750,
+            "raw_serial": "0750",
+            "model": "SF50",
+            "n_number": "7166L",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260512",
+            "state": "MI"
+          },
+          {
+            "serial": 749,
+            "raw_serial": "0749",
+            "model": "SF50",
+            "n_number": "13LX",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260324",
+            "state": "NE"
+          },
+          {
+            "serial": 747,
+            "raw_serial": "0747",
+            "model": "SF50",
+            "n_number": "999PK",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260428",
+            "state": "WY"
+          },
+          {
+            "serial": 746,
+            "raw_serial": "0746",
+            "model": "SF50",
+            "n_number": "1GT",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260531",
+            "state": "NH"
+          },
+          {
+            "serial": 743,
+            "raw_serial": "0743",
+            "model": "SF50",
+            "n_number": "516AL",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260430",
+            "state": "DE"
+          },
+          {
+            "serial": 742,
+            "raw_serial": "0742",
+            "model": "SF50",
+            "n_number": "532SG",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260514",
+            "state": "MT"
+          },
+          {
+            "serial": 741,
+            "raw_serial": "0741",
+            "model": "SF50",
+            "n_number": "50WS",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260223",
+            "state": "DE"
+          },
+          {
+            "serial": 740,
+            "raw_serial": "0740",
+            "model": "SF50",
+            "n_number": "740CV",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260518",
+            "state": "MT"
+          },
+          {
+            "serial": 739,
+            "raw_serial": "0739",
+            "model": "SF50",
+            "n_number": "865CV",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260217",
+            "state": "DE"
+          },
+          {
+            "serial": 738,
+            "raw_serial": "0738",
+            "model": "SF50",
+            "n_number": "847CB",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260425",
+            "state": "NV"
+          },
+          {
+            "serial": 737,
+            "raw_serial": "0737",
+            "model": "SF50",
+            "n_number": "78LV",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260219",
+            "state": "CA"
+          }
+        ],
+        "serials_by_year": [
+          {
+            "year": 2014,
+            "max_serial": 4,
+            "count": 3
+          },
+          {
+            "year": 2016,
+            "max_serial": 8,
+            "count": 4
+          },
+          {
+            "year": 2017,
+            "max_serial": 30,
+            "count": 18
+          },
+          {
+            "year": 2018,
+            "max_serial": 93,
+            "count": 56
+          },
+          {
+            "year": 2019,
+            "max_serial": 173,
+            "count": 68
+          },
+          {
+            "year": 2020,
+            "max_serial": 246,
+            "count": 66
+          },
+          {
+            "year": 2021,
+            "max_serial": 332,
+            "count": 74
+          },
+          {
+            "year": 2022,
+            "max_serial": 421,
+            "count": 75
+          },
+          {
+            "year": 2023,
+            "max_serial": 523,
+            "count": 92
+          },
+          {
+            "year": 2024,
+            "max_serial": 618,
+            "count": 88
+          },
+          {
+            "year": 2025,
+            "max_serial": 727,
+            "count": 93
+          },
+          {
+            "year": 2026,
+            "max_serial": 766,
+            "count": 29
+          }
+        ],
+        "max_serial_history": [
+          {
+            "date": "2026-06-04",
+            "max_serial": 774,
+            "count": 673
+          }
+        ],
+        "monthly_serial_deltas": [],
+        "build_rate_est_per_month": 0.0
+      },
+      "SR": {
+        "line": "SR",
+        "max_serial_us": 11385,
+        "count_registered": 8175,
+        "parsed_serial_count": 8175,
+        "parse_failures": 0,
+        "raw_serial_samples": [
+          {
+            "serial": 283,
+            "raw_serial": "0283",
+            "model": "SR22",
+            "n_number": "99CD",
+            "year_mfr": 2002,
+            "cert_issue_date": "20130712",
+            "state": "DE"
+          },
+          {
+            "serial": 284,
+            "raw_serial": "0284",
+            "model": "SR22",
+            "n_number": "818DL",
+            "year_mfr": 2002,
+            "cert_issue_date": "20250414",
+            "state": "FL"
+          },
+          {
+            "serial": 272,
+            "raw_serial": "0272",
+            "model": "SR22",
+            "n_number": "716DR",
+            "year_mfr": 2002,
+            "cert_issue_date": "20240913",
+            "state": "FL"
+          },
+          {
+            "serial": 285,
+            "raw_serial": "0285",
+            "model": "SR22",
+            "n_number": "874CD",
+            "year_mfr": null,
+            "cert_issue_date": "20200406",
+            "state": "FL"
+          },
+          {
+            "serial": 287,
+            "raw_serial": "0287",
+            "model": "SR22",
+            "n_number": "319MP",
+            "year_mfr": 2002,
+            "cert_issue_date": "20240730",
+            "state": "VA"
+          },
+          {
+            "serial": 293,
+            "raw_serial": "0293",
+            "model": "SR22",
+            "n_number": "929DE",
+            "year_mfr": 2002,
+            "cert_issue_date": "20190325",
+            "state": "KS"
+          },
+          {
+            "serial": 291,
+            "raw_serial": "0291",
+            "model": "SR22",
+            "n_number": "548EB",
+            "year_mfr": null,
+            "cert_issue_date": "20220823",
+            "state": "AR"
+          },
+          {
+            "serial": 290,
+            "raw_serial": "0290",
+            "model": "SR22",
+            "n_number": "434TB",
+            "year_mfr": null,
+            "cert_issue_date": "20190226",
+            "state": "VA"
+          },
+          {
+            "serial": 295,
+            "raw_serial": "0295",
+            "model": "SR22",
+            "n_number": "882CD",
+            "year_mfr": 2002,
+            "cert_issue_date": "20230408",
+            "state": ""
+          },
+          {
+            "serial": 297,
+            "raw_serial": "0297",
+            "model": "SR22",
+            "n_number": "899CD",
+            "year_mfr": 2002,
+            "cert_issue_date": "20211023",
+            "state": "TX"
+          },
+          {
+            "serial": 292,
+            "raw_serial": "0292",
+            "model": "SR22",
+            "n_number": "879CD",
+            "year_mfr": 2002,
+            "cert_issue_date": "20060503",
+            "state": "DE"
+          },
+          {
+            "serial": 281,
+            "raw_serial": "0281",
+            "model": "SR22",
+            "n_number": "22WX",
+            "year_mfr": 2002,
+            "cert_issue_date": "20220809",
+            "state": "NH"
+          }
+        ],
+        "recent_serials": [
+          {
+            "serial": 11385,
+            "raw_serial": "11385",
+            "model": "SR22",
+            "n_number": "779RS",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260515",
+            "state": "DE"
+          },
+          {
+            "serial": 11333,
+            "raw_serial": "11333",
+            "model": "SR22T",
+            "n_number": "337BK",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260512",
+            "state": "WY"
+          },
+          {
+            "serial": 11327,
+            "raw_serial": "11327",
+            "model": "SR20",
+            "n_number": "84MH",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260423",
+            "state": "NY"
+          },
+          {
+            "serial": 11325,
+            "raw_serial": "11325",
+            "model": "SR22T",
+            "n_number": "502BP",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260518",
+            "state": "WY"
+          },
+          {
+            "serial": 11321,
+            "raw_serial": "11321",
+            "model": "SR20",
+            "n_number": "79MV",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260417",
+            "state": "WY"
+          },
+          {
+            "serial": 11317,
+            "raw_serial": "11317",
+            "model": "SR22T",
+            "n_number": "79AL",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260427",
+            "state": "WY"
+          },
+          {
+            "serial": 11310,
+            "raw_serial": "11310",
+            "model": "SR22T",
+            "n_number": "313MR",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260409",
+            "state": "DE"
+          },
+          {
+            "serial": 11309,
+            "raw_serial": "11309",
+            "model": "SR22T",
+            "n_number": "260MX",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260417",
+            "state": "WY"
+          },
+          {
+            "serial": 11307,
+            "raw_serial": "11307",
+            "model": "SR20",
+            "n_number": "220MC",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "DE"
+          },
+          {
+            "serial": 11280,
+            "raw_serial": "11280",
+            "model": "SR22T",
+            "n_number": "9DM",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "MS"
+          },
+          {
+            "serial": 11279,
+            "raw_serial": "11279",
+            "model": "SR20",
+            "n_number": "311ZZ",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "WY"
+          },
+          {
+            "serial": 11276,
+            "raw_serial": "11276",
+            "model": "SR22",
+            "n_number": "412PG",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "VA"
+          },
+          {
+            "serial": 11273,
+            "raw_serial": "11273",
+            "model": "SR22T",
+            "n_number": "914CT",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260414",
+            "state": "FL"
+          },
+          {
+            "serial": 11272,
+            "raw_serial": "11272",
+            "model": "SR20",
+            "n_number": "284CL",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260531",
+            "state": "NC"
+          },
+          {
+            "serial": 11271,
+            "raw_serial": "11271",
+            "model": "SR22T",
+            "n_number": "242VB",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260530",
+            "state": "FL"
+          },
+          {
+            "serial": 11269,
+            "raw_serial": "11269",
+            "model": "SR20",
+            "n_number": "158CD",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "KS"
+          },
+          {
+            "serial": 11267,
+            "raw_serial": "11267",
+            "model": "SR20",
+            "n_number": "24EB",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260531",
+            "state": "IL"
+          },
+          {
+            "serial": 11264,
+            "raw_serial": "11264",
+            "model": "SR22T",
+            "n_number": "131JK",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260523",
+            "state": "AR"
+          },
+          {
+            "serial": 11262,
+            "raw_serial": "11262",
+            "model": "SR22T",
+            "n_number": "776DN",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260602",
+            "state": "PA"
+          },
+          {
+            "serial": 11261,
+            "raw_serial": "11261",
+            "model": "SR20",
+            "n_number": "636SR",
+            "year_mfr": 2026,
+            "cert_issue_date": "20260529",
+            "state": "CA"
+          }
+        ],
+        "serials_by_year": [
+          {
+            "year": 1999,
+            "max_serial": 1010,
+            "count": 4
+          },
+          {
+            "year": 2000,
+            "max_serial": 1111,
+            "count": 48
+          },
+          {
+            "year": 2001,
+            "max_serial": 1164,
+            "count": 122
+          },
+          {
+            "year": 2002,
+            "max_serial": 1267,
+            "count": 271
+          },
+          {
+            "year": 2003,
+            "max_serial": 1381,
+            "count": 298
+          },
+          {
+            "year": 2004,
+            "max_serial": 1474,
+            "count": 394
+          },
+          {
+            "year": 2005,
+            "max_serial": 1756,
+            "count": 407
+          },
+          {
+            "year": 2006,
+            "max_serial": 2306,
+            "count": 474
+          },
+          {
+            "year": 2007,
+            "max_serial": 2902,
+            "count": 427
+          },
+          {
+            "year": 2008,
+            "max_serial": 3368,
+            "count": 317
+          },
+          {
+            "year": 2009,
+            "max_serial": 3597,
+            "count": 112
+          },
+          {
+            "year": 2010,
+            "max_serial": 3713,
+            "count": 148
+          },
+          {
+            "year": 2011,
+            "max_serial": 3827,
+            "count": 137
+          },
+          {
+            "year": 2012,
+            "max_serial": 3907,
+            "count": 114
+          },
+          {
+            "year": 2013,
+            "max_serial": 4045,
+            "count": 157
+          },
+          {
+            "year": 2014,
+            "max_serial": 4162,
+            "count": 197
+          },
+          {
+            "year": 2015,
+            "max_serial": 4299,
+            "count": 222
+          },
+          {
+            "year": 2016,
+            "max_serial": 4434,
+            "count": 219
+          },
+          {
+            "year": 2017,
+            "max_serial": 4587,
+            "count": 262
+          },
+          {
+            "year": 2018,
+            "max_serial": 4734,
+            "count": 271
+          },
+          {
+            "year": 2019,
+            "max_serial": 10135,
+            "count": 302
+          },
+          {
+            "year": 2020,
+            "max_serial": 4992,
+            "count": 294
+          },
+          {
+            "year": 2021,
+            "max_serial": 5149,
+            "count": 356
+          },
+          {
+            "year": 2022,
+            "max_serial": 9035,
+            "count": 407
+          },
+          {
+            "year": 2023,
+            "max_serial": 10193,
+            "count": 491
+          },
+          {
+            "year": 2024,
+            "max_serial": 10397,
+            "count": 547
+          },
+          {
+            "year": 2025,
+            "max_serial": 11110,
+            "count": 635
+          },
+          {
+            "year": 2026,
+            "max_serial": 11385,
+            "count": 129
+          }
+        ],
+        "max_serial_history": [
+          {
+            "date": "2026-06-04",
+            "max_serial": 11385,
+            "count": 8175
+          }
+        ],
+        "monthly_serial_deltas": [],
+        "build_rate_est_per_month": 0.0
+      },
+      "other": {
+        "line": "other",
+        "max_serial_us": 1,
+        "count_registered": 1,
+        "parsed_serial_count": 1,
+        "parse_failures": 0,
+        "raw_serial_samples": [
+          {
+            "serial": 1,
+            "raw_serial": "0001",
+            "model": "SRT",
+            "n_number": "15RT",
+            "year_mfr": 2020,
+            "cert_issue_date": "20240513",
+            "state": "MN"
+          }
+        ],
+        "recent_serials": [
+          {
+            "serial": 1,
+            "raw_serial": "0001",
+            "model": "SRT",
+            "n_number": "15RT",
+            "year_mfr": 2020,
+            "cert_issue_date": "20240513",
+            "state": "MN"
+          }
+        ],
+        "serials_by_year": [
+          {
+            "year": 2020,
+            "max_serial": 1,
+            "count": 1
+          }
+        ],
+        "max_serial_history": [],
+        "monthly_serial_deltas": [],
+        "build_rate_est_per_month": 0.0
+      }
+    }
+  },
+  "flight_activity": {
+    "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
+    "source": "airplanes_live",
+    "as_of": "2026-06-04T14:37:18.460732+00:00",
+    "window": "current_state_sample",
+    "fleet_hex_count": 8849,
+    "tracked_lines": {
+      "SR": 8175,
+      "SF50": 673,
+      "other": 1
+    },
+    "distinct_aircraft_seen": 246,
+    "flights": 0,
+    "utilization_pct": 2.78,
+    "by_period": [
+      {
+        "date": "2026-06-04",
+        "distinct_aircraft_seen": 246,
+        "flights": 0,
+        "utilization_pct": 2.78,
+        "source": "airplanes_live"
+      }
+    ],
+    "by_line": [
+      {
+        "line": "SF50",
+        "fleet_hex_count": 673,
+        "distinct_aircraft_seen": 24,
+        "utilization_pct": 3.566
+      },
+      {
+        "line": "SR",
+        "fleet_hex_count": 8175,
+        "distinct_aircraft_seen": 222,
+        "utilization_pct": 2.716
+      },
+      {
+        "line": "other",
+        "fleet_hex_count": 1,
+        "distinct_aircraft_seen": 0,
+        "utilization_pct": 0.0
+      }
+    ],
+    "active_sample": [
+      {
+        "hex": "a003d3",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "10RA"
+      },
+      {
+        "hex": "a02c61",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "110BW"
+      },
+      {
+        "hex": "a033dd",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "112CK"
+      },
+      {
+        "hex": "a05a3e",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "1213V"
+      },
+      {
+        "hex": "a05b31",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "122AS"
+      },
+      {
+        "hex": "a05c49",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "122MX"
+      },
+      {
+        "hex": "a06624",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "1249C"
+      },
+      {
+        "hex": "a06f4d",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "127SK"
+      },
+      {
+        "hex": "a075c5",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "129GP"
+      },
+      {
+        "hex": "a07671",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "129PL"
+      },
+      {
+        "hex": "a078f4",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "13BC"
+      },
+      {
+        "hex": "a079c1",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "13KH"
+      },
+      {
+        "hex": "a08378",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "132JS"
+      },
+      {
+        "hex": "a09232",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "136HH"
+      },
+      {
+        "hex": "a09d81",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "139K"
+      },
+      {
+        "hex": "a0a064",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "14AN"
+      },
+      {
+        "hex": "a0a75a",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "141KT"
+      },
+      {
+        "hex": "a0aa50",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "142C"
+      },
+      {
+        "hex": "a0ae39",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "143E"
+      },
+      {
+        "hex": "a0ae5d",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "143FL"
+      }
+    ],
+    "errors": []
+  },
+  "used_market": {
+    "note": "要价不等于成交价；过户量代理含续期；下架约等于成交只是弱代理。",
+    "transfer_proxy": {
+      "by_month_snapshot": [
+        {
+          "date": "2026-06-04",
+          "transfers": 0,
+          "new": 0,
+          "deregistered": 0,
+          "added": 0,
+          "transfer_sample": [],
+          "previous_snapshot_available": true
+        }
+      ],
+      "by_year_yearmfr_gap": [
+        {
+          "cert_year": 2001,
+          "registrations": 3,
+          "new_like": 3,
+          "used_like_incl_renewals": 0,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2002,
+          "registrations": 17,
+          "new_like": 17,
+          "used_like_incl_renewals": 0,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2003,
+          "registrations": 30,
+          "new_like": 26,
+          "used_like_incl_renewals": 0,
+          "unknown_year_mfr": 4
+        },
+        {
+          "cert_year": 2004,
+          "registrations": 29,
+          "new_like": 27,
+          "used_like_incl_renewals": 2,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2005,
+          "registrations": 26,
+          "new_like": 17,
+          "used_like_incl_renewals": 9,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2006,
+          "registrations": 33,
+          "new_like": 21,
+          "used_like_incl_renewals": 12,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2007,
+          "registrations": 36,
+          "new_like": 22,
+          "used_like_incl_renewals": 13,
+          "unknown_year_mfr": 1
+        },
+        {
+          "cert_year": 2008,
+          "registrations": 53,
+          "new_like": 22,
+          "used_like_incl_renewals": 30,
+          "unknown_year_mfr": 1
+        },
+        {
+          "cert_year": 2009,
+          "registrations": 41,
+          "new_like": 9,
+          "used_like_incl_renewals": 32,
+          "unknown_year_mfr": 0
+        },
+        {
+          "cert_year": 2010,
+          "registrations": 46,
+          "new_like": 7,
+          "used_like_incl_renewals": 38,
+          "unknown_year_mfr": 1
+        },
+        {
+          "cert_year": 2011,
+          "registrations": 81,
+          "new_like": 18,
+          "used_like_incl_renewals": 58,
+          "unknown_year_mfr": 5
+        },
+        {
+          "cert_year": 2012,
+          "registrations": 89,
+          "new_like": 16,
+          "used_like_incl_renewals": 72,
+          "unknown_year_mfr": 1
+        },
+        {
+          "cert_year": 2013,
+          "registrations": 85,
+          "new_like": 11,
+          "used_like_incl_renewals": 71,
+          "unknown_year_mfr": 3
+        },
+        {
+          "cert_year": 2014,
+          "registrations": 106,
+          "new_like": 18,
+          "used_like_incl_renewals": 87,
+          "unknown_year_mfr": 1
+        },
+        {
+          "cert_year": 2015,
+          "registrations": 135,
+          "new_like": 29,
+          "used_like_incl_renewals": 101,
+          "unknown_year_mfr": 5
+        },
+        {
+          "cert_year": 2016,
+          "registrations": 180,
+          "new_like": 40,
+          "used_like_incl_renewals": 137,
+          "unknown_year_mfr": 3
+        },
+        {
+          "cert_year": 2017,
+          "registrations": 220,
+          "new_like": 56,
+          "used_like_incl_renewals": 155,
+          "unknown_year_mfr": 9
+        },
+        {
+          "cert_year": 2018,
+          "registrations": 241,
+          "new_like": 73,
+          "used_like_incl_renewals": 159,
+          "unknown_year_mfr": 9
+        },
+        {
+          "cert_year": 2019,
+          "registrations": 358,
+          "new_like": 96,
+          "used_like_incl_renewals": 235,
+          "unknown_year_mfr": 27
+        },
+        {
+          "cert_year": 2020,
+          "registrations": 470,
+          "new_like": 112,
+          "used_like_incl_renewals": 326,
+          "unknown_year_mfr": 32
+        },
+        {
+          "cert_year": 2021,
+          "registrations": 624,
+          "new_like": 168,
+          "used_like_incl_renewals": 425,
+          "unknown_year_mfr": 31
+        },
+        {
+          "cert_year": 2022,
+          "registrations": 662,
+          "new_like": 179,
+          "used_like_incl_renewals": 424,
+          "unknown_year_mfr": 59
+        },
+        {
+          "cert_year": 2023,
+          "registrations": 1283,
+          "new_like": 513,
+          "used_like_incl_renewals": 690,
+          "unknown_year_mfr": 80
+        },
+        {
+          "cert_year": 2024,
+          "registrations": 1406,
+          "new_like": 590,
+          "used_like_incl_renewals": 756,
+          "unknown_year_mfr": 60
+        },
+        {
+          "cert_year": 2025,
+          "registrations": 1773,
+          "new_like": 754,
+          "used_like_incl_renewals": 970,
+          "unknown_year_mfr": 49
+        },
+        {
+          "cert_year": 2026,
+          "registrations": 784,
+          "new_like": 274,
+          "used_like_incl_renewals": 475,
+          "unknown_year_mfr": 35
+        }
+      ]
+    },
+    "listings": {
+      "as_of": "2026-06-04T14:51:06.891814+00:00",
+      "sources": [
+        "ASO"
+      ],
+      "active_listing_count": 268,
+      "by_model": [
+        {
+          "model": "SF50",
+          "active_listings": 17,
+          "median_ask": 2824450,
+          "p25_ask": 2498675,
+          "p75_ask": 3224225,
+          "price_coverage_pct": 94.1,
+          "median_days_on_market": null
+        },
+        {
+          "model": "SR20",
+          "active_listings": 68,
+          "median_ask": 499000,
+          "p25_ask": 389450,
+          "p75_ask": 549900,
+          "price_coverage_pct": 98.5,
+          "median_days_on_market": null
+        },
+        {
+          "model": "SR22",
+          "active_listings": 83,
+          "median_ask": 446950,
+          "p25_ask": 331150,
+          "p75_ask": 738975,
+          "price_coverage_pct": 98.8,
+          "median_days_on_market": null
+        },
+        {
+          "model": "SR22T",
+          "active_listings": 100,
+          "median_ask": 824900,
+          "p25_ask": 674900,
+          "p75_ask": 949900,
+          "price_coverage_pct": 97.0,
+          "median_days_on_market": null
+        }
+      ],
+      "sample": [
+        {
+          "key": "n:N82WF",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2016,
+          "asking_price": 1789900,
+          "registration": "N82WF",
+          "serial": "0007",
+          "location": "CA",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201063"
+        },
+        {
+          "key": "n:N535JP",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2017,
+          "asking_price": 1774900,
+          "registration": "N535JP",
+          "serial": "0028",
+          "location": "MN",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201309"
+        },
+        {
+          "key": "n:N204HS",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2019,
+          "asking_price": 2499900,
+          "registration": "N204HS",
+          "serial": "0099",
+          "location": "CT",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=199780"
+        },
+        {
+          "key": "n:T7-HGW",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2019,
+          "asking_price": 2175000,
+          "registration": "T7-HGW",
+          "serial": "0106",
+          "location": "Business Aviation S...",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "2019 Cirrus Vision SF50 G2",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=200170"
+        },
+        {
+          "key": "n:N102JL",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2020,
+          "asking_price": 2595000,
+          "registration": "N102JL",
+          "serial": "0192",
+          "location": "WV",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202140"
+        },
+        {
+          "key": "n:N255M",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2020,
+          "asking_price": 2799000,
+          "registration": "N255M",
+          "serial": "0219",
+          "location": "AZ",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201257"
+        },
+        {
+          "key": "n:N33PK",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2020,
+          "asking_price": 2600000,
+          "registration": "N33PK",
+          "serial": "0206",
+          "location": "TX",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201102"
+        },
+        {
+          "key": "n:N621LC",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2020,
+          "asking_price": 2495000,
+          "registration": "N621LC",
+          "serial": "0214",
+          "location": "GA",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "CFS Jets",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201180"
+        },
+        {
+          "key": "n:N63KL",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2021,
+          "asking_price": 2849900,
+          "registration": "N63KL",
+          "serial": "0311",
+          "location": "MD",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202106"
+        },
+        {
+          "key": "n:N73SG",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2021,
+          "asking_price": 2949900,
+          "registration": "N73SG",
+          "serial": "0284",
+          "location": "FL",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201105"
+        },
+        {
+          "key": "n:N519AB",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2022,
+          "asking_price": 3199000,
+          "registration": "N519AB",
+          "serial": "0381",
+          "location": "MN",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202154"
+        },
+        {
+          "key": "n:N71AB",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2022,
+          "asking_price": 3499000,
+          "registration": "N71AB",
+          "serial": "0341",
+          "location": "MN",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202159"
+        },
+        {
+          "key": "n:N3EE",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2023,
+          "asking_price": null,
+          "registration": "N3EE",
+          "serial": "0427",
+          "location": "MT",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Tern Jet Sales",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201862"
+        },
+        {
+          "key": "n:N712VJ",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2023,
+          "asking_price": 3190000,
+          "registration": "N712VJ",
+          "serial": "0435",
+          "location": "SC",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202108"
+        },
+        {
+          "key": "n:N129KA",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2024,
+          "asking_price": 3490000,
+          "registration": "N129KA",
+          "serial": "580",
+          "location": "GA",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202216"
+        },
+        {
+          "key": "n:T7-VSN",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2024,
+          "asking_price": 3299900,
+          "registration": "T7-VSN",
+          "serial": "0529",
+          "location": "Aerista",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "2024 Cirrus Vision SF50 - G2+ ...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201775"
+        },
+        {
+          "key": "n:N520TD",
+          "source_site": "ASO",
+          "model": "SF50",
+          "year": 2025,
+          "asking_price": 3599900,
+          "registration": "N520TD",
+          "serial": "0636",
+          "location": "VA",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Aerista",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201767"
+        },
+        {
+          "key": "n:N170CD",
+          "source_site": "ASO",
+          "model": "SR20",
+          "year": 2000,
+          "asking_price": 189900,
+          "registration": "N170CD",
+          "serial": "1076",
+          "location": "WI",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Lone Mountain Aircr...",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201992"
+        },
+        {
+          "key": "SR20|2002||LA",
+          "source_site": "ASO",
+          "model": "SR20",
+          "year": 2002,
+          "asking_price": null,
+          "registration": "",
+          "serial": "",
+          "location": "LA",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "Private Cabin Jets",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=199706"
+        },
+        {
+          "key": "n:N100YY",
+          "source_site": "ASO",
+          "model": "SR20",
+          "year": 2002,
+          "asking_price": 239898,
+          "registration": "N100YY",
+          "serial": "1183",
+          "location": "Aerista",
+          "listing_date": "",
+          "days_on_market": null,
+          "dealer": "2002 Cirrus SR20 G1",
+          "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201623"
+        }
+      ],
+      "input_note": "Listings are loaded from data/listings_manual.csv and the low-frequency ASO public listing summary scraper after robots.txt review. Asking prices are not closing prices.",
+      "history": [
+        {
+          "date": "2026-06-04",
+          "active_listing_count": 268,
+          "by_model": [
+            {
+              "model": "SF50",
+              "active_listings": 17,
+              "median_ask": 2824450,
+              "p25_ask": 2498675,
+              "p75_ask": 3224225,
+              "price_coverage_pct": 94.1,
+              "median_days_on_market": null
+            },
+            {
+              "model": "SR20",
+              "active_listings": 68,
+              "median_ask": 499000,
+              "p25_ask": 389450,
+              "p75_ask": 549900,
+              "price_coverage_pct": 98.5,
+              "median_days_on_market": null
+            },
+            {
+              "model": "SR22",
+              "active_listings": 83,
+              "median_ask": 446950,
+              "p25_ask": 331150,
+              "p75_ask": 738975,
+              "price_coverage_pct": 98.8,
+              "median_days_on_market": null
+            },
+            {
+              "model": "SR22T",
+              "active_listings": 100,
+              "median_ask": 824900,
+              "p25_ask": 674900,
+              "p75_ask": 949900,
+              "price_coverage_pct": 97.0,
+              "median_days_on_market": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "faa_generated_at": "2026-06-04T14:35:21.009316+00:00",
+    "cirrus_total_all_statuses": 9278,
+    "cirrus_total_valid_statuses": 8849,
+    "aircraft_snapshot_count": 8849,
+    "skipped_counts": {
+      "invalid_status": 429,
+      "missing_or_invalid_cert_issue_date": 38
+    },
+    "source_files": {
+      "master": "/Users/cailu/Documents/西锐注册数据/data/raw/MASTER.txt",
+      "acftref": "/Users/cailu/Documents/西锐注册数据/data/raw/ACFTREF.txt",
+      "layout_pdf": "/Users/cailu/Documents/西锐注册数据/data/raw/ardata.pdf"
+    }
+  }
+}

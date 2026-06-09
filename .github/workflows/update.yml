@@ -1,0 +1,106 @@
+name: Update Cirrus Registration Data
+
+on:
+  schedule:
+    - cron: "0 22 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  FAA_RELEASABLE_AIRCRAFT_URL: https://registry.faa.gov/database/ReleasableAircraft.zip
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch FAA data
+        run: python scripts/fetch_faa.py
+
+      - name: Parse FAA data
+        run: python scripts/parse_faa.py
+
+      - name: Fetch ASO listing summaries
+        run: python scripts/scrape_aso_listings.py
+
+      - name: Build used-market proxies
+        run: python scripts/used_market.py
+
+      - name: Build serial tracking
+        run: python scripts/serial_tracking.py
+
+      - name: Sample ADS-B activity
+        run: python scripts/flight_activity.py
+
+      - name: Build dashboard data
+        run: python scripts/build_data.py
+
+      - name: Commit updated data
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/gama_deliveries.csv data/cirrus_faa_parsed.json data/cirrus_registrations.json data/cirrus_registrations.csv data/cirrus_aircraft_snapshot.json data/serial_history.json data/serial_tracking.json data/flight_activity.json data/flight_activity_history.json data/used_market.json data/transfer_history.json data/listing_history.json data/listings_manual.csv data/listings_aso.csv
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Update Cirrus FAA registration data"
+            git push
+          fi
+
+      - name: Prepare Pages artifact
+        run: |
+          set -euo pipefail
+          rm -rf site
+          mkdir -p site/data
+          cp web/index.html site/index.html
+          cp data/cirrus_registrations.json site/data/cirrus_registrations.json
+          cp data/cirrus_registrations.csv site/data/cirrus_registrations.csv
+          cp data/cirrus_aircraft_snapshot.json site/data/cirrus_aircraft_snapshot.json
+          cp data/serial_history.json site/data/serial_history.json
+          cp data/serial_tracking.json site/data/serial_tracking.json
+          cp data/flight_activity.json site/data/flight_activity.json
+          cp data/flight_activity_history.json site/data/flight_activity_history.json
+          cp data/used_market.json site/data/used_market.json
+          cp data/transfer_history.json site/data/transfer_history.json
+          cp data/listing_history.json site/data/listing_history.json
+          cp data/listings_aso.csv site/data/listings_aso.csv
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Deploy dashboard to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+        run: bash .github/scripts/deploy_cirrus_to_vps.sh

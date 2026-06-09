@@ -1,0 +1,55 @@
+name: Sample ADS-B Activity
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  ADSB_PROVIDER: airplanes_live
+  ADSB_BATCH_SIZE: "1000"
+  ADSB_MAX_BATCHES: "10"
+  ADSB_SLEEP_SECONDS: "1.1"
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Sample ADS-B activity
+        run: python scripts/flight_activity.py
+
+      - name: Rebuild dashboard data
+        run: python scripts/build_data.py
+
+      - name: Commit ADS-B sample
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/flight_activity.json data/flight_activity_history.json data/cirrus_registrations.json
+          if git diff --cached --quiet; then
+            echo "No ADS-B changes to commit."
+          else
+            git commit -m "Update Cirrus ADS-B activity sample"
+            git push
+          fi
+
+      - name: Deploy dashboard to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+        run: bash .github/scripts/deploy_cirrus_to_vps.sh

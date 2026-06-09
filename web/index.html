@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cirrus 美国注册跟踪看板</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7faf8;
+      --panel: #ffffff;
+      --text: #17211d;
+      --muted: #66736d;
+      --line: #dce6e1;
+      --accent: #0f8b6d;
+      --accent-2: #1aa6a8;
+      --accent-3: #83b735;
+      --warn: #c79415;
+      --danger: #b8453c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 40px;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .home-link {
+      display: inline-flex;
+      width: fit-content;
+      margin-bottom: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 8px 11px;
+      text-decoration: none;
+    }
+
+    .home-link:hover {
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(26px, 4vw, 38px);
+      line-height: 1.12;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .subhead {
+      color: var(--muted);
+      max-width: 760px;
+    }
+
+    .stamp {
+      min-width: 230px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: right;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .notice {
+      margin: 18px 0;
+      padding: 12px 14px;
+      border: 1px solid #c8ddd4;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: #f1faf6;
+      color: #28463b;
+      font-size: 14px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0;
+    }
+
+    .kpi,
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .kpi {
+      padding: 14px;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .value {
+      margin-top: 6px;
+      font-size: 28px;
+      font-weight: 750;
+      line-height: 1.1;
+    }
+
+    .delta {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .delta.positive {
+      color: var(--accent);
+    }
+
+    .delta.negative {
+      color: var(--danger);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(320px, 0.9fr);
+      gap: 14px;
+    }
+
+    .panel {
+      min-height: 360px;
+      padding: 16px;
+    }
+
+    .panel.wide {
+      grid-column: 1 / -1;
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .chart-wrap {
+      position: relative;
+      height: 290px;
+    }
+
+    .panel.wide .chart-wrap {
+      height: 330px;
+    }
+
+    .loading,
+    .error {
+      display: grid;
+      min-height: 260px;
+      place-items: center;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .error {
+      color: var(--danger);
+      border-color: #e6b8b4;
+      background: #fff6f5;
+    }
+
+    @media (max-width: 860px) {
+      main {
+        width: min(100% - 20px, 680px);
+        padding-top: 18px;
+      }
+
+      header {
+        display: block;
+      }
+
+      .stamp {
+        margin-top: 12px;
+        min-width: 0;
+        text-align: left;
+      }
+
+      .kpis,
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .panel,
+      .panel.wide {
+        min-height: 330px;
+        grid-column: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="home-link" href="/">返回博客首页</a>
+    <header>
+      <div>
+        <h1>Cirrus 美国注册跟踪看板</h1>
+        <p class="subhead">基于 FAA Releasable Aircraft Database 的美国新机注册估算。默认口径为有效 Cirrus 记录且出厂年份等于证书签发年份或前一年；它比总注册量更接近新机交付节奏，但仍不是 GAMA 官方全球交付量。</p>
+      </div>
+      <div class="stamp">
+        <div id="generatedAt">等待数据加载</div>
+        <div class="status"><span class="dot"></span><span id="dataStatus">读取 JSON</span></div>
+      </div>
+    </header>
+
+    <div id="message" class="loading">正在加载注册数据...</div>
+
+    <section id="dashboard" hidden>
+      <div class="notice" id="sourceNote"></div>
+
+      <section class="kpis" aria-label="关键指标">
+        <div class="kpi">
+          <div class="label">本月估算新机</div>
+          <div class="value" id="kpiMonth">0</div>
+          <div class="delta" id="kpiMonthLabel"></div>
+        </div>
+        <div class="kpi">
+          <div class="label">今年累计</div>
+          <div class="value" id="kpiYtd">0</div>
+          <div class="delta" id="kpiYtdLabel"></div>
+        </div>
+        <div class="kpi">
+          <div class="label">同比变化</div>
+          <div class="value" id="kpiYoy">0%</div>
+          <div class="delta" id="kpiYoyLabel">同口径 YTD</div>
+        </div>
+        <div class="kpi">
+          <div class="label">当前有效存量</div>
+          <div class="value" id="kpiTotal">0</div>
+          <div class="delta" id="kpiTotalLabel"></div>
+        </div>
+      </section>
+
+      <section class="grid" aria-label="图表">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>按月估算新机注册</h2>
+            <span class="hint">YEAR MFR = 注册年份或前一年</span>
+          </div>
+          <div class="chart-wrap"><canvas id="monthlyChart"></canvas></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>估算新机机型占比</h2>
+            <span class="hint">按历史新机估算累计</span>
+          </div>
+          <div class="chart-wrap"><canvas id="modelChart"></canvas></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>年度估算新机 vs GAMA</h2>
+            <span class="hint" id="gamaHint">等待 GAMA</span>
+          </div>
+          <div class="chart-wrap"><canvas id="yearChart"></canvas></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>最大序列号进度</h2>
+            <span class="hint">美国可见下限，非全球产量</span>
+          </div>
+          <div class="chart-wrap"><canvas id="serialProgressChart"></canvas></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>序列号月度推进量</h2>
+            <span class="hint">相邻快照差分，后续自动更新后更有意义</span>
+          </div>
+          <div class="chart-wrap"><canvas id="serialRateChart"></canvas></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>ADS-B 机队利用率</h2>
+            <span class="hint">覆盖盲区/PIA 会低估</span>
+          </div>
+          <div class="chart-wrap"><canvas id="flightUtilizationChart"></canvas></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>ADS-B 分线活动</h2>
+            <span class="hint">当前状态抽样</span>
+          </div>
+          <div class="chart-wrap"><canvas id="flightLineChart"></canvas></div>
+          <div class="hint" id="flightLineSummary" style="margin-top: 10px;"></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>二手/续期注册代理</h2>
+            <span class="hint">YEAR MFR 缺口 >= 2，含续期</span>
+          </div>
+          <div class="chart-wrap"><canvas id="usedProxyChart"></canvas></div>
+        </article>
+
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>二手挂牌库存</h2>
+            <span class="hint">手工/合规导入，要价不等于成交价</span>
+          </div>
+          <div class="chart-wrap"><canvas id="listingInventoryChart"></canvas></div>
+          <div class="hint" id="listingInventorySummary" style="margin-top: 10px;"></div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const numberFormat = new Intl.NumberFormat('zh-CN');
+    const currencyFormat = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+    const chartColors = ['#0f8b6d', '#1aa6a8', '#83b735', '#c79415', '#447d69', '#6aa96f', '#28967f'];
+
+    function sum(values, selector) {
+      return values.reduce((total, value) => total + selector(value), 0);
+    }
+
+    function monthParts(month) {
+      const [year, monthNumber] = month.split('-').map(Number);
+      return { year, monthNumber };
+    }
+
+    function formatDate(value) {
+      if (!value) return '生成时间未知';
+      return new Date(value).toLocaleString('zh-CN', { hour12: false });
+    }
+
+    function latestMonths(monthly, count) {
+      return monthly.slice(Math.max(0, monthly.length - count));
+    }
+
+    function ytdTotal(monthly, year, throughMonth) {
+      return sum(monthly, item => {
+        const parts = monthParts(item.month);
+        return parts.year === year && parts.monthNumber <= throughMonth ? Number(item.count) : 0;
+      });
+    }
+
+    function setDelta(element, value) {
+      element.classList.remove('positive', 'negative');
+      if (value > 0) element.classList.add('positive');
+      if (value < 0) element.classList.add('negative');
+    }
+
+    function gamaTotal(row) {
+      return Object.entries(row)
+        .filter(([key]) => key !== 'year' && key !== 'period')
+        .reduce((total, [, value]) => total + Number(value || 0), 0);
+    }
+
+    function renderKpis(data) {
+      const monthly = data.monthly_estimated_new_aircraft_lagged;
+      const latest = monthly[monthly.length - 1];
+      const latestParts = monthParts(latest.month);
+      const currentYtd = ytdTotal(monthly, latestParts.year, latestParts.monthNumber);
+      const previousYtd = ytdTotal(monthly, latestParts.year - 1, latestParts.monthNumber);
+      const yoy = previousYtd ? ((currentYtd - previousYtd) / previousYtd) * 100 : null;
+      const total = sum(data.by_model, item => Number(item.count));
+
+      document.getElementById('kpiMonth').textContent = numberFormat.format(latest.count);
+      document.getElementById('kpiMonthLabel').textContent = `${latest.month} 估算`;
+      document.getElementById('kpiYtd').textContent = numberFormat.format(currentYtd);
+      document.getElementById('kpiYtdLabel').textContent = `${latestParts.year} 年截至 ${latestParts.monthNumber} 月估算`;
+      document.getElementById('kpiTotal').textContent = numberFormat.format(total);
+      document.getElementById('kpiTotalLabel').textContent = `全部有效注册，状态码 ${data.valid_registration_status_codes.join(', ')}`;
+
+      const yoyEl = document.getElementById('kpiYoy');
+      const yoyLabel = document.getElementById('kpiYoyLabel');
+      if (yoy === null) {
+        yoyEl.textContent = 'N/A';
+        yoyLabel.textContent = '缺少上年同期';
+      } else {
+        yoyEl.textContent = `${yoy > 0 ? '+' : ''}${yoy.toFixed(1)}%`;
+        yoyLabel.textContent = `上年同期 ${numberFormat.format(previousYtd)}`;
+        setDelta(yoyEl, yoy);
+      }
+    }
+
+    function renderMonthlyChart(data) {
+      const recent = latestMonths(data.monthly_estimated_new_aircraft_lagged, 36);
+      new Chart(document.getElementById('monthlyChart'), {
+        type: 'line',
+        data: {
+          labels: recent.map(item => item.month),
+          datasets: [{
+            label: '估算新机注册',
+            data: recent.map(item => item.count),
+            borderColor: '#0f8b6d',
+            backgroundColor: 'rgba(15, 139, 109, 0.14)',
+            fill: true,
+            tension: 0.28,
+            pointRadius: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 12 } },
+            y: { beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function renderModelChart(data) {
+      const modelData = data.by_model_estimated_new_aircraft_lagged;
+      new Chart(document.getElementById('modelChart'), {
+        type: 'doughnut',
+        data: {
+          labels: modelData.map(item => item.model),
+          datasets: [{
+            data: modelData.map(item => item.count),
+            backgroundColor: chartColors,
+            borderColor: '#ffffff',
+            borderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom' } },
+          cutout: '58%'
+        }
+      });
+    }
+
+    function renderYearChart(data) {
+      const gamaByYear = new Map(data.gama_deliveries.map(row => [Number(row.year), gamaTotal(row)]));
+      const gamaPeriods = new Map(data.gama_deliveries.map(row => [Number(row.year), row.period || 'annual']));
+      const recentYears = data.by_year.slice(Math.max(0, data.by_year.length - 12));
+      document.getElementById('gamaHint').textContent = data.gama_deliveries.length ? '年度/已发布YTD' : 'GAMA 待录入';
+
+      new Chart(document.getElementById('yearChart'), {
+        type: 'bar',
+        data: {
+          labels: recentYears.map(item => item.year),
+          datasets: [
+            {
+              label: 'FAA 总注册',
+              data: recentYears.map(item => item.registrations),
+              backgroundColor: '#0f8b6d'
+            },
+            {
+              label: 'FAA 估算新机',
+              data: recentYears.map(item => item.estimated_new_aircraft_lagged),
+              backgroundColor: '#83b735'
+            },
+            {
+              label: 'GAMA 交付/已发布YTD',
+              data: recentYears.map(item => gamaByYear.get(Number(item.year)) || null),
+              backgroundColor: '#1aa6a8'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: {
+              callbacks: {
+                afterLabel: context => {
+                  const year = Number(context.label);
+                  const period = gamaPeriods.get(year);
+                  if (context.dataset.label !== 'GAMA 交付/已发布YTD' || !period) return '';
+                  return period === 'annual' ? '全年数据' : `期间：${period.toUpperCase()}`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: { stacked: false },
+            y: { beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function serialLines(data) {
+      const byLine = data.serial_tracking?.by_line || {};
+      return ['SR', 'SF50']
+        .filter(line => byLine[line])
+        .map(line => ({ line, metrics: byLine[line] }));
+    }
+
+    function renderSerialProgressChart(data) {
+      const lines = serialLines(data);
+      const labels = [...new Set(lines.flatMap(item => item.metrics.max_serial_history.map(row => row.date)))].sort();
+      new Chart(document.getElementById('serialProgressChart'), {
+        type: 'line',
+        data: {
+          labels,
+          datasets: lines.map((item, index) => {
+            const lookup = new Map(item.metrics.max_serial_history.map(row => [row.date, row.max_serial]));
+            return {
+              label: `${item.line} 最大序列号`,
+              data: labels.map(label => lookup.get(label) ?? null),
+              borderColor: chartColors[index],
+              backgroundColor: chartColors[index],
+              tension: 0.22,
+              pointRadius: 3
+            };
+          })
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: {
+              callbacks: {
+                afterBody: () => data.serial_tracking?.note || ''
+              }
+            }
+          },
+          scales: {
+            x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 10 } },
+            y: { beginAtZero: false, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function renderSerialRateChart(data) {
+      const lines = serialLines(data);
+      const labels = [...new Set(lines.flatMap(item => item.metrics.monthly_serial_deltas.map(row => row.date)))].sort();
+      const chartLabels = labels.length ? labels : ['首期快照'];
+      new Chart(document.getElementById('serialRateChart'), {
+        type: 'bar',
+        data: {
+          labels: chartLabels,
+          datasets: lines.map((item, index) => {
+            const lookup = new Map(item.metrics.monthly_serial_deltas.map(row => [row.date, row.rate_per_month]));
+            return {
+              label: `${item.line} 序列号/月`,
+              data: chartLabels.map(label => lookup.get(label) ?? 0),
+              backgroundColor: chartColors[index]
+            };
+          })
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: {
+              callbacks: {
+                afterBody: () => '基于美国 FAA 可见最大序列号差分；首期或同日覆盖时为 0。'
+              }
+            }
+          },
+          scales: {
+            x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 10 } },
+            y: { beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function renderFlightUtilizationChart(data) {
+      const rows = data.flight_activity?.by_period || [];
+      new Chart(document.getElementById('flightUtilizationChart'), {
+        type: 'line',
+        data: {
+          labels: rows.map(item => item.date),
+          datasets: [{
+            label: '利用率代理 %',
+            data: rows.map(item => item.utilization_pct),
+            borderColor: '#0f8b6d',
+            backgroundColor: 'rgba(15, 139, 109, 0.14)',
+            fill: true,
+            tension: 0.22,
+            pointRadius: 3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: { callbacks: { afterBody: () => data.flight_activity?.note || '' } }
+          },
+          scales: {
+            x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+            y: { beginAtZero: true }
+          }
+        }
+      });
+    }
+
+    function renderFlightLineChart(data) {
+      const rows = (data.flight_activity?.by_line || []).filter(item => item.line !== 'other');
+      document.getElementById('flightLineSummary').textContent = rows
+        .map(item => `${item.line}: ${numberFormat.format(item.distinct_aircraft_seen)} / ${numberFormat.format(item.fleet_hex_count)} (${item.utilization_pct}%)`)
+        .join('；');
+      new Chart(document.getElementById('flightLineChart'), {
+        type: 'bar',
+        data: {
+          labels: rows.map(item => item.line),
+          datasets: [{
+            label: '观测到活动飞机',
+            data: rows.map(item => item.distinct_aircraft_seen),
+            backgroundColor: ['#1aa6a8', '#0f8b6d']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                afterLabel: context => {
+                  const row = rows[context.dataIndex];
+                  return `跟踪 ${numberFormat.format(row.fleet_hex_count)} 个 hex，利用率 ${row.utilization_pct}%`;
+                }
+              }
+            }
+          },
+          scales: { y: { beginAtZero: true, ticks: { precision: 0 } } }
+        }
+      });
+    }
+
+    function renderUsedProxyChart(data) {
+      const rows = (data.used_market?.transfer_proxy?.by_year_yearmfr_gap || []).slice(-12);
+      new Chart(document.getElementById('usedProxyChart'), {
+        type: 'bar',
+        data: {
+          labels: rows.map(item => item.cert_year),
+          datasets: [
+            {
+              label: '新机类注册',
+              data: rows.map(item => item.new_like),
+              backgroundColor: '#83b735'
+            },
+            {
+              label: '二手/续期类注册',
+              data: rows.map(item => item.used_like_incl_renewals),
+              backgroundColor: '#c79415'
+            },
+            {
+              label: 'YEAR MFR 缺失',
+              data: rows.map(item => item.unknown_year_mfr),
+              backgroundColor: '#b8453c'
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: { callbacks: { afterBody: () => data.used_market?.note || '' } }
+          },
+          scales: {
+            x: { stacked: true },
+            y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function renderListingInventoryChart(data) {
+      const rows = data.used_market?.listings?.history || [];
+      const byModel = data.used_market?.listings?.by_model || [];
+      const summaryEl = document.getElementById('listingInventorySummary');
+      if (summaryEl) {
+        summaryEl.textContent = byModel.length
+          ? byModel.map(item => {
+              const ask = item.median_ask ? `，中位要价 ${currencyFormat.format(item.median_ask)}` : '';
+              return `${item.model}: ${item.active_listings}${ask}`;
+            }).join('；')
+          : '暂无挂牌输入数据';
+      }
+      new Chart(document.getElementById('listingInventoryChart'), {
+        type: 'line',
+        data: {
+          labels: rows.map(item => item.date),
+          datasets: [{
+            label: '在售挂牌数',
+            data: rows.map(item => item.active_listing_count),
+            borderColor: '#1aa6a8',
+            backgroundColor: 'rgba(26, 166, 168, 0.16)',
+            fill: true,
+            tension: 0.22,
+            pointRadius: 3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom' },
+            tooltip: { callbacks: { afterBody: () => data.used_market?.listings?.input_note || '' } }
+          },
+          scales: {
+            x: { ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+            y: { beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function loadChartJs() {
+      if (window.Chart) return Promise.resolve();
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        const timeout = window.setTimeout(() => {
+          script.remove();
+          reject(new Error('Chart.js CDN 加载超时'));
+        }, 12000);
+        script.src = 'https://cdn.jsdelivr.net/npm/chart.js';
+        script.async = true;
+        script.onload = () => {
+          window.clearTimeout(timeout);
+          resolve();
+        };
+        script.onerror = () => {
+          window.clearTimeout(timeout);
+          reject(new Error('Chart.js CDN 加载失败'));
+        };
+        document.head.appendChild(script);
+      });
+    }
+
+    async function fetchDashboardData() {
+      const candidates = ['../data/cirrus_registrations.json', 'data/cirrus_registrations.json'];
+      const errors = [];
+      for (const url of candidates) {
+        try {
+          const response = await fetch(url, { cache: 'no-store' });
+          if (response.ok) return response;
+          errors.push(`${url}: HTTP ${response.status}`);
+        } catch (error) {
+          errors.push(`${url}: ${error.message}`);
+        }
+      }
+      throw new Error(errors.join('; '));
+    }
+
+    async function loadDashboard() {
+      const message = document.getElementById('message');
+      try {
+        const [response] = await Promise.all([
+          fetchDashboardData(),
+          loadChartJs()
+        ]);
+        const data = await response.json();
+
+        document.getElementById('generatedAt').textContent = `数据生成：${formatDate(data.generated_at)}`;
+        document.getElementById('dataStatus').textContent = '数据已加载';
+        document.getElementById('sourceNote').textContent = data.source_note;
+
+        renderKpis(data);
+        renderMonthlyChart(data);
+        renderModelChart(data);
+        renderYearChart(data);
+        renderSerialProgressChart(data);
+        renderSerialRateChart(data);
+        renderFlightUtilizationChart(data);
+        renderFlightLineChart(data);
+        renderUsedProxyChart(data);
+        renderListingInventoryChart(data);
+
+        message.hidden = true;
+        document.getElementById('dashboard').hidden = false;
+      } catch (error) {
+        document.getElementById('dataStatus').textContent = '加载失败';
+        message.className = 'error';
+        message.textContent = `无法加载注册数据或图表库：${error.message}`;
+      }
+    }
+
+    loadDashboard();
+  </script>
+</body>
+</html>
