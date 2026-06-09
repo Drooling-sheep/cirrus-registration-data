@@ -40,5 +40,47 @@
         "median_days_on_market": null
       }
     ]
+  },
+  {
+    "date": "2026-06-09",
+    "active_listing_count": 265,
+    "by_model": [
+      {
+        "model": "SF50",
+        "active_listings": 15,
+        "median_ask": 2799000,
+        "p25_ask": 2499900,
+        "p75_ask": 3199000,
+        "price_coverage_pct": 86.7,
+        "median_days_on_market": null
+      },
+      {
+        "model": "SR20",
+        "active_listings": 67,
+        "median_ask": 496950,
+        "p25_ask": 389225,
+        "p75_ask": 549900,
+        "price_coverage_pct": 98.5,
+        "median_days_on_market": null
+      },
+      {
+        "model": "SR22",
+        "active_listings": 84,
+        "median_ask": 434900,
+        "p25_ask": 329900,
+        "p75_ask": 735950,
+        "price_coverage_pct": 98.8,
+        "median_days_on_market": null
+      },
+      {
+        "model": "SR22T",
+        "active_listings": 99,
+        "median_ask": 824900,
+        "p25_ask": 672425,
+        "p75_ask": 949900,
+        "price_coverage_pct": 97.0,
+        "median_days_on_market": null
+      }
+    ]
   }
 ]

@@ -10,6 +10,66 @@
         "added": 0,
         "transfer_sample": [],
         "previous_snapshot_available": true
+      },
+      {
+        "date": "2026-06-09",
+        "transfers": 5,
+        "new": 3,
+        "deregistered": 2,
+        "added": 4,
+        "transfer_sample": [
+          {
+            "key": "hex:A029E5",
+            "n_number": "11AL",
+            "model": "SF50",
+            "previous_name": "LOGISTICS 12 LLC",
+            "current_name": "ZANDERS AIR LLC",
+            "previous_cert_issue_date": "20230302",
+            "current_cert_issue_date": "20260604",
+            "state": "MO"
+          },
+          {
+            "key": "hex:A0A174",
+            "n_number": "14MK",
+            "model": "SR22",
+            "previous_name": "V1 AVIATION LEASING LLC",
+            "current_name": "BURDZY CHRISTOPHER",
+            "previous_cert_issue_date": "20221116",
+            "current_cert_issue_date": "20260605",
+            "state": "NH"
+          },
+          {
+            "key": "hex:A46743",
+            "n_number": "383JM",
+            "model": "SR22",
+            "previous_name": "",
+            "current_name": "",
+            "previous_cert_issue_date": "20110721",
+            "current_cert_issue_date": "20260605",
+            "state": ""
+          },
+          {
+            "key": "hex:A5E2B7",
+            "n_number": "479BW",
+            "model": "SR22T",
+            "previous_name": "BERIT MERKAB LLC",
+            "current_name": "KINGSMAN AVIATION LLC",
+            "previous_cert_issue_date": "20241212",
+            "current_cert_issue_date": "20260604",
+            "state": "WI"
+          },
+          {
+            "key": "hex:A98853",
+            "n_number": "713MP",
+            "model": "SR20",
+            "previous_name": "LEAN OF PEAK AVIATION LLC",
+            "current_name": "ALCYONE TRUST CORP TRUSTEE",
+            "previous_cert_issue_date": "20200810",
+            "current_cert_issue_date": "20260604",
+            "state": "KS"
+          }
+        ],
+        "previous_snapshot_available": true
       }
     ],
     "by_year_yearmfr_gap": [
@@ -85,9 +145,9 @@
       },
       {
         "cert_year": 2011,
-        "registrations": 81,
+        "registrations": 80,
         "new_like": 18,
-        "used_like_incl_renewals": 58,
+        "used_like_incl_renewals": 57,
         "unknown_year_mfr": 5
       },
       {
@@ -127,9 +187,9 @@
       },
       {
         "cert_year": 2017,
-        "registrations": 220,
+        "registrations": 219,
         "new_like": 56,
-        "used_like_incl_renewals": 155,
+        "used_like_incl_renewals": 154,
         "unknown_year_mfr": 9
       },
       {
@@ -148,8 +208,8 @@
       },
       {
         "cert_year": 2020,
-        "registrations": 470,
-        "new_like": 112,
+        "registrations": 469,
+        "new_like": 111,
         "used_like_incl_renewals": 326,
         "unknown_year_mfr": 32
       },
@@ -162,22 +222,22 @@
       },
       {
         "cert_year": 2022,
-        "registrations": 662,
+        "registrations": 661,
         "new_like": 179,
-        "used_like_incl_renewals": 424,
+        "used_like_incl_renewals": 423,
         "unknown_year_mfr": 59
       },
       {
         "cert_year": 2023,
-        "registrations": 1283,
-        "new_like": 513,
+        "registrations": 1282,
+        "new_like": 512,
         "used_like_incl_renewals": 690,
         "unknown_year_mfr": 80
       },
       {
         "cert_year": 2024,
-        "registrations": 1406,
-        "new_like": 590,
+        "registrations": 1405,
+        "new_like": 589,
         "used_like_incl_renewals": 756,
         "unknown_year_mfr": 60
       },
@@ -190,52 +250,52 @@
       },
       {
         "cert_year": 2026,
-        "registrations": 784,
-        "new_like": 274,
-        "used_like_incl_renewals": 475,
-        "unknown_year_mfr": 35
+        "registrations": 792,
+        "new_like": 276,
+        "used_like_incl_renewals": 480,
+        "unknown_year_mfr": 36
       }
     ]
   },
   "listings": {
-    "as_of": "2026-06-04T14:51:06.891814+00:00",
+    "as_of": "2026-06-09T02:12:04.843785+00:00",
     "sources": [
       "ASO"
     ],
-    "active_listing_count": 268,
+    "active_listing_count": 265,
     "by_model": [
       {
         "model": "SF50",
-        "active_listings": 17,
-        "median_ask": 2824450,
-        "p25_ask": 2498675,
-        "p75_ask": 3224225,
-        "price_coverage_pct": 94.1,
+        "active_listings": 15,
+        "median_ask": 2799000,
+        "p25_ask": 2499900,
+        "p75_ask": 3199000,
+        "price_coverage_pct": 86.7,
         "median_days_on_market": null
       },
       {
         "model": "SR20",
-        "active_listings": 68,
-        "median_ask": 499000,
-        "p25_ask": 389450,
+        "active_listings": 67,
+        "median_ask": 496950,
+        "p25_ask": 389225,
         "p75_ask": 549900,
         "price_coverage_pct": 98.5,
         "median_days_on_market": null
       },
       {
         "model": "SR22",
-        "active_listings": 83,
-        "median_ask": 446950,
-        "p25_ask": 331150,
-        "p75_ask": 738975,
+        "active_listings": 84,
+        "median_ask": 434900,
+        "p25_ask": 329900,
+        "p75_ask": 735950,
         "price_coverage_pct": 98.8,
         "median_days_on_market": null
       },
       {
         "model": "SR22T",
-        "active_listings": 100,
+        "active_listings": 99,
         "median_ask": 824900,
-        "p25_ask": 674900,
+        "p25_ask": 672425,
         "p75_ask": 949900,
         "price_coverage_pct": 97.0,
         "median_days_on_market": null
@@ -254,7 +314,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201063"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=200170"
       },
       {
         "key": "n:N535JP",
@@ -268,7 +328,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201309"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201063"
       },
       {
         "key": "n:N204HS",
@@ -295,8 +355,8 @@
         "location": "Business Aviation S...",
         "listing_date": "",
         "days_on_market": null,
-        "dealer": "2019 Cirrus Vision SF50 G2",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=200170"
+        "dealer": "2020 Cirrus Vision SF50 G2",
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202140"
       },
       {
         "key": "n:N102JL",
@@ -310,7 +370,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202140"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202108"
       },
       {
         "key": "n:N255M",
@@ -341,18 +401,18 @@
         "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201102"
       },
       {
-        "key": "n:N621LC",
+        "key": "serial:0314",
         "source_site": "ASO",
         "model": "SF50",
-        "year": 2020,
-        "asking_price": 2495000,
-        "registration": "N621LC",
-        "serial": "0214",
-        "location": "GA",
+        "year": 2021,
+        "asking_price": null,
+        "registration": "",
+        "serial": "0314",
+        "location": "Jet HQ",
         "listing_date": "",
         "days_on_market": null,
-        "dealer": "CFS Jets",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201180"
+        "dealer": "2023 Cirrus Vision SF50 G2+",
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202456"
       },
       {
         "key": "n:N63KL",
@@ -380,7 +440,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201105"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201309"
       },
       {
         "key": "n:N519AB",
@@ -394,7 +454,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202154"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202159"
       },
       {
         "key": "n:N71AB",
@@ -408,7 +468,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202159"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201105"
       },
       {
         "key": "n:N3EE",
@@ -425,34 +485,6 @@
         "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201862"
       },
       {
-        "key": "n:N712VJ",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2023,
-        "asking_price": 3190000,
-        "registration": "N712VJ",
-        "serial": "0435",
-        "location": "SC",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202108"
-      },
-      {
-        "key": "n:N129KA",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2024,
-        "asking_price": 3490000,
-        "registration": "N129KA",
-        "serial": "580",
-        "location": "GA",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202216"
-      },
-      {
         "key": "n:T7-VSN",
         "source_site": "ASO",
         "model": "SF50",
@@ -464,7 +496,7 @@
         "listing_date": "",
         "days_on_market": null,
         "dealer": "2024 Cirrus Vision SF50 - G2+ ...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201775"
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202154"
       },
       {
         "key": "n:N520TD",
@@ -521,6 +553,34 @@
         "days_on_market": null,
         "dealer": "2002 Cirrus SR20 G1",
         "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201623"
+      },
+      {
+        "key": "n:N501DF",
+        "source_site": "ASO",
+        "model": "SR20",
+        "year": 2002,
+        "asking_price": 244900,
+        "registration": "N501DF",
+        "serial": "1173",
+        "location": "CO",
+        "listing_date": "",
+        "days_on_market": null,
+        "dealer": "Aerista",
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201170"
+      },
+      {
+        "key": "n:N52915",
+        "source_site": "ASO",
+        "model": "SR20",
+        "year": 2004,
+        "asking_price": 230000,
+        "registration": "N52915",
+        "serial": "1411",
+        "location": "SC",
+        "listing_date": "",
+        "days_on_market": null,
+        "dealer": "Lone Mountain Aircr...",
+        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202315"
       }
     ],
     "input_note": "Listings are loaded from data/listings_manual.csv and the low-frequency ASO public listing summary scraper after robots.txt review. Asking prices are not closing prices.",
@@ -561,6 +621,48 @@
             "active_listings": 100,
             "median_ask": 824900,
             "p25_ask": 674900,
+            "p75_ask": 949900,
+            "price_coverage_pct": 97.0,
+            "median_days_on_market": null
+          }
+        ]
+      },
+      {
+        "date": "2026-06-09",
+        "active_listing_count": 265,
+        "by_model": [
+          {
+            "model": "SF50",
+            "active_listings": 15,
+            "median_ask": 2799000,
+            "p25_ask": 2499900,
+            "p75_ask": 3199000,
+            "price_coverage_pct": 86.7,
+            "median_days_on_market": null
+          },
+          {
+            "model": "SR20",
+            "active_listings": 67,
+            "median_ask": 496950,
+            "p25_ask": 389225,
+            "p75_ask": 549900,
+            "price_coverage_pct": 98.5,
+            "median_days_on_market": null
+          },
+          {
+            "model": "SR22",
+            "active_listings": 84,
+            "median_ask": 434900,
+            "p25_ask": 329900,
+            "p75_ask": 735950,
+            "price_coverage_pct": 98.8,
+            "median_days_on_market": null
+          },
+          {
+            "model": "SR22T",
+            "active_listings": 99,
+            "median_ask": 824900,
+            "p25_ask": 672425,
             "p75_ask": 949900,
             "price_coverage_pct": 97.0,
             "median_days_on_market": null
