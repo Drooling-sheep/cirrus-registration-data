@@ -7,11 +7,9 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: cirrus-registration-data
   cancel-in-progress: false
 
 env:
@@ -20,9 +18,6 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check out repository
@@ -66,36 +61,6 @@ jobs:
             git commit -m "Update Cirrus FAA registration data"
             git push
           fi
-
-      - name: Prepare Pages artifact
-        run: |
-          set -euo pipefail
-          rm -rf site
-          mkdir -p site/data
-          cp web/index.html site/index.html
-          cp data/cirrus_registrations.json site/data/cirrus_registrations.json
-          cp data/cirrus_registrations.csv site/data/cirrus_registrations.csv
-          cp data/cirrus_aircraft_snapshot.json site/data/cirrus_aircraft_snapshot.json
-          cp data/serial_history.json site/data/serial_history.json
-          cp data/serial_tracking.json site/data/serial_tracking.json
-          cp data/flight_activity.json site/data/flight_activity.json
-          cp data/flight_activity_history.json site/data/flight_activity_history.json
-          cp data/used_market.json site/data/used_market.json
-          cp data/transfer_history.json site/data/transfer_history.json
-          cp data/listing_history.json site/data/listing_history.json
-          cp data/listings_aso.csv site/data/listings_aso.csv
-
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-      - name: Deploy Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Deploy dashboard to VPS
         env:
