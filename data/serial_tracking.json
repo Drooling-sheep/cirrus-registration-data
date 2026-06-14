@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T02:15:33.192219+00:00",
+  "generated_at": "2026-06-14T23:10:49.745508+00:00",
   "note": "基于 FAA 当前有效 Cirrus 注册记录中的序列号。该指标是美国可见的最大序列号进度，是全球真实产量的下限代理，非精确产量。",
   "serial_parse_rule": "SERIAL NUMBER is parsed by extracting the longest digit group and removing leading zeroes; current Cirrus samples are mostly numeric strings.",
   "model_line_rule": {
@@ -388,11 +388,22 @@
           "date": "2026-06-09",
           "max_serial": 774,
           "count": 673
+        },
+        {
+          "date": "2026-06-14",
+          "max_serial": 774,
+          "count": 673
         }
       ],
       "monthly_serial_deltas": [
         {
           "date": "2026-06-09",
+          "delta_serial": 0,
+          "months_elapsed": 0.164,
+          "rate_per_month": 0.0
+        },
+        {
+          "date": "2026-06-14",
           "delta_serial": 0,
           "months_elapsed": 0.164,
           "rate_per_month": 0.0
@@ -850,11 +861,22 @@
           "date": "2026-06-09",
           "max_serial": 11385,
           "count": 8177
+        },
+        {
+          "date": "2026-06-14",
+          "max_serial": 11385,
+          "count": 8177
         }
       ],
       "monthly_serial_deltas": [
         {
           "date": "2026-06-09",
+          "delta_serial": 0,
+          "months_elapsed": 0.164,
+          "rate_per_month": 0.0
+        },
+        {
+          "date": "2026-06-14",
           "delta_serial": 0,
           "months_elapsed": 0.164,
           "rate_per_month": 0.0

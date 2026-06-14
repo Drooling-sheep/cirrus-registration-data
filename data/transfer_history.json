@@ -16,5 +16,175 @@
     "added": 0,
     "transfer_sample": [],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-06-14",
+    "transfers": 16,
+    "new": 14,
+    "deregistered": 6,
+    "added": 21,
+    "transfer_sample": [
+      {
+        "key": "hex:A17BD3",
+        "n_number": "195MB",
+        "model": "SR22T",
+        "previous_name": "AEROWOOD AVIATION LLC",
+        "current_name": "ROOM FOR MORE LLC",
+        "previous_cert_issue_date": "20260127",
+        "current_cert_issue_date": "20260612",
+        "state": "UT"
+      },
+      {
+        "key": "hex:A2DA12",
+        "n_number": "283KS",
+        "model": "SF50",
+        "previous_name": "N283KS LLC",
+        "current_name": "CIRRUS DESIGN CORP",
+        "previous_cert_issue_date": "20231106",
+        "current_cert_issue_date": "20260610",
+        "state": "MN"
+      },
+      {
+        "key": "hex:A3460E",
+        "n_number": "31SF",
+        "model": "SF50",
+        "previous_name": "HARBOR REAL ESTATE GROUP LLC",
+        "current_name": "N31SF LLC",
+        "previous_cert_issue_date": "20200224",
+        "current_cert_issue_date": "20260609",
+        "state": "NH"
+      },
+      {
+        "key": "hex:A3C677",
+        "n_number": "342TT",
+        "model": "SR22",
+        "previous_name": "FAIRCHILD MADISON",
+        "current_name": "LEWIS CHARLES RYAN",
+        "previous_cert_issue_date": "20230125",
+        "current_cert_issue_date": "20260607",
+        "state": "CA"
+      },
+      {
+        "key": "hex:A466BF",
+        "n_number": "383DE",
+        "model": "SR20",
+        "previous_name": "COYLE RUSTY",
+        "current_name": "CIRRUS DREAMS LLC",
+        "previous_cert_issue_date": "20241221",
+        "current_cert_issue_date": "20260612",
+        "state": "TN"
+      },
+      {
+        "key": "hex:A4E7C3",
+        "n_number": "415LX",
+        "model": "SR22",
+        "previous_name": "A LUX AIR LLC",
+        "current_name": "SEW BELMONT LLC",
+        "previous_cert_issue_date": "20201017",
+        "current_cert_issue_date": "20260608",
+        "state": "NH"
+      },
+      {
+        "key": "hex:A50082",
+        "n_number": "421N",
+        "model": "SR22T",
+        "previous_name": "M & H LLC",
+        "current_name": "GCMJ AIR LLC",
+        "previous_cert_issue_date": "20250320",
+        "current_cert_issue_date": "20260610",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A669F3",
+        "n_number": "512MC",
+        "model": "SR22T",
+        "previous_name": "MCCOURT AVIATION GROUP INC",
+        "current_name": "MCCOURT AVIATION GROUP INC",
+        "previous_cert_issue_date": "20210504",
+        "current_cert_issue_date": "20260610",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A66E78",
+        "n_number": "513VJ",
+        "model": "SF50",
+        "previous_name": "MCCOURT AVIATION GROUP INC",
+        "current_name": "MCCOURT AVIATION GROUP INC",
+        "previous_cert_issue_date": "20241106",
+        "current_cert_issue_date": "20260610",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A68001",
+        "n_number": "518JT",
+        "model": "SR22T",
+        "previous_name": "HONEYWELL INTERNATIONAL INC",
+        "current_name": "HONEYWELL AEROSPACE US LLC",
+        "previous_cert_issue_date": "20210721",
+        "current_cert_issue_date": "20260609",
+        "state": "AZ"
+      },
+      {
+        "key": "hex:A6DF4B",
+        "n_number": "5419W",
+        "model": "SR22",
+        "previous_name": "KENOSHA LLC",
+        "current_name": "KENOSHA AVIATION LLC",
+        "previous_cert_issue_date": "20190517",
+        "current_cert_issue_date": "20260609",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A6FD6E",
+        "n_number": "55DS",
+        "model": "SR20",
+        "previous_name": "STEEL AVIATION INC",
+        "current_name": "N55DS LLC",
+        "previous_cert_issue_date": "",
+        "current_cert_issue_date": "20260610",
+        "state": "OH"
+      },
+      {
+        "key": "hex:A997F1",
+        "n_number": "717VH",
+        "model": "SF50",
+        "previous_name": "LM BLACK CAPITAL HOLDINGS LLC",
+        "current_name": "ABB AEROSPACE LLC",
+        "previous_cert_issue_date": "20210105",
+        "current_cert_issue_date": "20260611",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A9A921",
+        "n_number": "721VC",
+        "model": "SR22",
+        "previous_name": "SCH AVIATION INC TRUSTEE",
+        "current_name": "SCH AVIATION INC TRUSTEE",
+        "previous_cert_issue_date": "20211203",
+        "current_cert_issue_date": "20260609",
+        "state": ""
+      },
+      {
+        "key": "hex:AAEEFC",
+        "n_number": "803WF",
+        "model": "SR22T",
+        "previous_name": "SANSTONE MANAGEMENT COMPANY LLC",
+        "current_name": "WHISKEY FOXTROT LLC",
+        "previous_cert_issue_date": "20250322",
+        "current_cert_issue_date": "20260611",
+        "state": "IL"
+      },
+      {
+        "key": "hex:AC40DE",
+        "n_number": "889SK",
+        "model": "SR22T",
+        "previous_name": "AAD AVIATION LLC",
+        "current_name": "B & R AVIATION LLC",
+        "previous_cert_issue_date": "20250108",
+        "current_cert_issue_date": "20260607",
+        "state": "MT"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]
