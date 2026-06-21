@@ -34,5 +34,17 @@
     "line": "SR",
     "max_serial": 11385,
     "count": 8177
+  },
+  {
+    "date": "2026-06-21",
+    "line": "SF50",
+    "max_serial": 780,
+    "count": 677
+  },
+  {
+    "date": "2026-06-21",
+    "line": "SR",
+    "max_serial": 11327,
+    "count": 8188
   }
 ]

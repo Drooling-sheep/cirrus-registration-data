@@ -186,5 +186,145 @@
       }
     ],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-06-21",
+    "transfers": 13,
+    "new": 11,
+    "deregistered": 9,
+    "added": 15,
+    "transfer_sample": [
+      {
+        "key": "hex:A18F4D",
+        "n_number": "2WH",
+        "model": "SF50",
+        "previous_name": "DOUBLE DRAGON LLC",
+        "current_name": "2WHISKEYHOTEL LLC",
+        "previous_cert_issue_date": "20250513",
+        "current_cert_issue_date": "20260617",
+        "state": "AZ"
+      },
+      {
+        "key": "hex:A1EA6F",
+        "n_number": "222WM",
+        "model": "SR22T",
+        "previous_name": "ROLFE AVIATION LLC",
+        "current_name": "KJS HOLDINGS LLC",
+        "previous_cert_issue_date": "20230508",
+        "current_cert_issue_date": "20260618",
+        "state": "NC"
+      },
+      {
+        "key": "hex:A1F8CA",
+        "n_number": "226RH",
+        "model": "SR22",
+        "previous_name": "HARDING CHRIS",
+        "current_name": "HARDING CHRISTOPHER",
+        "previous_cert_issue_date": "20191218",
+        "current_cert_issue_date": "20260613",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A2DA12",
+        "n_number": "283KS",
+        "model": "SF50",
+        "previous_name": "CIRRUS DESIGN CORP",
+        "current_name": "PUSHPAKA LLC",
+        "previous_cert_issue_date": "20260610",
+        "current_cert_issue_date": "20260618",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A779D1",
+        "n_number": "581C",
+        "model": "SR20",
+        "previous_name": "HALORCO MUPPETS II LLC",
+        "current_name": "HALOROC MUPPETS II LLC",
+        "previous_cert_issue_date": "20230315",
+        "current_cert_issue_date": "20230315",
+        "state": "TN"
+      },
+      {
+        "key": "hex:A7C832",
+        "n_number": "600KT",
+        "model": "SR22",
+        "previous_name": "ALATUS INVESTMENTS LLC",
+        "current_name": "ATARAXIA AIRCRAFT HOLDINGS LLC",
+        "previous_cert_issue_date": "20221102",
+        "current_cert_issue_date": "20260618",
+        "state": "SC"
+      },
+      {
+        "key": "hex:A7CE98",
+        "n_number": "6019Q",
+        "model": "SR22",
+        "previous_name": "ADVENTURE AVIATION SALES INC",
+        "current_name": "NEUFELD WILHELM LOEWEN",
+        "previous_cert_issue_date": "20250714",
+        "current_cert_issue_date": "20260615",
+        "state": "TX"
+      },
+      {
+        "key": "hex:AA57E4",
+        "n_number": "766AT",
+        "model": "SR22",
+        "previous_name": "M J BEHNKE INC",
+        "current_name": "ADVISOAR LLC",
+        "previous_cert_issue_date": "20110915",
+        "current_cert_issue_date": "20260618",
+        "state": "FL"
+      },
+      {
+        "key": "hex:AA5963",
+        "n_number": "766SA",
+        "model": "SR20",
+        "previous_name": "DILLON AERO INC",
+        "current_name": "N766SA LLC",
+        "previous_cert_issue_date": "20241209",
+        "current_cert_issue_date": "20260619",
+        "state": "WY"
+      },
+      {
+        "key": "hex:AA736B",
+        "n_number": "7724T",
+        "model": "SR20",
+        "previous_name": "TOWNER JASON",
+        "current_name": "HEDDING/NEFF AVIATION LLC",
+        "previous_cert_issue_date": "20240819",
+        "current_cert_issue_date": "20260619",
+        "state": "OK"
+      },
+      {
+        "key": "hex:AB5C49",
+        "n_number": "831CF",
+        "model": "SR22T",
+        "previous_name": "MID STATE CONSTRUCTION CO INC",
+        "current_name": "BANK OF UTAH TRUSTEE",
+        "previous_cert_issue_date": "20240104",
+        "current_cert_issue_date": "20260617",
+        "state": "UT"
+      },
+      {
+        "key": "hex:AC1E0B",
+        "n_number": "880CD",
+        "model": "SR22",
+        "previous_name": "TEUTON AND POWELL MEDICAL CONSULTING SERVICE LLC",
+        "current_name": "AL BATROSS AIR LLC",
+        "previous_cert_issue_date": "20240120",
+        "current_cert_issue_date": "20260619",
+        "state": "AL"
+      },
+      {
+        "key": "hex:AC4DA6",
+        "n_number": "892KC",
+        "model": "SR22T",
+        "previous_name": "LINCH SHAWN DAVID",
+        "current_name": "DYL CHRISTOPHER",
+        "previous_cert_issue_date": "20250117",
+        "current_cert_issue_date": "20260619",
+        "state": "CA"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]
