@@ -159,5 +159,12 @@
     "flights": 0,
     "utilization_pct": 1.939,
     "source": "airplanes_live"
+  },
+  {
+    "date": "2026-07-01",
+    "distinct_aircraft_seen": 198,
+    "flights": 0,
+    "utilization_pct": 2.232,
+    "source": "airplanes_live"
   }
 ]
