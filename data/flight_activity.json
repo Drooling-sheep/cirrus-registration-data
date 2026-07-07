@@ -1,7 +1,7 @@
 {
   "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
   "source": "airplanes_live",
-  "as_of": "2026-07-06T22:12:56.457595+00:00",
+  "as_of": "2026-07-07T22:10:19.192458+00:00",
   "window": "current_state_sample",
   "fleet_hex_count": 8872,
   "tracked_lines": {
@@ -9,9 +9,9 @@
     "SF50": 681,
     "other": 1
   },
-  "distinct_aircraft_seen": 18,
+  "distinct_aircraft_seen": 155,
   "flights": 0,
-  "utilization_pct": 0.203,
+  "utilization_pct": 1.747,
   "by_period": [
     {
       "date": "2026-06-04",
@@ -215,146 +215,156 @@
       "flights": 0,
       "utilization_pct": 0.203,
       "source": "airplanes_live"
+    },
+    {
+      "date": "2026-07-07",
+      "distinct_aircraft_seen": 155,
+      "flights": 0,
+      "utilization_pct": 1.747,
+      "source": "airplanes_live"
     }
   ],
   "by_line": [
     {
       "line": "SF50",
       "fleet_hex_count": 681,
-      "distinct_aircraft_seen": 5,
-      "utilization_pct": 0.734
+      "distinct_aircraft_seen": 15,
+      "utilization_pct": 2.203
     },
     {
       "line": "SR",
       "fleet_hex_count": 8190,
-      "distinct_aircraft_seen": 13,
-      "utilization_pct": 0.159
+      "distinct_aircraft_seen": 139,
+      "utilization_pct": 1.697
     },
     {
       "line": "other",
       "fleet_hex_count": 1,
-      "distinct_aircraft_seen": 0,
-      "utilization_pct": 0.0
+      "distinct_aircraft_seen": 1,
+      "utilization_pct": 100.0
     }
   ],
   "active_sample": [
     {
-      "hex": "a00071",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "1EL"
-    },
-    {
-      "hex": "a049fb",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "118AR"
-    },
-    {
-      "hex": "a04daf",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "119AN"
-    },
-    {
-      "hex": "a06122",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "123ZM"
-    },
-    {
-      "hex": "a06a97",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "126GE"
-    },
-    {
-      "hex": "a07abc",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "13VJ"
-    },
-    {
-      "hex": "a0918c",
+      "hex": "a003b6",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "136AS"
+      "n_number": "10PX"
     },
     {
-      "hex": "a099ff",
+      "hex": "a010f6",
       "model": "SR22",
       "line": "SR",
-      "n_number": "138MC"
+      "n_number": "103MK"
     },
     {
-      "hex": "a0a131",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "14JT"
-    },
-    {
-      "hex": "a0a7b3",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "141PG"
-    },
-    {
-      "hex": "a0b168",
+      "hex": "a02aa8",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "1439"
+      "n_number": "11JF"
     },
     {
-      "hex": "a0c085",
+      "hex": "a02ea4",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "148BD"
+      "n_number": "11000"
     },
     {
-      "hex": "a0ef80",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "16BT"
-    },
-    {
-      "hex": "a128aa",
+      "hex": "a03c8f",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "174GL"
+      "n_number": "114RJ"
     },
     {
-      "hex": "a15623",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "1854"
+      "hex": "a05bf8",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "122JR"
     },
     {
-      "hex": "a15996",
+      "hex": "a063a3",
       "model": "SR22",
       "line": "SR",
-      "n_number": "1862B"
+      "n_number": "124MB"
     },
     {
-      "hex": "a1623f",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "189BL"
+      "hex": "a063dd",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "124PK"
     },
     {
-      "hex": "a16c31",
+      "hex": "a07caf",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "130RG"
+    },
+    {
+      "hex": "a07f4d",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "131EA"
+    },
+    {
+      "hex": "a08335",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "132G"
+    },
+    {
+      "hex": "a0847b",
       "model": "SR20",
       "line": "SR",
-      "n_number": "191DD"
+      "n_number": "132VA"
+    },
+    {
+      "hex": "a0c7fb",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "15BM"
+    },
+    {
+      "hex": "a0c954",
+      "model": "SF50",
+      "line": "SF50",
+      "n_number": "15RG"
+    },
+    {
+      "hex": "a0c95f",
+      "model": "SRT",
+      "line": "other",
+      "n_number": "15RT"
+    },
+    {
+      "hex": "a0d94d",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "154CR"
+    },
+    {
+      "hex": "a0dca6",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "1549H"
+    },
+    {
+      "hex": "a0f07a",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "16MT"
+    },
+    {
+      "hex": "a11d1a",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "171CD"
+    },
+    {
+      "hex": "a1594e",
+      "model": "SF50",
+      "line": "SF50",
+      "n_number": "1860"
     }
   ],
-  "errors": [
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests",
-    "HTTP Error 429: Too Many Requests"
-  ]
+  "errors": []
 }
