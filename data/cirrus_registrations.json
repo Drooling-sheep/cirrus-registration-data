@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T22:00:25.315209+00:00",
+  "generated_at": "2026-07-11T21:47:38.030265+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -9872,7 +9872,7 @@
   "flight_activity": {
     "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
     "source": "airplanes_live",
-    "as_of": "2026-07-10T22:00:25.170257+00:00",
+    "as_of": "2026-07-11T21:47:37.882534+00:00",
     "window": "current_state_sample",
     "fleet_hex_count": 8872,
     "tracked_lines": {
@@ -9880,9 +9880,9 @@
       "SF50": 681,
       "other": 1
     },
-    "distinct_aircraft_seen": 167,
+    "distinct_aircraft_seen": 109,
     "flights": 0,
-    "utilization_pct": 1.882,
+    "utilization_pct": 1.229,
     "by_period": [
       {
         "date": "2026-06-04",
@@ -10114,20 +10114,27 @@
         "flights": 0,
         "utilization_pct": 1.882,
         "source": "airplanes_live"
+      },
+      {
+        "date": "2026-07-11",
+        "distinct_aircraft_seen": 109,
+        "flights": 0,
+        "utilization_pct": 1.229,
+        "source": "airplanes_live"
       }
     ],
     "by_line": [
       {
         "line": "SF50",
         "fleet_hex_count": 681,
-        "distinct_aircraft_seen": 20,
-        "utilization_pct": 2.937
+        "distinct_aircraft_seen": 13,
+        "utilization_pct": 1.909
       },
       {
         "line": "SR",
         "fleet_hex_count": 8190,
-        "distinct_aircraft_seen": 147,
-        "utilization_pct": 1.795
+        "distinct_aircraft_seen": 96,
+        "utilization_pct": 1.172
       },
       {
         "line": "other",
@@ -10138,22 +10145,28 @@
     ],
     "active_sample": [
       {
-        "hex": "a006ef",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "100YW"
+        "hex": "a00071",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "1EL"
       },
       {
-        "hex": "a00cd4",
+        "hex": "a01fdf",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "102HC"
+        "n_number": "107MY"
       },
       {
-        "hex": "a03b5c",
+        "hex": "a0579f",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "114DB"
+        "n_number": "121CD"
+      },
+      {
+        "hex": "a06dd8",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "127BM"
       },
       {
         "hex": "a079c1",
@@ -10162,100 +10175,94 @@
         "n_number": "13KH"
       },
       {
-        "hex": "a08e9d",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "135JS"
-      },
-      {
-        "hex": "a099ff",
+        "hex": "a13fe4",
         "model": "SR22",
         "line": "SR",
-        "n_number": "138MC"
+        "n_number": "18SA"
       },
       {
-        "hex": "a11015",
-        "model": "SF50",
-        "line": "SF50",
-        "n_number": "168H"
-      },
-      {
-        "hex": "a1404b",
+        "hex": "a1404e",
         "model": "SR22",
         "line": "SR",
-        "n_number": "18WD"
+        "n_number": "18WG"
       },
       {
-        "hex": "a1453c",
+        "hex": "a18015",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "196SR"
+      },
+      {
+        "hex": "a19352",
         "model": "SR20",
         "line": "SR",
-        "n_number": "181JS"
+        "n_number": "200PK"
       },
       {
-        "hex": "a15623",
-        "model": "SF50",
-        "line": "SF50",
-        "n_number": "1854"
-      },
-      {
-        "hex": "a16de8",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "191WT"
-      },
-      {
-        "hex": "a17f8b",
+        "hex": "a1c9fd",
         "model": "SR20",
         "line": "SR",
-        "n_number": "196MC"
+        "n_number": "214SQ"
       },
       {
-        "hex": "a19168",
-        "model": "SF50",
-        "line": "SF50",
-        "n_number": "20TW"
-      },
-      {
-        "hex": "a1bdba",
+        "hex": "a1e1ee",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "211FD"
+        "n_number": "220KM"
       },
       {
-        "hex": "a1d51d",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "217SK"
-      },
-      {
-        "hex": "a1d813",
+        "hex": "a1e671",
         "model": "SR20",
         "line": "SR",
-        "n_number": "218JS"
+        "n_number": "221TR"
       },
       {
-        "hex": "a1e2dd",
-        "model": "SR22T",
+        "hex": "a1f1e3",
+        "model": "SR22",
         "line": "SR",
-        "n_number": "220VA"
+        "n_number": "224WT"
       },
       {
-        "hex": "a1ee31",
-        "model": "SF50",
-        "line": "SF50",
-        "n_number": "223WY"
-      },
-      {
-        "hex": "a1f03a",
-        "model": "SF50",
-        "line": "SF50",
-        "n_number": "224DT"
-      },
-      {
-        "hex": "a1f5d2",
+        "hex": "a22ab7",
         "model": "SR20",
         "line": "SR",
-        "n_number": "225YZ"
+        "n_number": "239J"
+      },
+      {
+        "hex": "a247fb",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "246TJ"
+      },
+      {
+        "hex": "a24df9",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "248CR"
+      },
+      {
+        "hex": "a2560b",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "25KE"
+      },
+      {
+        "hex": "a271b5",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "257CD"
+      },
+      {
+        "hex": "a27e39",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "26SE"
+      },
+      {
+        "hex": "a2c0bb",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "277CM"
       }
     ],
     "errors": []
