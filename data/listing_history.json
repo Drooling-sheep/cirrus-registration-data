@@ -166,5 +166,10 @@
         "median_days_on_market": null
       }
     ]
+  },
+  {
+    "date": "2026-07-12",
+    "active_listing_count": 0,
+    "by_model": []
   }
 ]

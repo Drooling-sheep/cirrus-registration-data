@@ -326,5 +326,215 @@
       }
     ],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-07-12",
+    "transfers": 46,
+    "new": 33,
+    "deregistered": 21,
+    "added": 50,
+    "transfer_sample": [
+      {
+        "key": "hex:A07D31",
+        "n_number": "130WM",
+        "model": "SF50",
+        "previous_name": "M3 EQUIPMENT LLC",
+        "current_name": "MUITA LLC",
+        "previous_cert_issue_date": "20250114",
+        "current_cert_issue_date": "20260628",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A13170",
+        "n_number": "176WE",
+        "model": "SR22T",
+        "previous_name": "BAY AREA SYSTEMS LLC",
+        "current_name": "FLYING D LABS LLC",
+        "previous_cert_issue_date": "20180625",
+        "current_cert_issue_date": "20260628",
+        "state": "OR"
+      },
+      {
+        "key": "hex:A166B8",
+        "n_number": "19KE",
+        "model": "SR22T",
+        "previous_name": "LINKAN AVIATION LLC",
+        "current_name": "POPCORN IN THE CLOUDS LLC",
+        "previous_cert_issue_date": "20250107",
+        "current_cert_issue_date": "20260630",
+        "state": "NM"
+      },
+      {
+        "key": "hex:A175D7",
+        "n_number": "1931M",
+        "model": "SR22T",
+        "previous_name": "FREEDOM FLIGHT GROUP LLC",
+        "current_name": "ANCHOR AVIATION LLC",
+        "previous_cert_issue_date": "20250806",
+        "current_cert_issue_date": "20260707",
+        "state": "CO"
+      },
+      {
+        "key": "hex:A190A4",
+        "n_number": "20L",
+        "model": "SR22",
+        "previous_name": "STEELAIR AVIATION LLC",
+        "current_name": "N303CJ LLC #1",
+        "previous_cert_issue_date": "20160601",
+        "current_cert_issue_date": "20260701",
+        "state": "KY"
+      },
+      {
+        "key": "hex:A1C36E",
+        "n_number": "2121C",
+        "model": "SF50",
+        "previous_name": "CIRRUS DESIGN CORP",
+        "current_name": "QUALITAIR LLC TRUSTEE",
+        "previous_cert_issue_date": "20260414",
+        "current_cert_issue_date": "20260625",
+        "state": ""
+      },
+      {
+        "key": "hex:A1D51D",
+        "n_number": "217SK",
+        "model": "SR22T",
+        "previous_name": "FLYING MOLLY LLC",
+        "current_name": "THRUST AVIATION LLC",
+        "previous_cert_issue_date": "20260101",
+        "current_cert_issue_date": "20260710",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A1D53C",
+        "n_number": "217TR",
+        "model": "SF50",
+        "previous_name": "SF50 AERO LLC",
+        "current_name": "IRWIN AVIATION LLC",
+        "previous_cert_issue_date": "20240507",
+        "current_cert_issue_date": "20260701",
+        "state": "AR"
+      },
+      {
+        "key": "hex:A1E608",
+        "n_number": "221PL",
+        "model": "SR22T",
+        "previous_name": "N313DY LLC",
+        "current_name": "N312DY LLC",
+        "previous_cert_issue_date": "20260217",
+        "current_cert_issue_date": "20260620",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A1E658",
+        "n_number": "221SR",
+        "model": "SR22",
+        "previous_name": "RAMOS SAMMY",
+        "current_name": "BANK OF UTAH TRUSTEE",
+        "previous_cert_issue_date": "20250812",
+        "current_cert_issue_date": "20260707",
+        "state": "UT"
+      },
+      {
+        "key": "hex:A21815",
+        "n_number": "234HK",
+        "model": "SR22",
+        "previous_name": "OZUMO RESTAURANT VENTURES LLC",
+        "current_name": "EXPLORE AVIATION LLC",
+        "previous_cert_issue_date": "20140918",
+        "current_cert_issue_date": "20260701",
+        "state": "CA"
+      },
+      {
+        "key": "hex:A26443",
+        "n_number": "253SR",
+        "model": "SR22",
+        "previous_name": "N253SR LLC",
+        "current_name": "DARA MORTGAGE INC",
+        "previous_cert_issue_date": "20251010",
+        "current_cert_issue_date": "20260708",
+        "state": "NV"
+      },
+      {
+        "key": "hex:A28A58",
+        "n_number": "263CD",
+        "model": "SR20",
+        "previous_name": "LELYSTAD CIRRUS INC TRUSTEE",
+        "current_name": "HAYON ILAN",
+        "previous_cert_issue_date": "20200918",
+        "current_cert_issue_date": "20260706",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A2DB26",
+        "n_number": "283WT",
+        "model": "SR22",
+        "previous_name": "AIRSPEED AVIATION LLC",
+        "current_name": "BLUE NEXUS LLC",
+        "previous_cert_issue_date": "20230821",
+        "current_cert_issue_date": "20260627",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A31BFE",
+        "n_number": "3Q",
+        "model": "SF50",
+        "previous_name": "PAXTON AIR LLC",
+        "current_name": "DELTA CHARLIER AVIATION LLC",
+        "previous_cert_issue_date": "20260126",
+        "current_cert_issue_date": "20260708",
+        "state": "IL"
+      },
+      {
+        "key": "hex:A35036",
+        "n_number": "312WC",
+        "model": "SR20",
+        "previous_name": "KAYU LLC",
+        "current_name": "MCGRATH RICHARD BRIAN",
+        "previous_cert_issue_date": "20200724",
+        "current_cert_issue_date": "20260630",
+        "state": "GA"
+      },
+      {
+        "key": "hex:A3530E",
+        "n_number": "313ME",
+        "model": "SR22T",
+        "previous_name": "313ME LLC",
+        "current_name": "BASILLE VISION LLC",
+        "previous_cert_issue_date": "20240228",
+        "current_cert_issue_date": "20260626",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A36C9D",
+        "n_number": "32GR",
+        "model": "SR22",
+        "previous_name": "SPRUCE CREEK AIRCRAFT HOLDINGS LLC",
+        "current_name": "ANGELLA TONY",
+        "previous_cert_issue_date": "20140804",
+        "current_cert_issue_date": "20260627",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A3946D",
+        "n_number": "33KX",
+        "model": "SR22T",
+        "previous_name": "N33KB LLC",
+        "current_name": "EASY PEASY AVIATION LLC",
+        "previous_cert_issue_date": "20220411",
+        "current_cert_issue_date": "20260710",
+        "state": "MO"
+      },
+      {
+        "key": "hex:A45D11",
+        "n_number": "380UE",
+        "model": "SR22",
+        "previous_name": "COLUMBIA ASSET TRUST CORP TRUSTEE",
+        "current_name": "VALIAIR LC TRUSTEE",
+        "previous_cert_issue_date": "20210312",
+        "current_cert_issue_date": "20260629",
+        "state": "WY"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]

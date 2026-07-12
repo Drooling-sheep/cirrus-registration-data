@@ -329,6 +329,216 @@
           }
         ],
         "previous_snapshot_available": true
+      },
+      {
+        "date": "2026-07-12",
+        "transfers": 46,
+        "new": 33,
+        "deregistered": 21,
+        "added": 50,
+        "transfer_sample": [
+          {
+            "key": "hex:A07D31",
+            "n_number": "130WM",
+            "model": "SF50",
+            "previous_name": "M3 EQUIPMENT LLC",
+            "current_name": "MUITA LLC",
+            "previous_cert_issue_date": "20250114",
+            "current_cert_issue_date": "20260628",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A13170",
+            "n_number": "176WE",
+            "model": "SR22T",
+            "previous_name": "BAY AREA SYSTEMS LLC",
+            "current_name": "FLYING D LABS LLC",
+            "previous_cert_issue_date": "20180625",
+            "current_cert_issue_date": "20260628",
+            "state": "OR"
+          },
+          {
+            "key": "hex:A166B8",
+            "n_number": "19KE",
+            "model": "SR22T",
+            "previous_name": "LINKAN AVIATION LLC",
+            "current_name": "POPCORN IN THE CLOUDS LLC",
+            "previous_cert_issue_date": "20250107",
+            "current_cert_issue_date": "20260630",
+            "state": "NM"
+          },
+          {
+            "key": "hex:A175D7",
+            "n_number": "1931M",
+            "model": "SR22T",
+            "previous_name": "FREEDOM FLIGHT GROUP LLC",
+            "current_name": "ANCHOR AVIATION LLC",
+            "previous_cert_issue_date": "20250806",
+            "current_cert_issue_date": "20260707",
+            "state": "CO"
+          },
+          {
+            "key": "hex:A190A4",
+            "n_number": "20L",
+            "model": "SR22",
+            "previous_name": "STEELAIR AVIATION LLC",
+            "current_name": "N303CJ LLC #1",
+            "previous_cert_issue_date": "20160601",
+            "current_cert_issue_date": "20260701",
+            "state": "KY"
+          },
+          {
+            "key": "hex:A1C36E",
+            "n_number": "2121C",
+            "model": "SF50",
+            "previous_name": "CIRRUS DESIGN CORP",
+            "current_name": "QUALITAIR LLC TRUSTEE",
+            "previous_cert_issue_date": "20260414",
+            "current_cert_issue_date": "20260625",
+            "state": ""
+          },
+          {
+            "key": "hex:A1D51D",
+            "n_number": "217SK",
+            "model": "SR22T",
+            "previous_name": "FLYING MOLLY LLC",
+            "current_name": "THRUST AVIATION LLC",
+            "previous_cert_issue_date": "20260101",
+            "current_cert_issue_date": "20260710",
+            "state": "TX"
+          },
+          {
+            "key": "hex:A1D53C",
+            "n_number": "217TR",
+            "model": "SF50",
+            "previous_name": "SF50 AERO LLC",
+            "current_name": "IRWIN AVIATION LLC",
+            "previous_cert_issue_date": "20240507",
+            "current_cert_issue_date": "20260701",
+            "state": "AR"
+          },
+          {
+            "key": "hex:A1E608",
+            "n_number": "221PL",
+            "model": "SR22T",
+            "previous_name": "N313DY LLC",
+            "current_name": "N312DY LLC",
+            "previous_cert_issue_date": "20260217",
+            "current_cert_issue_date": "20260620",
+            "state": "TX"
+          },
+          {
+            "key": "hex:A1E658",
+            "n_number": "221SR",
+            "model": "SR22",
+            "previous_name": "RAMOS SAMMY",
+            "current_name": "BANK OF UTAH TRUSTEE",
+            "previous_cert_issue_date": "20250812",
+            "current_cert_issue_date": "20260707",
+            "state": "UT"
+          },
+          {
+            "key": "hex:A21815",
+            "n_number": "234HK",
+            "model": "SR22",
+            "previous_name": "OZUMO RESTAURANT VENTURES LLC",
+            "current_name": "EXPLORE AVIATION LLC",
+            "previous_cert_issue_date": "20140918",
+            "current_cert_issue_date": "20260701",
+            "state": "CA"
+          },
+          {
+            "key": "hex:A26443",
+            "n_number": "253SR",
+            "model": "SR22",
+            "previous_name": "N253SR LLC",
+            "current_name": "DARA MORTGAGE INC",
+            "previous_cert_issue_date": "20251010",
+            "current_cert_issue_date": "20260708",
+            "state": "NV"
+          },
+          {
+            "key": "hex:A28A58",
+            "n_number": "263CD",
+            "model": "SR20",
+            "previous_name": "LELYSTAD CIRRUS INC TRUSTEE",
+            "current_name": "HAYON ILAN",
+            "previous_cert_issue_date": "20200918",
+            "current_cert_issue_date": "20260706",
+            "state": "FL"
+          },
+          {
+            "key": "hex:A2DB26",
+            "n_number": "283WT",
+            "model": "SR22",
+            "previous_name": "AIRSPEED AVIATION LLC",
+            "current_name": "BLUE NEXUS LLC",
+            "previous_cert_issue_date": "20230821",
+            "current_cert_issue_date": "20260627",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A31BFE",
+            "n_number": "3Q",
+            "model": "SF50",
+            "previous_name": "PAXTON AIR LLC",
+            "current_name": "DELTA CHARLIER AVIATION LLC",
+            "previous_cert_issue_date": "20260126",
+            "current_cert_issue_date": "20260708",
+            "state": "IL"
+          },
+          {
+            "key": "hex:A35036",
+            "n_number": "312WC",
+            "model": "SR20",
+            "previous_name": "KAYU LLC",
+            "current_name": "MCGRATH RICHARD BRIAN",
+            "previous_cert_issue_date": "20200724",
+            "current_cert_issue_date": "20260630",
+            "state": "GA"
+          },
+          {
+            "key": "hex:A3530E",
+            "n_number": "313ME",
+            "model": "SR22T",
+            "previous_name": "313ME LLC",
+            "current_name": "BASILLE VISION LLC",
+            "previous_cert_issue_date": "20240228",
+            "current_cert_issue_date": "20260626",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A36C9D",
+            "n_number": "32GR",
+            "model": "SR22",
+            "previous_name": "SPRUCE CREEK AIRCRAFT HOLDINGS LLC",
+            "current_name": "ANGELLA TONY",
+            "previous_cert_issue_date": "20140804",
+            "current_cert_issue_date": "20260627",
+            "state": "FL"
+          },
+          {
+            "key": "hex:A3946D",
+            "n_number": "33KX",
+            "model": "SR22T",
+            "previous_name": "N33KB LLC",
+            "current_name": "EASY PEASY AVIATION LLC",
+            "previous_cert_issue_date": "20220411",
+            "current_cert_issue_date": "20260710",
+            "state": "MO"
+          },
+          {
+            "key": "hex:A45D11",
+            "n_number": "380UE",
+            "model": "SR22",
+            "previous_name": "COLUMBIA ASSET TRUST CORP TRUSTEE",
+            "current_name": "VALIAIR LC TRUSTEE",
+            "previous_cert_issue_date": "20210312",
+            "current_cert_issue_date": "20260629",
+            "state": "WY"
+          }
+        ],
+        "previous_snapshot_available": true
       }
     ],
     "by_year_yearmfr_gap": [
@@ -418,16 +628,16 @@
       },
       {
         "cert_year": 2013,
-        "registrations": 85,
+        "registrations": 84,
         "new_like": 11,
-        "used_like_incl_renewals": 71,
+        "used_like_incl_renewals": 70,
         "unknown_year_mfr": 3
       },
       {
         "cert_year": 2014,
-        "registrations": 106,
+        "registrations": 103,
         "new_like": 18,
-        "used_like_incl_renewals": 87,
+        "used_like_incl_renewals": 84,
         "unknown_year_mfr": 1
       },
       {
@@ -439,9 +649,9 @@
       },
       {
         "cert_year": 2016,
-        "registrations": 179,
+        "registrations": 178,
         "new_like": 40,
-        "used_like_incl_renewals": 136,
+        "used_like_incl_renewals": 135,
         "unknown_year_mfr": 3
       },
       {
@@ -453,395 +663,75 @@
       },
       {
         "cert_year": 2018,
-        "registrations": 241,
-        "new_like": 73,
-        "used_like_incl_renewals": 159,
+        "registrations": 237,
+        "new_like": 71,
+        "used_like_incl_renewals": 157,
         "unknown_year_mfr": 9
       },
       {
         "cert_year": 2019,
-        "registrations": 356,
-        "new_like": 96,
-        "used_like_incl_renewals": 234,
-        "unknown_year_mfr": 26
+        "registrations": 353,
+        "new_like": 95,
+        "used_like_incl_renewals": 233,
+        "unknown_year_mfr": 25
       },
       {
         "cert_year": 2020,
-        "registrations": 465,
-        "new_like": 109,
-        "used_like_incl_renewals": 324,
-        "unknown_year_mfr": 32
+        "registrations": 461,
+        "new_like": 107,
+        "used_like_incl_renewals": 323,
+        "unknown_year_mfr": 31
       },
       {
         "cert_year": 2021,
-        "registrations": 620,
-        "new_like": 167,
-        "used_like_incl_renewals": 422,
+        "registrations": 617,
+        "new_like": 166,
+        "used_like_incl_renewals": 420,
         "unknown_year_mfr": 31
       },
       {
         "cert_year": 2022,
-        "registrations": 660,
-        "new_like": 179,
-        "used_like_incl_renewals": 423,
+        "registrations": 656,
+        "new_like": 177,
+        "used_like_incl_renewals": 421,
         "unknown_year_mfr": 58
       },
       {
         "cert_year": 2023,
-        "registrations": 1277,
-        "new_like": 509,
-        "used_like_incl_renewals": 688,
+        "registrations": 1267,
+        "new_like": 506,
+        "used_like_incl_renewals": 681,
         "unknown_year_mfr": 80
       },
       {
         "cert_year": 2024,
-        "registrations": 1398,
-        "new_like": 587,
-        "used_like_incl_renewals": 753,
+        "registrations": 1392,
+        "new_like": 586,
+        "used_like_incl_renewals": 748,
         "unknown_year_mfr": 58
       },
       {
         "cert_year": 2025,
-        "registrations": 1766,
-        "new_like": 753,
-        "used_like_incl_renewals": 964,
+        "registrations": 1755,
+        "new_like": 749,
+        "used_like_incl_renewals": 957,
         "unknown_year_mfr": 49
       },
       {
         "cert_year": 2026,
-        "registrations": 846,
-        "new_like": 298,
-        "used_like_incl_renewals": 505,
-        "unknown_year_mfr": 43
+        "registrations": 927,
+        "new_like": 329,
+        "used_like_incl_renewals": 544,
+        "unknown_year_mfr": 54
       }
     ]
   },
   "listings": {
-    "as_of": "2026-06-21T23:15:10.542535+00:00",
-    "sources": [
-      "ASO"
-    ],
-    "active_listing_count": 276,
-    "by_model": [
-      {
-        "model": "SF50",
-        "active_listings": 16,
-        "median_ask": 2824450,
-        "p25_ask": 2523675,
-        "p75_ask": 3274675,
-        "price_coverage_pct": 87.5,
-        "median_days_on_market": null
-      },
-      {
-        "model": "SR20",
-        "active_listings": 68,
-        "median_ask": 499450,
-        "p25_ask": 397400,
-        "p75_ask": 549900,
-        "price_coverage_pct": 100.0,
-        "median_days_on_market": null
-      },
-      {
-        "model": "SR22",
-        "active_listings": 94,
-        "median_ask": 434900,
-        "p25_ask": 329900,
-        "p75_ask": 729900,
-        "price_coverage_pct": 98.9,
-        "median_days_on_market": null
-      },
-      {
-        "model": "SR22T",
-        "active_listings": 98,
-        "median_ask": 799900,
-        "p25_ask": 649900,
-        "p75_ask": 909950,
-        "price_coverage_pct": 96.9,
-        "median_days_on_market": null
-      }
-    ],
-    "sample": [
-      {
-        "key": "n:N82WF",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2016,
-        "asking_price": 1789900,
-        "registration": "N82WF",
-        "serial": "0007",
-        "location": "CA",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=200170"
-      },
-      {
-        "key": "n:N535JP",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2017,
-        "asking_price": 1774900,
-        "registration": "N535JP",
-        "serial": "0028",
-        "location": "MN",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201063"
-      },
-      {
-        "key": "n:N204HS",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2019,
-        "asking_price": 2499900,
-        "registration": "N204HS",
-        "serial": "0099",
-        "location": "CT",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=199780"
-      },
-      {
-        "key": "n:T7-HGW",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2019,
-        "asking_price": 2175000,
-        "registration": "T7-HGW",
-        "serial": "0106",
-        "location": "Business Aviation S...",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "2020 Cirrus Vision SF50 G2",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202140"
-      },
-      {
-        "key": "n:N102JL",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2020,
-        "asking_price": 2595000,
-        "registration": "N102JL",
-        "serial": "0192",
-        "location": "WV",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202498"
-      },
-      {
-        "key": "n:N255M",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2020,
-        "asking_price": 2799000,
-        "registration": "N255M",
-        "serial": "0219",
-        "location": "AZ",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201257"
-      },
-      {
-        "key": "n:N33PK",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2020,
-        "asking_price": 2600000,
-        "registration": "N33PK",
-        "serial": "0206",
-        "location": "TX",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201102"
-      },
-      {
-        "key": "n:N63KL",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2021,
-        "asking_price": 2849900,
-        "registration": "N63KL",
-        "serial": "0311",
-        "location": "MD",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202106"
-      },
-      {
-        "key": "n:N73SG",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2021,
-        "asking_price": 2949900,
-        "registration": "N73SG",
-        "serial": "0284",
-        "location": "FL",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201309"
-      },
-      {
-        "key": "n:PS-YES",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2021,
-        "asking_price": null,
-        "registration": "PS-YES",
-        "serial": "0314",
-        "location": "Jet HQ",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "2023 Cirrus Vision SF50 G2+",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202456"
-      },
-      {
-        "key": "n:N519AB",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2022,
-        "asking_price": 3199000,
-        "registration": "N519AB",
-        "serial": "0381",
-        "location": "MN",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202159"
-      },
-      {
-        "key": "n:N71AB",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2022,
-        "asking_price": 3499000,
-        "registration": "N71AB",
-        "serial": "0341",
-        "location": "MN",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201105"
-      },
-      {
-        "key": "n:N3EE",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2023,
-        "asking_price": null,
-        "registration": "N3EE",
-        "serial": "0427",
-        "location": "MT",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Tern Jet Sales",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201862"
-      },
-      {
-        "key": "n:N300VJ",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2024,
-        "asking_price": 3400000,
-        "registration": "N300VJ",
-        "serial": "0555",
-        "location": "ME",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202108"
-      },
-      {
-        "key": "n:T7-VSN",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2024,
-        "asking_price": 3299900,
-        "registration": "T7-VSN",
-        "serial": "0529",
-        "location": "Aerista",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "2024 Cirrus Vision SF50 - G2+ ...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202154"
-      },
-      {
-        "key": "n:N520TD",
-        "source_site": "ASO",
-        "model": "SF50",
-        "year": 2025,
-        "asking_price": 3599900,
-        "registration": "N520TD",
-        "serial": "0636",
-        "location": "VA",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201767"
-      },
-      {
-        "key": "n:N100YY",
-        "source_site": "ASO",
-        "model": "SR20",
-        "year": 2002,
-        "asking_price": 239898,
-        "registration": "N100YY",
-        "serial": "1183",
-        "location": "Aerista",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "2002 Cirrus SR20 G1",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201623"
-      },
-      {
-        "key": "n:N501DF",
-        "source_site": "ASO",
-        "model": "SR20",
-        "year": 2002,
-        "asking_price": 244900,
-        "registration": "N501DF",
-        "serial": "1173",
-        "location": "CO",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=201992"
-      },
-      {
-        "key": "n:N52915",
-        "source_site": "ASO",
-        "model": "SR20",
-        "year": 2004,
-        "asking_price": 230000,
-        "registration": "N52915",
-        "serial": "1411",
-        "location": "SC",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Lone Mountain Aircr...",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=199706"
-      },
-      {
-        "key": "n:N455PG",
-        "source_site": "ASO",
-        "model": "SR20",
-        "year": 2006,
-        "asking_price": 284900,
-        "registration": "N455PG",
-        "serial": "1615",
-        "location": "UT",
-        "listing_date": "",
-        "days_on_market": null,
-        "dealer": "Aerista",
-        "url": "https://www.aso.com/listings/spec/ViewAd.aspx?id=202520"
-      }
-    ],
+    "as_of": "2026-07-12T22:50:14.597132+00:00",
+    "sources": [],
+    "active_listing_count": 0,
+    "by_model": [],
+    "sample": [],
     "input_note": "Listings are loaded from data/listings_manual.csv and the low-frequency ASO public listing summary scraper after robots.txt review. Asking prices are not closing prices.",
     "history": [
       {
@@ -1011,6 +901,11 @@
             "median_days_on_market": null
           }
         ]
+      },
+      {
+        "date": "2026-07-12",
+        "active_listing_count": 0,
+        "by_model": []
       }
     ]
   }
