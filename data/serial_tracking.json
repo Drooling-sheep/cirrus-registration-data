@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T22:50:14.729193+00:00",
+  "generated_at": "2026-07-19T22:53:19.975160+00:00",
   "note": "基于 FAA 当前有效 Cirrus 注册记录中的序列号。该指标是美国可见的最大序列号进度，是全球真实产量的下限代理，非精确产量。",
   "serial_parse_rule": "SERIAL NUMBER is parsed by extracting the longest digit group and removing leading zeroes; current Cirrus samples are mostly numeric strings.",
   "model_line_rule": {
@@ -21,8 +21,8 @@
     "SF50": {
       "line": "SF50",
       "max_serial_us": 781,
-      "count_registered": 681,
-      "parsed_serial_count": 681,
+      "count_registered": 688,
+      "parsed_serial_count": 688,
       "parse_failures": 0,
       "raw_serial_samples": [
         {
@@ -149,7 +149,7 @@
           "raw_serial": "0780",
           "model": "SF50",
           "n_number": "780SF",
-          "year_mfr": null,
+          "year_mfr": 2026,
           "cert_issue_date": "20260610",
           "state": "FL"
         },
@@ -158,7 +158,7 @@
           "raw_serial": "0779",
           "model": "SF50",
           "n_number": "32MK",
-          "year_mfr": null,
+          "year_mfr": 2026,
           "cert_issue_date": "20260608",
           "state": "DE"
         },
@@ -167,9 +167,18 @@
           "raw_serial": "0778",
           "model": "SF50",
           "n_number": "528WD",
-          "year_mfr": null,
+          "year_mfr": 2026,
           "cert_issue_date": "20260616",
           "state": "WY"
+        },
+        {
+          "serial": 777,
+          "raw_serial": "0777",
+          "model": "SF50",
+          "n_number": "777EX",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260709",
+          "state": "FL"
         },
         {
           "serial": 774,
@@ -177,8 +186,17 @@
           "model": "SF50",
           "n_number": "774VJ",
           "year_mfr": 2026,
-          "cert_issue_date": "20260527",
-          "state": "MN"
+          "cert_issue_date": "20260701",
+          "state": "DE"
+        },
+        {
+          "serial": 772,
+          "raw_serial": "0772",
+          "model": "SF50",
+          "n_number": "47AA",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260623",
+          "state": "OK"
         },
         {
           "serial": 766,
@@ -235,6 +253,15 @@
           "state": "MT"
         },
         {
+          "serial": 758,
+          "raw_serial": "0758",
+          "model": "SF50",
+          "n_number": "70BP",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260708",
+          "state": "AZ"
+        },
+        {
           "serial": 757,
           "raw_serial": "0757",
           "model": "SF50",
@@ -249,8 +276,17 @@
           "model": "SF50",
           "n_number": "2121C",
           "year_mfr": 2026,
-          "cert_issue_date": "20260414",
-          "state": "MN"
+          "cert_issue_date": "20260625",
+          "state": ""
+        },
+        {
+          "serial": 755,
+          "raw_serial": "0755",
+          "model": "SF50",
+          "n_number": "717LK",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260706",
+          "state": "CO"
         },
         {
           "serial": 754,
@@ -262,6 +298,15 @@
           "state": "NV"
         },
         {
+          "serial": 753,
+          "raw_serial": "0753",
+          "model": "SF50",
+          "n_number": "69XX",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260622",
+          "state": "MT"
+        },
+        {
           "serial": 752,
           "raw_serial": "0752",
           "model": "SF50",
@@ -269,51 +314,6 @@
           "year_mfr": 2026,
           "cert_issue_date": "20260619",
           "state": "CA"
-        },
-        {
-          "serial": 750,
-          "raw_serial": "0750",
-          "model": "SF50",
-          "n_number": "7166L",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260512",
-          "state": "MI"
-        },
-        {
-          "serial": 749,
-          "raw_serial": "0749",
-          "model": "SF50",
-          "n_number": "13LX",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260324",
-          "state": "NE"
-        },
-        {
-          "serial": 747,
-          "raw_serial": "0747",
-          "model": "SF50",
-          "n_number": "999PK",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260428",
-          "state": "WY"
-        },
-        {
-          "serial": 746,
-          "raw_serial": "0746",
-          "model": "SF50",
-          "n_number": "1GT",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260531",
-          "state": "NH"
-        },
-        {
-          "serial": 745,
-          "raw_serial": "0745",
-          "model": "SF50",
-          "n_number": "25KQ",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260610",
-          "state": "MT"
         }
       ],
       "serials_by_year": [
@@ -345,7 +345,7 @@
         {
           "year": 2020,
           "max_serial": 246,
-          "count": 66
+          "count": 67
         },
         {
           "year": 2021,
@@ -374,8 +374,8 @@
         },
         {
           "year": 2026,
-          "max_serial": 774,
-          "count": 33
+          "max_serial": 780,
+          "count": 42
         }
       ],
       "max_serial_history": [
@@ -403,6 +403,11 @@
           "date": "2026-07-12",
           "max_serial": 781,
           "count": 681
+        },
+        {
+          "date": "2026-07-19",
+          "max_serial": 781,
+          "count": 688
         }
       ],
       "monthly_serial_deltas": [
@@ -429,15 +434,21 @@
           "delta_serial": 1,
           "months_elapsed": 0.69,
           "rate_per_month": 1.45
+        },
+        {
+          "date": "2026-07-19",
+          "delta_serial": 0,
+          "months_elapsed": 0.23,
+          "rate_per_month": 0.0
         }
       ],
-      "build_rate_est_per_month": 6.46
+      "build_rate_est_per_month": 6.09
     },
     "SR": {
       "line": "SR",
-      "max_serial_us": 11327,
-      "count_registered": 8190,
-      "parsed_serial_count": 8190,
+      "max_serial_us": 11482,
+      "count_registered": 8212,
+      "parsed_serial_count": 8212,
       "parse_failures": 0,
       "raw_serial_samples": [
         {
@@ -551,6 +562,123 @@
       ],
       "recent_serials": [
         {
+          "serial": 11482,
+          "raw_serial": "11482",
+          "model": "SR22",
+          "n_number": "262ZA",
+          "year_mfr": null,
+          "cert_issue_date": "20260708",
+          "state": "DE"
+        },
+        {
+          "serial": 11480,
+          "raw_serial": "11480",
+          "model": "SR22T",
+          "n_number": "297HB",
+          "year_mfr": null,
+          "cert_issue_date": "20260707",
+          "state": "WY"
+        },
+        {
+          "serial": 11477,
+          "raw_serial": "11477",
+          "model": "SR22T",
+          "n_number": "272EV",
+          "year_mfr": null,
+          "cert_issue_date": "20260624",
+          "state": "WA"
+        },
+        {
+          "serial": 11469,
+          "raw_serial": "11469",
+          "model": "SR22T",
+          "n_number": "515HD",
+          "year_mfr": null,
+          "cert_issue_date": "20260706",
+          "state": "WY"
+        },
+        {
+          "serial": 11466,
+          "raw_serial": "11466",
+          "model": "SR22T",
+          "n_number": "315CA",
+          "year_mfr": null,
+          "cert_issue_date": "20260702",
+          "state": "DE"
+        },
+        {
+          "serial": 11460,
+          "raw_serial": "11460",
+          "model": "SR22",
+          "n_number": "413RS",
+          "year_mfr": null,
+          "cert_issue_date": "20260626",
+          "state": "FL"
+        },
+        {
+          "serial": 11457,
+          "raw_serial": "11457",
+          "model": "SR22",
+          "n_number": "112CD",
+          "year_mfr": null,
+          "cert_issue_date": "20260706",
+          "state": "DE"
+        },
+        {
+          "serial": 11448,
+          "raw_serial": "11448",
+          "model": "SR22T",
+          "n_number": "296LN",
+          "year_mfr": null,
+          "cert_issue_date": "20260629",
+          "state": "WY"
+        },
+        {
+          "serial": 11439,
+          "raw_serial": "11439",
+          "model": "SR22T",
+          "n_number": "19EU",
+          "year_mfr": null,
+          "cert_issue_date": "20260708",
+          "state": "DE"
+        },
+        {
+          "serial": 11435,
+          "raw_serial": "11435",
+          "model": "SR22T",
+          "n_number": "228MK",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260626",
+          "state": "WY"
+        },
+        {
+          "serial": 11346,
+          "raw_serial": "11346",
+          "model": "SR22T",
+          "n_number": "696PM",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260622",
+          "state": "CA"
+        },
+        {
+          "serial": 11330,
+          "raw_serial": "11330",
+          "model": "SR22T",
+          "n_number": "31WZ",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260628",
+          "state": "SC"
+        },
+        {
+          "serial": 11328,
+          "raw_serial": "11328",
+          "model": "SR20",
+          "n_number": "418CD",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260706",
+          "state": "KS"
+        },
+        {
           "serial": 11327,
           "raw_serial": "11327",
           "model": "SR20",
@@ -569,13 +697,22 @@
           "state": "WY"
         },
         {
-          "serial": 11321,
-          "raw_serial": "11321",
-          "model": "SR20",
-          "n_number": "79MV",
+          "serial": 11324,
+          "raw_serial": "11324",
+          "model": "SR22T",
+          "n_number": "717BE",
           "year_mfr": 2026,
-          "cert_issue_date": "20260417",
-          "state": "WY"
+          "cert_issue_date": "20260628",
+          "state": "GA"
+        },
+        {
+          "serial": 11319,
+          "raw_serial": "11319",
+          "model": "SR22T",
+          "n_number": "523MP",
+          "year_mfr": 2026,
+          "cert_issue_date": "20260702",
+          "state": "DE"
         },
         {
           "serial": 11317,
@@ -587,148 +724,22 @@
           "state": "WY"
         },
         {
-          "serial": 11310,
-          "raw_serial": "11310",
-          "model": "SR22T",
-          "n_number": "313MR",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260409",
-          "state": "DE"
-        },
-        {
-          "serial": 11309,
-          "raw_serial": "11309",
-          "model": "SR22T",
-          "n_number": "260MX",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260417",
-          "state": "WY"
-        },
-        {
-          "serial": 11307,
-          "raw_serial": "11307",
+          "serial": 11316,
+          "raw_serial": "11316",
           "model": "SR20",
-          "n_number": "220MC",
+          "n_number": "48NM",
           "year_mfr": 2026,
-          "cert_issue_date": "20260602",
-          "state": "DE"
+          "cert_issue_date": "20260707",
+          "state": "WI"
         },
         {
-          "serial": 11306,
-          "raw_serial": "11306",
+          "serial": 11314,
+          "raw_serial": "11314",
           "model": "SR20",
-          "n_number": "721TP",
+          "n_number": "96MJ",
           "year_mfr": 2026,
-          "cert_issue_date": "20260617",
-          "state": "CA"
-        },
-        {
-          "serial": 11297,
-          "raw_serial": "11297",
-          "model": "SR20",
-          "n_number": "954JF",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260615",
-          "state": "TX"
-        },
-        {
-          "serial": 11293,
-          "raw_serial": "11293",
-          "model": "SR20",
-          "n_number": "623HA",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260618",
-          "state": "TN"
-        },
-        {
-          "serial": 11292,
-          "raw_serial": "11292",
-          "model": "SR22T",
-          "n_number": "330ST",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260610",
-          "state": "OK"
-        },
-        {
-          "serial": 11290,
-          "raw_serial": "11290",
-          "model": "SR22T",
-          "n_number": "361GM",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260612",
-          "state": "FL"
-        },
-        {
-          "serial": 11288,
-          "raw_serial": "11288",
-          "model": "SR20",
-          "n_number": "3775",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260610",
-          "state": "MT"
-        },
-        {
-          "serial": 11286,
-          "raw_serial": "11286",
-          "model": "SR20",
-          "n_number": "859BT",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260612",
-          "state": "KY"
-        },
-        {
-          "serial": 11285,
-          "raw_serial": "11285",
-          "model": "SR20",
-          "n_number": "27AV",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260612",
-          "state": "IA"
-        },
-        {
-          "serial": 11284,
-          "raw_serial": "11284",
-          "model": "SR22T",
-          "n_number": "250SR",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260616",
-          "state": "AZ"
-        },
-        {
-          "serial": 11281,
-          "raw_serial": "11281",
-          "model": "SR20",
-          "n_number": "604CC",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260618",
-          "state": "HI"
-        },
-        {
-          "serial": 11280,
-          "raw_serial": "11280",
-          "model": "SR22T",
-          "n_number": "9DM",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260602",
-          "state": "MS"
-        },
-        {
-          "serial": 11279,
-          "raw_serial": "11279",
-          "model": "SR20",
-          "n_number": "311ZZ",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260602",
-          "state": "WY"
-        },
-        {
-          "serial": 11278,
-          "raw_serial": "11278",
-          "model": "SR20",
-          "n_number": "216MM",
-          "year_mfr": 2026,
-          "cert_issue_date": "20260618",
-          "state": "CA"
+          "cert_issue_date": "20260703",
+          "state": "AL"
         }
       ],
       "serials_by_year": [
@@ -760,12 +771,12 @@
         {
           "year": 2004,
           "max_serial": 1474,
-          "count": 394
+          "count": 393
         },
         {
           "year": 2005,
           "max_serial": 1756,
-          "count": 407
+          "count": 406
         },
         {
           "year": 2006,
@@ -775,12 +786,12 @@
         {
           "year": 2007,
           "max_serial": 2902,
-          "count": 427
+          "count": 429
         },
         {
           "year": 2008,
           "max_serial": 3368,
-          "count": 316
+          "count": 315
         },
         {
           "year": 2009,
@@ -795,7 +806,7 @@
         {
           "year": 2011,
           "max_serial": 3827,
-          "count": 137
+          "count": 136
         },
         {
           "year": 2012,
@@ -810,7 +821,7 @@
         {
           "year": 2014,
           "max_serial": 4162,
-          "count": 196
+          "count": 194
         },
         {
           "year": 2015,
@@ -830,7 +841,7 @@
         {
           "year": 2018,
           "max_serial": 4734,
-          "count": 272
+          "count": 271
         },
         {
           "year": 2019,
@@ -840,17 +851,17 @@
         {
           "year": 2020,
           "max_serial": 4992,
-          "count": 294
+          "count": 293
         },
         {
           "year": 2021,
           "max_serial": 5149,
-          "count": 356
+          "count": 355
         },
         {
           "year": 2022,
           "max_serial": 9035,
-          "count": 407
+          "count": 406
         },
         {
           "year": 2023,
@@ -860,17 +871,17 @@
         {
           "year": 2024,
           "max_serial": 10397,
-          "count": 546
+          "count": 544
         },
         {
           "year": 2025,
           "max_serial": 11110,
-          "count": 634
+          "count": 633
         },
         {
           "year": 2026,
-          "max_serial": 11327,
-          "count": 149
+          "max_serial": 11435,
+          "count": 170
         }
       ],
       "max_serial_history": [
@@ -898,6 +909,11 @@
           "date": "2026-07-12",
           "max_serial": 11327,
           "count": 8190
+        },
+        {
+          "date": "2026-07-19",
+          "max_serial": 11482,
+          "count": 8212
         }
       ],
       "monthly_serial_deltas": [
@@ -924,9 +940,15 @@
           "delta_serial": 0,
           "months_elapsed": 0.69,
           "rate_per_month": 0.0
+        },
+        {
+          "date": "2026-07-19",
+          "delta_serial": 155,
+          "months_elapsed": 0.23,
+          "rate_per_month": 673.97
         }
       ],
-      "build_rate_est_per_month": -53.51
+      "build_rate_est_per_month": 84.35
     },
     "other": {
       "line": "other",
