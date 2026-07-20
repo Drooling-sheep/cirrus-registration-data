@@ -1,7 +1,7 @@
 {
   "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
   "source": "airplanes_live",
-  "as_of": "2026-07-19T22:53:31.461615+00:00",
+  "as_of": "2026-07-20T21:58:26.660914+00:00",
   "window": "current_state_sample",
   "fleet_hex_count": 8917,
   "tracked_lines": {
@@ -9,9 +9,9 @@
     "SF50": 688,
     "other": 3
   },
-  "distinct_aircraft_seen": 140,
+  "distinct_aircraft_seen": 162,
   "flights": 0,
-  "utilization_pct": 1.57,
+  "utilization_pct": 1.817,
   "by_period": [
     {
       "date": "2026-06-04",
@@ -306,20 +306,27 @@
       "flights": 0,
       "utilization_pct": 1.57,
       "source": "airplanes_live"
+    },
+    {
+      "date": "2026-07-20",
+      "distinct_aircraft_seen": 162,
+      "flights": 0,
+      "utilization_pct": 1.817,
+      "source": "airplanes_live"
     }
   ],
   "by_line": [
     {
       "line": "SF50",
       "fleet_hex_count": 688,
-      "distinct_aircraft_seen": 18,
-      "utilization_pct": 2.616
+      "distinct_aircraft_seen": 21,
+      "utilization_pct": 3.052
     },
     {
       "line": "SR",
       "fleet_hex_count": 8226,
-      "distinct_aircraft_seen": 122,
-      "utilization_pct": 1.483
+      "distinct_aircraft_seen": 141,
+      "utilization_pct": 1.714
     },
     {
       "line": "other",
@@ -330,124 +337,124 @@
   ],
   "active_sample": [
     {
-      "hex": "a006ef",
+      "hex": "a00a22",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "100YW"
+      "n_number": "101TP"
     },
     {
-      "hex": "a01fdf",
+      "hex": "a00b50",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "107MY"
+      "n_number": "1014A"
     },
     {
-      "hex": "a030ab",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "111HT"
-    },
-    {
-      "hex": "a0533d",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "12VJ"
-    },
-    {
-      "hex": "a05d6b",
-      "model": "SR22T",
-      "line": "SR",
-      "n_number": "122ZM"
-    },
-    {
-      "hex": "a06f6d",
-      "model": "SR22T",
-      "line": "SR",
-      "n_number": "127TS"
-    },
-    {
-      "hex": "a099ff",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "138MC"
-    },
-    {
-      "hex": "a0a7b3",
+      "hex": "a01485",
       "model": "SR20",
       "line": "SR",
-      "n_number": "141PG"
+      "n_number": "104KV"
     },
     {
-      "hex": "a0c954",
-      "model": "SF50",
-      "line": "SF50",
-      "n_number": "15RG"
-    },
-    {
-      "hex": "a0ef80",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "16BT"
-    },
-    {
-      "hex": "a0f954",
+      "hex": "a02fa6",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "162CF"
+      "n_number": "1108C"
     },
     {
-      "hex": "a0fb76",
+      "hex": "a03773",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "113BB"
+    },
+    {
+      "hex": "a03dfa",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "1144G"
+    },
+    {
+      "hex": "a03f1a",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "115DJ"
+    },
+    {
+      "hex": "a052b0",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "12PT"
+    },
+    {
+      "hex": "a05e11",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "1224N"
+    },
+    {
+      "hex": "a05f4d",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "123ET"
+    },
+    {
+      "hex": "a06a97",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "126GE"
+    },
+    {
+      "hex": "a078e5",
+      "model": "SR20",
+      "line": "SR",
+      "n_number": "13AN"
+    },
+    {
+      "hex": "a07caf",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "130RG"
+    },
+    {
+      "hex": "a07f4d",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "131EA"
+    },
+    {
+      "hex": "a08f64",
+      "model": "SR22",
+      "line": "SR",
+      "n_number": "135SR"
+    },
+    {
+      "hex": "a0c165",
       "model": "SR22T",
       "line": "SR",
-      "n_number": "1620B"
+      "n_number": "148LC"
     },
     {
-      "hex": "a10f9c",
+      "hex": "a0c738",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "1495T"
+    },
+    {
+      "hex": "a10235",
+      "model": "SR22T",
+      "line": "SR",
+      "n_number": "164TB"
+    },
+    {
+      "hex": "a11d1a",
       "model": "SR20",
       "line": "SR",
-      "n_number": "168CD"
+      "n_number": "171CD"
     },
     {
-      "hex": "a1453c",
-      "model": "SR20",
+      "hex": "a1248e",
+      "model": "SR22T",
       "line": "SR",
-      "n_number": "181JS"
-    },
-    {
-      "hex": "a16fc3",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "192BS"
-    },
-    {
-      "hex": "a18fc1",
-      "model": "SR20",
-      "line": "SR",
-      "n_number": "20AY"
-    },
-    {
-      "hex": "a1b83b",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "21LZ"
-    },
-    {
-      "hex": "a1c290",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "212SR"
-    },
-    {
-      "hex": "a1f06a",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "224FR"
-    },
-    {
-      "hex": "a1f0ab",
-      "model": "SR22",
-      "line": "SR",
-      "n_number": "224JF"
+      "n_number": "173CK"
     }
   ],
   "errors": []
