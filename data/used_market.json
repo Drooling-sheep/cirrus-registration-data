@@ -749,6 +749,216 @@
           }
         ],
         "previous_snapshot_available": true
+      },
+      {
+        "date": "2026-07-26",
+        "transfers": 36,
+        "new": 12,
+        "deregistered": 6,
+        "added": 16,
+        "transfer_sample": [
+          {
+            "key": "hex:A03ED4",
+            "n_number": "115AP",
+            "model": "SR20",
+            "previous_name": "TOMORROWS AVIATORS LLC",
+            "current_name": "FP AVIATOR LLC",
+            "previous_cert_issue_date": "20220621",
+            "current_cert_issue_date": "20260718",
+            "state": "NY"
+          },
+          {
+            "key": "hex:A04A92",
+            "n_number": "118GS",
+            "model": "SR22",
+            "previous_name": "PIT BLUE AIR LLC",
+            "current_name": "OLIVER MARK CHRISTOPHER",
+            "previous_cert_issue_date": "20211029",
+            "current_cert_issue_date": "20260722",
+            "state": "SC"
+          },
+          {
+            "key": "hex:A06154",
+            "n_number": "1231B",
+            "model": "SR22T",
+            "previous_name": "RISE COMPANIES AVIATION LLC",
+            "current_name": "RISE COMPANIES AVIATION LLC",
+            "previous_cert_issue_date": "20250204",
+            "current_cert_issue_date": "20260720",
+            "state": "MN"
+          },
+          {
+            "key": "hex:A07F9D",
+            "n_number": "131HF",
+            "model": "SR22T",
+            "previous_name": "LONE MOUNTAIN AIRCRAFT LLC",
+            "current_name": "MERIDIAN TRANSPORT LLC",
+            "previous_cert_issue_date": "20240712",
+            "current_cert_issue_date": "20260721",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A15AB6",
+            "n_number": "187AJ",
+            "model": "SR22",
+            "previous_name": "BANK OF UTAH TRUSTEE",
+            "current_name": "AVIATION TRUST CO LLC TRUSTEE",
+            "previous_cert_issue_date": "20190909",
+            "current_cert_issue_date": "20260722",
+            "state": "OK"
+          },
+          {
+            "key": "hex:A1E086",
+            "n_number": "22VC",
+            "model": "SR22",
+            "previous_name": "KALILA LLC",
+            "current_name": "VICTORCHARLIE LLC",
+            "previous_cert_issue_date": "20200615",
+            "current_cert_issue_date": "20260718",
+            "state": "MA"
+          },
+          {
+            "key": "hex:A1E9F5",
+            "n_number": "222RQ",
+            "model": "SR22T",
+            "previous_name": "JMC AVIATION LLC",
+            "current_name": "HI POINT AVIATION LLC",
+            "previous_cert_issue_date": "20250610",
+            "current_cert_issue_date": "20260724",
+            "state": "NV"
+          },
+          {
+            "key": "hex:A27A8D",
+            "n_number": "259SR",
+            "model": "SR20",
+            "previous_name": "N259SR LLC",
+            "current_name": "JU87 LLC",
+            "previous_cert_issue_date": "20240625",
+            "current_cert_issue_date": "20260720",
+            "state": "MA"
+          },
+          {
+            "key": "hex:A31BFE",
+            "n_number": "3Q",
+            "model": "SF50",
+            "previous_name": "DELTA CHARLIER AVIATION LLC",
+            "current_name": "DELTA CHARLIE AVIATION LLC",
+            "previous_cert_issue_date": "20260708",
+            "current_cert_issue_date": "20260708",
+            "state": "IL"
+          },
+          {
+            "key": "hex:A384D8",
+            "n_number": "326CM",
+            "model": "SR22T",
+            "previous_name": "CM AIR LLC",
+            "current_name": "ELEMENTAL AVIATION LC",
+            "previous_cert_issue_date": "20240316",
+            "current_cert_issue_date": "",
+            "state": "KS"
+          },
+          {
+            "key": "hex:A45904",
+            "n_number": "38AU",
+            "model": "SR22T",
+            "previous_name": "BURTON AVIATION LLC",
+            "current_name": "BRAUN AVIATION LLC",
+            "previous_cert_issue_date": "20241213",
+            "current_cert_issue_date": "20260723",
+            "state": "TX"
+          },
+          {
+            "key": "hex:A4F23B",
+            "n_number": "418DZ",
+            "model": "SR20",
+            "previous_name": "ARANOFF BENJAMIN",
+            "current_name": "DEMAN RICHARD",
+            "previous_cert_issue_date": "20180705",
+            "current_cert_issue_date": "20260722",
+            "state": "NY"
+          },
+          {
+            "key": "hex:A50F57",
+            "n_number": "425MT",
+            "model": "SR22",
+            "previous_name": "HEARTLAND TANK LLC",
+            "current_name": "RKG ENTERPRISES",
+            "previous_cert_issue_date": "20220326",
+            "current_cert_issue_date": "20260722",
+            "state": "MN"
+          },
+          {
+            "key": "hex:A5216B",
+            "n_number": "43GR",
+            "model": "SR20",
+            "previous_name": "FLUEGEL THEODORE D",
+            "current_name": "N43GR LLC",
+            "previous_cert_issue_date": "20240730",
+            "current_cert_issue_date": "20260722",
+            "state": "AZ"
+          },
+          {
+            "key": "hex:A5E7F0",
+            "n_number": "48TG",
+            "model": "SR20",
+            "previous_name": "BOARD OF TRUSTEES OF WESTERN MICHIGAN UNIVERSITY",
+            "current_name": "PLANE SALES LLC",
+            "previous_cert_issue_date": "20180314",
+            "current_cert_issue_date": "20260722",
+            "state": "MI"
+          },
+          {
+            "key": "hex:A63685",
+            "n_number": "5PB",
+            "model": "SR22",
+            "previous_name": "FINELINE AVIATION LLC",
+            "current_name": "BANK OF UTAH TRUSTEE",
+            "previous_cert_issue_date": "20250302",
+            "current_cert_issue_date": "20260722",
+            "state": "UT"
+          },
+          {
+            "key": "hex:A6EF60",
+            "n_number": "546MY",
+            "model": "SR20",
+            "previous_name": "JH AVIATION INC",
+            "current_name": "NTI AVIATION LLC",
+            "previous_cert_issue_date": "20251017",
+            "current_cert_issue_date": "20260719",
+            "state": "WY"
+          },
+          {
+            "key": "hex:A81596",
+            "n_number": "62TJ",
+            "model": "SR22T",
+            "previous_name": "S POINT AVIATION LLC",
+            "current_name": "TB WHISKEY LLC",
+            "previous_cert_issue_date": "20240812",
+            "current_cert_issue_date": "20260722",
+            "state": "CO"
+          },
+          {
+            "key": "hex:A821A2",
+            "n_number": "623CP",
+            "model": "SR20",
+            "previous_name": "FREEDOM AVIATION LLC",
+            "current_name": "WISKOW AVIATION LLC",
+            "previous_cert_issue_date": "20230425",
+            "current_cert_issue_date": "20260718",
+            "state": "MN"
+          },
+          {
+            "key": "hex:A988DC",
+            "n_number": "713TA",
+            "model": "SR20",
+            "previous_name": "LCR AVATION LLC",
+            "current_name": "SUTTON LOGISTICS LLC",
+            "previous_cert_issue_date": "20250530",
+            "current_cert_issue_date": "20260718",
+            "state": "WI"
+          }
+        ],
+        "previous_snapshot_available": true
       }
     ],
     "by_year_yearmfr_gap": [
@@ -866,78 +1076,78 @@
       },
       {
         "cert_year": 2017,
-        "registrations": 219,
-        "new_like": 56,
+        "registrations": 212,
+        "new_like": 49,
         "used_like_incl_renewals": 154,
         "unknown_year_mfr": 9
       },
       {
         "cert_year": 2018,
-        "registrations": 234,
-        "new_like": 70,
-        "used_like_incl_renewals": 155,
+        "registrations": 227,
+        "new_like": 65,
+        "used_like_incl_renewals": 153,
         "unknown_year_mfr": 9
       },
       {
         "cert_year": 2019,
-        "registrations": 352,
+        "registrations": 351,
         "new_like": 94,
-        "used_like_incl_renewals": 233,
+        "used_like_incl_renewals": 232,
         "unknown_year_mfr": 25
       },
       {
         "cert_year": 2020,
-        "registrations": 460,
+        "registrations": 459,
         "new_like": 107,
-        "used_like_incl_renewals": 322,
+        "used_like_incl_renewals": 321,
         "unknown_year_mfr": 31
       },
       {
         "cert_year": 2021,
-        "registrations": 616,
-        "new_like": 166,
-        "used_like_incl_renewals": 420,
+        "registrations": 613,
+        "new_like": 165,
+        "used_like_incl_renewals": 418,
         "unknown_year_mfr": 30
       },
       {
         "cert_year": 2022,
-        "registrations": 656,
-        "new_like": 177,
-        "used_like_incl_renewals": 421,
+        "registrations": 653,
+        "new_like": 176,
+        "used_like_incl_renewals": 419,
         "unknown_year_mfr": 58
       },
       {
         "cert_year": 2023,
-        "registrations": 1260,
+        "registrations": 1258,
         "new_like": 504,
-        "used_like_incl_renewals": 677,
-        "unknown_year_mfr": 79
+        "used_like_incl_renewals": 676,
+        "unknown_year_mfr": 78
       },
       {
         "cert_year": 2024,
-        "registrations": 1389,
-        "new_like": 586,
-        "used_like_incl_renewals": 745,
-        "unknown_year_mfr": 58
+        "registrations": 1383,
+        "new_like": 584,
+        "used_like_incl_renewals": 742,
+        "unknown_year_mfr": 57
       },
       {
         "cert_year": 2025,
-        "registrations": 1751,
-        "new_like": 749,
-        "used_like_incl_renewals": 953,
+        "registrations": 1745,
+        "new_like": 747,
+        "used_like_incl_renewals": 949,
         "unknown_year_mfr": 49
       },
       {
         "cert_year": 2026,
-        "registrations": 968,
-        "new_like": 346,
-        "used_like_incl_renewals": 564,
-        "unknown_year_mfr": 58
+        "registrations": 1013,
+        "new_like": 357,
+        "used_like_incl_renewals": 596,
+        "unknown_year_mfr": 60
       }
     ]
   },
   "listings": {
-    "as_of": "2026-07-19T22:53:19.833370+00:00",
+    "as_of": "2026-07-26T22:59:05.541926+00:00",
     "sources": [],
     "active_listing_count": 0,
     "by_model": [],
@@ -1119,6 +1329,11 @@
       },
       {
         "date": "2026-07-19",
+        "active_listing_count": 0,
+        "by_model": []
+      },
+      {
+        "date": "2026-07-26",
         "active_listing_count": 0,
         "by_model": []
       }
