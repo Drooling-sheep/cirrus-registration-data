@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T22:04:37.585289+00:00",
+  "generated_at": "2026-07-28T22:03:02.674763+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -10016,7 +10016,7 @@
   "flight_activity": {
     "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
     "source": "airplanes_live",
-    "as_of": "2026-07-27T22:04:37.435938+00:00",
+    "as_of": "2026-07-28T22:03:02.530400+00:00",
     "window": "current_state_sample",
     "fleet_hex_count": 8927,
     "tracked_lines": {
@@ -10024,9 +10024,9 @@
       "SF50": 689,
       "other": 3
     },
-    "distinct_aircraft_seen": 141,
+    "distinct_aircraft_seen": 169,
     "flights": 0,
-    "utilization_pct": 1.579,
+    "utilization_pct": 1.893,
     "by_period": [
       {
         "date": "2026-06-04",
@@ -10377,20 +10377,27 @@
         "flights": 0,
         "utilization_pct": 1.579,
         "source": "airplanes_live"
+      },
+      {
+        "date": "2026-07-28",
+        "distinct_aircraft_seen": 169,
+        "flights": 0,
+        "utilization_pct": 1.893,
+        "source": "airplanes_live"
       }
     ],
     "by_line": [
       {
         "line": "SF50",
         "fleet_hex_count": 689,
-        "distinct_aircraft_seen": 18,
-        "utilization_pct": 2.612
+        "distinct_aircraft_seen": 25,
+        "utilization_pct": 3.628
       },
       {
         "line": "SR",
         "fleet_hex_count": 8235,
-        "distinct_aircraft_seen": 123,
-        "utilization_pct": 1.494
+        "distinct_aircraft_seen": 144,
+        "utilization_pct": 1.749
       },
       {
         "line": "other",
@@ -10401,94 +10408,100 @@
     ],
     "active_sample": [
       {
-        "hex": "a00cf5",
+        "hex": "a0186d",
+        "model": "SR20",
+        "line": "SR",
+        "n_number": "105MU"
+      },
+      {
+        "hex": "a029a3",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "1098R"
+      },
+      {
+        "hex": "a046a9",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "117ES"
+      },
+      {
+        "hex": "a053b2",
+        "model": "SR22T",
+        "line": "SR",
+        "n_number": "120A"
+      },
+      {
+        "hex": "a079e8",
         "model": "SF50",
         "line": "SF50",
-        "n_number": "102JL"
+        "n_number": "13LX"
       },
       {
-        "hex": "a00ffc",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "103BK"
-      },
-      {
-        "hex": "a02b6e",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "11SD"
-      },
-      {
-        "hex": "a03f1a",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "115DJ"
-      },
-      {
-        "hex": "a05166",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "12AN"
-      },
-      {
-        "hex": "a05201",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "12GT"
-      },
-      {
-        "hex": "a05b6b",
+        "hex": "a07d31",
         "model": "SF50",
         "line": "SF50",
-        "n_number": "122D"
+        "n_number": "130WM"
       },
       {
-        "hex": "a08e9d",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "135JS"
-      },
-      {
-        "hex": "a09185",
+        "hex": "a081cf",
         "model": "SR22",
         "line": "SR",
-        "n_number": "136AK"
+        "n_number": "1314C"
       },
       {
-        "hex": "a0a7b3",
+        "hex": "a0bdfd",
         "model": "SR20",
         "line": "SR",
-        "n_number": "141PG"
+        "n_number": "147PG"
       },
       {
-        "hex": "a0c165",
+        "hex": "a0f506",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "1607L"
+      },
+      {
+        "hex": "a0f59b",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "148LC"
+        "n_number": "161CD"
       },
       {
-        "hex": "a0e083",
+        "hex": "a1054b",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "156AK"
+        "n_number": "165LR"
       },
       {
-        "hex": "a0f926",
+        "hex": "a11877",
         "model": "SR20",
         "line": "SR",
-        "n_number": "162AK"
+        "n_number": "17SU"
       },
       {
-        "hex": "a16375",
-        "model": "SR22T",
+        "hex": "a14fbd",
+        "model": "SR20",
         "line": "SR",
-        "n_number": "189PW"
+        "n_number": "184CC"
       },
       {
-        "hex": "a17755",
+        "hex": "a1507b",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "184KT"
+      },
+      {
+        "hex": "a1678b",
+        "model": "SR22",
+        "line": "SR",
+        "n_number": "19TR"
+      },
+      {
+        "hex": "a18b45",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "194DC"
+        "n_number": "199TB"
       },
       {
         "hex": "a18dff",
@@ -10497,28 +10510,22 @@
         "n_number": "2GZ"
       },
       {
-        "hex": "a1a4a7",
-        "model": "SR22T",
+        "hex": "a19172",
+        "model": "SR20",
         "line": "SR",
-        "n_number": "205AS"
+        "n_number": "20UF"
       },
       {
-        "hex": "a1b79c",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "21EQ"
+        "hex": "a1d3b7",
+        "model": "SF50",
+        "line": "SF50",
+        "n_number": "217CB"
       },
       {
-        "hex": "a1b7a0",
+        "hex": "a1e8a7",
         "model": "SR22T",
         "line": "SR",
-        "n_number": "21EU"
-      },
-      {
-        "hex": "a1b98d",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "210AL"
+        "n_number": "222CF"
       }
     ],
     "errors": []
