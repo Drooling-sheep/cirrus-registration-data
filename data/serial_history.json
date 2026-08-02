@@ -82,5 +82,17 @@
     "line": "SR",
     "max_serial": 11482,
     "count": 8226
+  },
+  {
+    "date": "2026-08-02",
+    "line": "SF50",
+    "max_serial": 785,
+    "count": 689
+  },
+  {
+    "date": "2026-08-02",
+    "line": "SR",
+    "max_serial": 11495,
+    "count": 8235
   }
 ]

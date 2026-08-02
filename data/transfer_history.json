@@ -956,5 +956,215 @@
       }
     ],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-08-02",
+    "transfers": 29,
+    "new": 19,
+    "deregistered": 8,
+    "added": 26,
+    "transfer_sample": [
+      {
+        "key": "hex:A07AAA",
+        "n_number": "13UR",
+        "model": "SR22T",
+        "previous_name": "QUALITAIR LLC TRUST",
+        "current_name": "QUALITAIR LLC TRUSTEE",
+        "previous_cert_issue_date": "20251120",
+        "current_cert_issue_date": "20260729",
+        "state": ""
+      },
+      {
+        "key": "hex:A1D499",
+        "n_number": "217MC",
+        "model": "SR20",
+        "previous_name": "CHJ AVIATION LLC",
+        "current_name": "CNJ AVIATION LLC",
+        "previous_cert_issue_date": "20260706",
+        "current_cert_issue_date": "20260706",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A1F548",
+        "n_number": "225TL",
+        "model": "SR22",
+        "previous_name": "DP AVIATION LLC",
+        "current_name": "CHUTE HAPPENS LLC",
+        "previous_cert_issue_date": "20210204",
+        "current_cert_issue_date": "20260728",
+        "state": "VA"
+      },
+      {
+        "key": "hex:A20041",
+        "n_number": "228RS",
+        "model": "SR22T",
+        "previous_name": "WEST AVIATION GROUP LLC",
+        "current_name": "RKG ENTERPRISES",
+        "previous_cert_issue_date": "20241019",
+        "current_cert_issue_date": "20260730",
+        "state": "MN"
+      },
+      {
+        "key": "hex:A27312",
+        "n_number": "257SC",
+        "model": "SR22T",
+        "previous_name": "AIRCRAFT GUARANTY CORP TRUSTEE",
+        "current_name": "JETPURPLE LLC",
+        "previous_cert_issue_date": "20111011",
+        "current_cert_issue_date": "20260731",
+        "state": "IL"
+      },
+      {
+        "key": "hex:A27CEE",
+        "n_number": "26CZ",
+        "model": "SR22T",
+        "previous_name": "GIBRALTAR LLC",
+        "current_name": "CZI LLC",
+        "previous_cert_issue_date": "20230329",
+        "current_cert_issue_date": "20260730",
+        "state": "MT"
+      },
+      {
+        "key": "hex:A29934",
+        "n_number": "267CD",
+        "model": "SR20",
+        "previous_name": "EXOTIC CAR CLUB AMERICA LLC",
+        "current_name": "TSP AVIATION LLC",
+        "previous_cert_issue_date": "20240505",
+        "current_cert_issue_date": "20260728",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A33680",
+        "n_number": "306KC",
+        "model": "SR22",
+        "previous_name": "ASPIRE AVIATION LLC",
+        "current_name": "BEST FLIGHT LLC",
+        "previous_cert_issue_date": "20260320",
+        "current_cert_issue_date": "20260728",
+        "state": "CA"
+      },
+      {
+        "key": "hex:A365B2",
+        "n_number": "318MX",
+        "model": "SR22",
+        "previous_name": "ELIZONDO EDUARDO LORENZO GARCIA",
+        "current_name": "VALIAIR LC TRUSTEE",
+        "previous_cert_issue_date": "20211004",
+        "current_cert_issue_date": "20260728",
+        "state": "WY"
+      },
+      {
+        "key": "hex:A47559",
+        "n_number": "387AP",
+        "model": "SR22T",
+        "previous_name": "ETPC AVIATION LLC",
+        "current_name": "DYNAMIC MANAGEMENT LLC",
+        "previous_cert_issue_date": "20240824",
+        "current_cert_issue_date": "20260726",
+        "state": "GA"
+      },
+      {
+        "key": "hex:A53D51",
+        "n_number": "437C",
+        "model": "SR22",
+        "previous_name": "ICEBERG LAKE LLC",
+        "current_name": "WESTACOTT SIMON",
+        "previous_cert_issue_date": "20150708",
+        "current_cert_issue_date": "20260731",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A5DEDE",
+        "n_number": "478AM",
+        "model": "SR22T",
+        "previous_name": "DICE ACQUISITIONS LLC",
+        "current_name": "MOSAIC AERO SALES LLC",
+        "previous_cert_issue_date": "20220321",
+        "current_cert_issue_date": "20260728",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A8646C",
+        "n_number": "64RU",
+        "model": "SR22T",
+        "previous_name": "INTERNATIONAL AIR SERVICES INC TRUSTEE",
+        "current_name": "CARDINAL AIR LLC",
+        "previous_cert_issue_date": "20250616",
+        "current_cert_issue_date": "20260729",
+        "state": "CA"
+      },
+      {
+        "key": "hex:A864CD",
+        "n_number": "64VR",
+        "model": "SR22T",
+        "previous_name": "FLYING BEARS LLC",
+        "current_name": "VICTOR ROMEO AVIATION LLC",
+        "previous_cert_issue_date": "20230601",
+        "current_cert_issue_date": "20260730",
+        "state": "CA"
+      },
+      {
+        "key": "hex:AA801D",
+        "n_number": "776JD",
+        "model": "SR22T",
+        "previous_name": "WCR DIVERSIONS LLC",
+        "current_name": "SR22 LLC",
+        "previous_cert_issue_date": "20200128",
+        "current_cert_issue_date": "20260730",
+        "state": "ID"
+      },
+      {
+        "key": "hex:AAAAA3",
+        "n_number": "787BC",
+        "model": "SR22",
+        "previous_name": "RAPID FLIGHT LLC",
+        "current_name": "WOMACK KEVIN",
+        "previous_cert_issue_date": "20191121",
+        "current_cert_issue_date": "20260729",
+        "state": "KY"
+      },
+      {
+        "key": "hex:AB72C5",
+        "n_number": "837EF",
+        "model": "SR20",
+        "previous_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "current_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "previous_cert_issue_date": "20171117",
+        "current_cert_issue_date": "20260617",
+        "state": "AZ"
+      },
+      {
+        "key": "hex:AB8F1F",
+        "n_number": "844EF",
+        "model": "SR20",
+        "previous_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "current_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "previous_cert_issue_date": "20180314",
+        "current_cert_issue_date": "20260722",
+        "state": "AZ"
+      },
+      {
+        "key": "hex:AB92D6",
+        "n_number": "845EF",
+        "model": "SR20",
+        "previous_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "current_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "previous_cert_issue_date": "20180314",
+        "current_cert_issue_date": "20260722",
+        "state": "AZ"
+      },
+      {
+        "key": "hex:AB968D",
+        "n_number": "846EF",
+        "model": "SR20",
+        "previous_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "current_name": "LUFTHANSA AVIATION TRAINING USA INC",
+        "previous_cert_issue_date": "20260724",
+        "current_cert_issue_date": "20260722",
+        "state": "AZ"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]
