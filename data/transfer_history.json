@@ -1166,5 +1166,215 @@
       }
     ],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-08-09",
+    "transfers": 24,
+    "new": 15,
+    "deregistered": 10,
+    "added": 19,
+    "transfer_sample": [
+      {
+        "key": "hex:A010BA",
+        "n_number": "103K",
+        "model": "SR22T",
+        "previous_name": "CIRRUS MIDDLE EAST INC TRUSTEE",
+        "current_name": "EUROAVIATION INC TRUSTEE",
+        "previous_cert_issue_date": "20250107",
+        "current_cert_issue_date": "20260807",
+        "state": ""
+      },
+      {
+        "key": "hex:A15996",
+        "n_number": "1862B",
+        "model": "SR22",
+        "previous_name": "SUPPORT AIRCRAFT CORP",
+        "current_name": "LOW KEY AERO LLC",
+        "previous_cert_issue_date": "20210927",
+        "current_cert_issue_date": "20260804",
+        "state": "MI"
+      },
+      {
+        "key": "hex:A18015",
+        "n_number": "196SR",
+        "model": "SR22",
+        "previous_name": "COLON AVIATION LLC",
+        "current_name": "WHEN ELEPHANTS FLY LLC",
+        "previous_cert_issue_date": "20211228",
+        "current_cert_issue_date": "20260805",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A1B7A0",
+        "n_number": "21EU",
+        "model": "SR22T",
+        "previous_name": "KCS AVIATION LLC",
+        "current_name": "KUPPINGER AVIATION SERVICES LLC",
+        "previous_cert_issue_date": "20240124",
+        "current_cert_issue_date": "20260801",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A26690",
+        "n_number": "254CD",
+        "model": "SR20",
+        "previous_name": "GARY MIDKIFF",
+        "current_name": "MAW ENERGY LLC",
+        "previous_cert_issue_date": "20231230",
+        "current_cert_issue_date": "20260805",
+        "state": "NM"
+      },
+      {
+        "key": "hex:A2A607",
+        "n_number": "27VJ",
+        "model": "SF50",
+        "previous_name": "LONGBALL AVIATION LLC",
+        "current_name": "CIELO CAPITAL HOLDINGS LLC",
+        "previous_cert_issue_date": "20240216",
+        "current_cert_issue_date": "20260801",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A301A5",
+        "n_number": "293LM",
+        "model": "SR22",
+        "previous_name": "MULLINGS AVIATION LLC",
+        "current_name": "DELTA DELTA PAPA LLC",
+        "previous_cert_issue_date": "20201229",
+        "current_cert_issue_date": "20260803",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A3573F",
+        "n_number": "314SB",
+        "model": "SF50",
+        "previous_name": "SNUGGLE BUGGLE LLC",
+        "current_name": "PEPELOVESPENELOPE LLC",
+        "previous_cert_issue_date": "20231228",
+        "current_cert_issue_date": "20260804",
+        "state": "FL"
+      },
+      {
+        "key": "hex:A35D1D",
+        "n_number": "316AB",
+        "model": "SR22",
+        "previous_name": "MID SOUTH METAL SUPPLY LLC",
+        "current_name": "TAYLOR JUSTIN LEE",
+        "previous_cert_issue_date": "20200822",
+        "current_cert_issue_date": "20260806",
+        "state": "SD"
+      },
+      {
+        "key": "hex:A41911",
+        "n_number": "363SR",
+        "model": "SR22",
+        "previous_name": "KINIKAR NIREN A",
+        "current_name": "JOLLY RAYMOND V",
+        "previous_cert_issue_date": "20230517",
+        "current_cert_issue_date": "20260803",
+        "state": "NJ"
+      },
+      {
+        "key": "hex:A4A1A9",
+        "n_number": "398MW",
+        "model": "SR22",
+        "previous_name": "WISE MICHAEL L",
+        "current_name": "JTDE AIRCRAFT HOLDINGS LLC",
+        "previous_cert_issue_date": "20170331",
+        "current_cert_issue_date": "20260805",
+        "state": "OH"
+      },
+      {
+        "key": "hex:A4E6CE",
+        "n_number": "415BB",
+        "model": "SR22",
+        "previous_name": "ACAL AVIATION LLC",
+        "current_name": "AVENTRA AVIATION LLC",
+        "previous_cert_issue_date": "20240703",
+        "current_cert_issue_date": "20260802",
+        "state": "NC"
+      },
+      {
+        "key": "hex:A6BB6F",
+        "n_number": "5329A",
+        "model": "SR22T",
+        "previous_name": "CIRRUS DESIGN CORP",
+        "current_name": "DRAXXON AEROSPACE LLC",
+        "previous_cert_issue_date": "20260319",
+        "current_cert_issue_date": "20260806",
+        "state": "IL"
+      },
+      {
+        "key": "hex:A7D32D",
+        "n_number": "603JA",
+        "model": "SR20",
+        "previous_name": "AIRQUEST AVIATION LP",
+        "current_name": "TEXAS WINGS IN THE AIR II LLC",
+        "previous_cert_issue_date": "20220903",
+        "current_cert_issue_date": "20260807",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A7FA9C",
+        "n_number": "613HK",
+        "model": "SF50",
+        "previous_name": "N613HK LLC",
+        "current_name": "DOUBLE VISION LLC",
+        "previous_cert_issue_date": "20241115",
+        "current_cert_issue_date": "20260807",
+        "state": "LA"
+      },
+      {
+        "key": "hex:A80715",
+        "n_number": "616X",
+        "model": "SR20",
+        "previous_name": "SIERRAPOP AVIATION LLC",
+        "current_name": "SMREH AIR LLC",
+        "previous_cert_issue_date": "20230218",
+        "current_cert_issue_date": "20260802",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A88AC3",
+        "n_number": "65DY",
+        "model": "SR20",
+        "previous_name": "COLD STEEL AND SUNSHINE AVIATION LLC",
+        "current_name": "BEAN AVIATION HOLDINGS LLC",
+        "previous_cert_issue_date": "20240118",
+        "current_cert_issue_date": "20260804",
+        "state": "TX"
+      },
+      {
+        "key": "hex:A9AC41",
+        "n_number": "722PB",
+        "model": "SR22",
+        "previous_name": "2 SHOES AVIATION LLC",
+        "current_name": "J & D AVIATION LLC",
+        "previous_cert_issue_date": "20170123",
+        "current_cert_issue_date": "20260807",
+        "state": "WI"
+      },
+      {
+        "key": "hex:AA8F8A",
+        "n_number": "78PZ",
+        "model": "SR22",
+        "previous_name": "KENMORE CREW LEASING INC TRUSTEE",
+        "current_name": "MONTANA AIRCRAFT TRUST INC TRUSTEE",
+        "previous_cert_issue_date": "20240710",
+        "current_cert_issue_date": "20260803",
+        "state": "MT"
+      },
+      {
+        "key": "hex:AB051A",
+        "n_number": "809UM",
+        "model": "SR22T",
+        "previous_name": "HODGE AVIATION LLC",
+        "current_name": "LONGBALL AVIATION LLC",
+        "previous_cert_issue_date": "20231229",
+        "current_cert_issue_date": "20260804",
+        "state": "IN"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]
