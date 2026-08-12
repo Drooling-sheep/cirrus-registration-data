@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:43:06.352625+00:00",
+  "generated_at": "2026-08-12T21:42:08.883954+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -10068,7 +10068,7 @@
   "flight_activity": {
     "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
     "source": "airplanes_live",
-    "as_of": "2026-08-11T21:43:06.212794+00:00",
+    "as_of": "2026-08-12T21:42:08.713055+00:00",
     "window": "current_state_sample",
     "fleet_hex_count": 8954,
     "tracked_lines": {
@@ -10076,9 +10076,9 @@
       "SF50": 688,
       "other": 3
     },
-    "distinct_aircraft_seen": 151,
+    "distinct_aircraft_seen": 0,
     "flights": 0,
-    "utilization_pct": 1.686,
+    "utilization_pct": 0.0,
     "by_period": [
       {
         "date": "2026-06-04",
@@ -10527,20 +10527,27 @@
         "flights": 0,
         "utilization_pct": 1.686,
         "source": "airplanes_live"
+      },
+      {
+        "date": "2026-08-12",
+        "distinct_aircraft_seen": 0,
+        "flights": 0,
+        "utilization_pct": 0.0,
+        "source": "airplanes_live"
       }
     ],
     "by_line": [
       {
         "line": "SF50",
         "fleet_hex_count": 688,
-        "distinct_aircraft_seen": 14,
-        "utilization_pct": 2.035
+        "distinct_aircraft_seen": 0,
+        "utilization_pct": 0.0
       },
       {
         "line": "SR",
         "fleet_hex_count": 8263,
-        "distinct_aircraft_seen": 137,
-        "utilization_pct": 1.658
+        "distinct_aircraft_seen": 0,
+        "utilization_pct": 0.0
       },
       {
         "line": "other",
@@ -10549,129 +10556,18 @@
         "utilization_pct": 0.0
       }
     ],
-    "active_sample": [
-      {
-        "hex": "a02ea4",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "11000"
-      },
-      {
-        "hex": "a03678",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "1123X"
-      },
-      {
-        "hex": "a03f90",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "115JB"
-      },
-      {
-        "hex": "a046a9",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "117ES"
-      },
-      {
-        "hex": "a05b95",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "122ES"
-      },
-      {
-        "hex": "a06dd8",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "127BM"
-      },
-      {
-        "hex": "a079f0",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "13ME"
-      },
-      {
-        "hex": "a0891d",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "1333F"
-      },
-      {
-        "hex": "a0918c",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "136AS"
-      },
-      {
-        "hex": "a099ff",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "138MC"
-      },
-      {
-        "hex": "a0ab99",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "142RD"
-      },
-      {
-        "hex": "a0b9a1",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "146GS"
-      },
-      {
-        "hex": "a0c81e",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "15CX"
-      },
-      {
-        "hex": "a0d32f",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "152SB"
-      },
-      {
-        "hex": "a0e466",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "157CD"
-      },
-      {
-        "hex": "a0fe5f",
-        "model": "SR20",
-        "line": "SR",
-        "n_number": "163RW"
-      },
-      {
-        "hex": "a11df8",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "171MA"
-      },
-      {
-        "hex": "a17268",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "1923P"
-      },
-      {
-        "hex": "a18de0",
-        "model": "SR22",
-        "line": "SR",
-        "n_number": "2FT"
-      },
-      {
-        "hex": "a199f2",
-        "model": "SR22T",
-        "line": "SR",
-        "n_number": "202FD"
-      }
-    ],
-    "errors": []
+    "active_sample": [],
+    "errors": [
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden",
+      "HTTP Error 403: Forbidden"
+    ]
   },
   "used_market": {
     "note": "要价不等于成交价；过户量代理含续期；下架约等于成交只是弱代理。",
