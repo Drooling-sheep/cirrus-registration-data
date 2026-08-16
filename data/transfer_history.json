@@ -1376,5 +1376,175 @@
       }
     ],
     "previous_snapshot_available": true
+  },
+  {
+    "date": "2026-08-16",
+    "transfers": 16,
+    "new": 7,
+    "deregistered": 5,
+    "added": 13,
+    "transfer_sample": [
+      {
+        "key": "hex:A04734",
+        "n_number": "117LF",
+        "model": "SR20",
+        "previous_name": "N117LF AIRCRAFT RENTAL LLC",
+        "current_name": "D&E AIRCRAFT LLC",
+        "previous_cert_issue_date": "20231030",
+        "current_cert_issue_date": "20260812",
+        "state": "OH"
+      },
+      {
+        "key": "hex:A11DAB",
+        "n_number": "171HZ",
+        "model": "SR22T",
+        "previous_name": "WINSOME CAPITAL GROUP LLC",
+        "current_name": "LT AVIATION LLC",
+        "previous_cert_issue_date": "20191213",
+        "current_cert_issue_date": "20260810",
+        "state": "IL"
+      },
+      {
+        "key": "hex:A18BF1",
+        "n_number": "199ZZ",
+        "model": "SR22",
+        "previous_name": "AIRCRAFT GUARANTY CORP TRUSTEE",
+        "current_name": "BANK OF UTAH TRUSTEE",
+        "previous_cert_issue_date": "20260209",
+        "current_cert_issue_date": "20260814",
+        "state": "UT"
+      },
+      {
+        "key": "hex:A18D6A",
+        "n_number": "2B",
+        "model": "SR22",
+        "previous_name": "LORIKEET USA LLC",
+        "current_name": "G2FLY LLC",
+        "previous_cert_issue_date": "20131223",
+        "current_cert_issue_date": "20260810",
+        "state": "WA"
+      },
+      {
+        "key": "hex:A1D3C7",
+        "n_number": "217CT",
+        "model": "SR22T",
+        "previous_name": "SCHANZ HOLDINGS LLC",
+        "current_name": "LETHALAIRLLC",
+        "previous_cert_issue_date": "20251119",
+        "current_cert_issue_date": "20260812",
+        "state": "DE"
+      },
+      {
+        "key": "hex:A2C4E2",
+        "n_number": "278GZ",
+        "model": "SR22",
+        "previous_name": "GZ AVIATION LLC",
+        "current_name": "NICHOLS INDUSTRIAL CONSTRUCTION CO INC",
+        "previous_cert_issue_date": "20231213",
+        "current_cert_issue_date": "20260813",
+        "state": "AL"
+      },
+      {
+        "key": "hex:A5E715",
+        "n_number": "48JN",
+        "model": "SR22T",
+        "previous_name": "GROUND POUNDERS AVIATION LLC",
+        "current_name": "BANK OF UTAH TRUSTEE",
+        "previous_cert_issue_date": "20160503",
+        "current_cert_issue_date": "20260811",
+        "state": "UT"
+      },
+      {
+        "key": "hex:A6C44C",
+        "n_number": "535PG",
+        "model": "SR22",
+        "previous_name": "MORROW JASON",
+        "current_name": "SS AVIATION LLC",
+        "previous_cert_issue_date": "20240604",
+        "current_cert_issue_date": "20260808",
+        "state": "LA"
+      },
+      {
+        "key": "hex:A725E3",
+        "n_number": "56PN",
+        "model": "SR22T",
+        "previous_name": "WEISS MATHEW",
+        "current_name": "NORTH BREAKENRIDGE FARM LLC",
+        "previous_cert_issue_date": "20180627",
+        "current_cert_issue_date": "20260808",
+        "state": "WI"
+      },
+      {
+        "key": "hex:A807A9",
+        "n_number": "6162C",
+        "model": "SR22",
+        "previous_name": "LIES NORMAN A",
+        "current_name": "HELLER CASEY",
+        "previous_cert_issue_date": "20130124",
+        "current_cert_issue_date": "20260810",
+        "state": "ND"
+      },
+      {
+        "key": "hex:A90885",
+        "n_number": "681SG",
+        "model": "SR22T",
+        "previous_name": "PENTZ GEORGE B",
+        "current_name": "RESA GROUP LLC",
+        "previous_cert_issue_date": "20251028",
+        "current_cert_issue_date": "20260810",
+        "state": "GA"
+      },
+      {
+        "key": "hex:AAB7BC",
+        "n_number": "79XC",
+        "model": "SR22T",
+        "previous_name": "GILHART AVIATION II LLC",
+        "current_name": "D & J CONSTRUCTION AND REAL ESTATE LLC",
+        "previous_cert_issue_date": "20160511",
+        "current_cert_issue_date": "20260812",
+        "state": "FL"
+      },
+      {
+        "key": "hex:AB3DB3",
+        "n_number": "823TK",
+        "model": "SR22T",
+        "previous_name": "WOLF HILL AVIATION LLC",
+        "current_name": "BANK OF UTAH OWNER TRUSTEE",
+        "previous_cert_issue_date": "20230529",
+        "current_cert_issue_date": "20260810",
+        "state": "UT"
+      },
+      {
+        "key": "hex:AB64F9",
+        "n_number": "833RC",
+        "model": "SR22",
+        "previous_name": "DURAND LARRY",
+        "current_name": "TIME MACHINE ADVENTURES LLC",
+        "previous_cert_issue_date": "20240809",
+        "current_cert_issue_date": "20260811",
+        "state": "ND"
+      },
+      {
+        "key": "hex:AD5A54",
+        "n_number": "96FK",
+        "model": "SR22T",
+        "previous_name": "ALS AVIATION LLC",
+        "current_name": "STALTER DAVID JAMES",
+        "previous_cert_issue_date": "20220422",
+        "current_cert_issue_date": "20260810",
+        "state": "IN"
+      },
+      {
+        "key": "hex:AD825C",
+        "n_number": "97LX",
+        "model": "SR22T",
+        "previous_name": "3550 WESTVIEW DRIVE LLC",
+        "current_name": "WHY NOT FLY LLC",
+        "previous_cert_issue_date": "20160614",
+        "current_cert_issue_date": "20260812",
+        "state": "FL"
+      }
+    ],
+    "previous_snapshot_available": true
   }
 ]

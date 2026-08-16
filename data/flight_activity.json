@@ -1,12 +1,12 @@
 {
   "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
   "source": "airplanes_live",
-  "as_of": "2026-08-16T21:17:25.731864+00:00",
+  "as_of": "2026-08-16T22:21:21.785892+00:00",
   "window": "current_state_sample",
-  "fleet_hex_count": 8954,
+  "fleet_hex_count": 8962,
   "tracked_lines": {
-    "SR": 8263,
-    "SF50": 688,
+    "SR": 8270,
+    "SF50": 689,
     "other": 3
   },
   "distinct_aircraft_seen": 0,
@@ -500,13 +500,13 @@
   "by_line": [
     {
       "line": "SF50",
-      "fleet_hex_count": 688,
+      "fleet_hex_count": 689,
       "distinct_aircraft_seen": 0,
       "utilization_pct": 0.0
     },
     {
       "line": "SR",
-      "fleet_hex_count": 8263,
+      "fleet_hex_count": 8270,
       "distinct_aircraft_seen": 0,
       "utilization_pct": 0.0
     },
