@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:21:04.681165+00:00",
+  "generated_at": "2026-08-23T22:21:49.236310+00:00",
   "source_note": "FAA Releasable Aircraft Database. Parsed fields use the CSV headers from MASTER.txt/ACFTREF.txt and status meanings from ardata.pdf.",
   "source_files": {
     "master": "/home/runner/work/cirrus-registration-data/cirrus-registration-data/data/raw/MASTER.txt",
@@ -111,7 +111,7 @@
   "recent_24_months": [
     {
       "month": "2024-09",
-      "count": 104
+      "count": 103
     },
     {
       "month": "2024-10",
@@ -135,15 +135,15 @@
     },
     {
       "month": "2025-03",
-      "count": 159
+      "count": 158
     },
     {
       "month": "2025-04",
-      "count": 106
+      "count": 104
     },
     {
       "month": "2025-05",
-      "count": 131
+      "count": 130
     },
     {
       "month": "2025-06",
@@ -159,7 +159,7 @@
     },
     {
       "month": "2025-09",
-      "count": 141
+      "count": 140
     },
     {
       "month": "2025-10",
@@ -183,7 +183,7 @@
     },
     {
       "month": "2026-03",
-      "count": 111
+      "count": 110
     },
     {
       "month": "2026-04",
@@ -191,19 +191,19 @@
     },
     {
       "month": "2026-05",
-      "count": 135
+      "count": 134
     },
     {
       "month": "2026-06",
-      "count": 133
+      "count": 132
     },
     {
       "month": "2026-07",
-      "count": 177
+      "count": 175
     },
     {
       "month": "2026-08",
-      "count": 68
+      "count": 103
     }
   ],
   "recent_24_months_estimated_new_aircraft": [
@@ -233,11 +233,11 @@
     },
     {
       "month": "2025-03",
-      "count": 70
+      "count": 69
     },
     {
       "month": "2025-04",
-      "count": 44
+      "count": 43
     },
     {
       "month": "2025-05",
@@ -257,7 +257,7 @@
     },
     {
       "month": "2025-09",
-      "count": 51
+      "count": 50
     },
     {
       "month": "2025-10",
@@ -293,7 +293,7 @@
     },
     {
       "month": "2026-06",
-      "count": 55
+      "count": 54
     },
     {
       "month": "2026-07",
@@ -301,7 +301,7 @@
     },
     {
       "month": "2026-08",
-      "count": 19
+      "count": 26
     }
   ],
   "recent_24_months_estimated_new_aircraft_lagged": [
@@ -331,15 +331,15 @@
     },
     {
       "month": "2025-03",
-      "count": 76
+      "count": 75
     },
     {
       "month": "2025-04",
-      "count": 45
+      "count": 44
     },
     {
       "month": "2025-05",
-      "count": 45
+      "count": 44
     },
     {
       "month": "2025-06",
@@ -355,7 +355,7 @@
     },
     {
       "month": "2025-09",
-      "count": 59
+      "count": 58
     },
     {
       "month": "2025-10",
@@ -391,7 +391,7 @@
     },
     {
       "month": "2026-06",
-      "count": 59
+      "count": 58
     },
     {
       "month": "2026-07",
@@ -399,11 +399,11 @@
     },
     {
       "month": "2026-08",
-      "count": 22
+      "count": 32
     }
   ],
-  "cirrus_total_all_statuses": 9387,
-  "cirrus_total_valid_statuses": 8962,
+  "cirrus_total_all_statuses": 9397,
+  "cirrus_total_valid_statuses": 8969,
   "monthly_new": [
     {
       "month": "2001-05",
@@ -691,7 +691,7 @@
     },
     {
       "month": "2008-06",
-      "count": 5
+      "count": 4
     },
     {
       "month": "2008-07",
@@ -795,7 +795,7 @@
     },
     {
       "month": "2010-10",
-      "count": 7
+      "count": 6
     },
     {
       "month": "2010-11",
@@ -1091,7 +1091,7 @@
     },
     {
       "month": "2016-12",
-      "count": 44
+      "count": 43
     },
     {
       "month": "2017-01",
@@ -1139,7 +1139,7 @@
     },
     {
       "month": "2017-12",
-      "count": 26
+      "count": 25
     },
     {
       "month": "2018-01",
@@ -1259,7 +1259,7 @@
     },
     {
       "month": "2020-06",
-      "count": 24
+      "count": 23
     },
     {
       "month": "2020-07",
@@ -1351,7 +1351,7 @@
     },
     {
       "month": "2022-05",
-      "count": 61
+      "count": 60
     },
     {
       "month": "2022-06",
@@ -1367,7 +1367,7 @@
     },
     {
       "month": "2022-09",
-      "count": 65
+      "count": 64
     },
     {
       "month": "2022-10",
@@ -1383,11 +1383,11 @@
     },
     {
       "month": "2023-01",
-      "count": 112
+      "count": 111
     },
     {
       "month": "2023-02",
-      "count": 150
+      "count": 148
     },
     {
       "month": "2023-03",
@@ -1399,7 +1399,7 @@
     },
     {
       "month": "2023-05",
-      "count": 105
+      "count": 104
     },
     {
       "month": "2023-06",
@@ -1419,7 +1419,7 @@
     },
     {
       "month": "2023-10",
-      "count": 89
+      "count": 88
     },
     {
       "month": "2023-11",
@@ -1431,7 +1431,7 @@
     },
     {
       "month": "2024-01",
-      "count": 168
+      "count": 167
     },
     {
       "month": "2024-02",
@@ -1439,7 +1439,7 @@
     },
     {
       "month": "2024-03",
-      "count": 91
+      "count": 90
     },
     {
       "month": "2024-04",
@@ -1451,11 +1451,11 @@
     },
     {
       "month": "2024-06",
-      "count": 126
+      "count": 125
     },
     {
       "month": "2024-07",
-      "count": 134
+      "count": 133
     },
     {
       "month": "2024-08",
@@ -1463,7 +1463,7 @@
     },
     {
       "month": "2024-09",
-      "count": 104
+      "count": 103
     },
     {
       "month": "2024-10",
@@ -1487,15 +1487,15 @@
     },
     {
       "month": "2025-03",
-      "count": 159
+      "count": 158
     },
     {
       "month": "2025-04",
-      "count": 106
+      "count": 104
     },
     {
       "month": "2025-05",
-      "count": 131
+      "count": 130
     },
     {
       "month": "2025-06",
@@ -1511,7 +1511,7 @@
     },
     {
       "month": "2025-09",
-      "count": 141
+      "count": 140
     },
     {
       "month": "2025-10",
@@ -1535,7 +1535,7 @@
     },
     {
       "month": "2026-03",
-      "count": 111
+      "count": 110
     },
     {
       "month": "2026-04",
@@ -1543,19 +1543,19 @@
     },
     {
       "month": "2026-05",
-      "count": 135
+      "count": 134
     },
     {
       "month": "2026-06",
-      "count": 133
+      "count": 132
     },
     {
       "month": "2026-07",
-      "count": 177
+      "count": 175
     },
     {
       "month": "2026-08",
-      "count": 68
+      "count": 103
     }
   ],
   "monthly_estimated_new_aircraft": [
@@ -2321,7 +2321,7 @@
     },
     {
       "month": "2024-03",
-      "count": 17
+      "count": 16
     },
     {
       "month": "2024-04",
@@ -2365,11 +2365,11 @@
     },
     {
       "month": "2025-03",
-      "count": 70
+      "count": 69
     },
     {
       "month": "2025-04",
-      "count": 44
+      "count": 43
     },
     {
       "month": "2025-05",
@@ -2389,7 +2389,7 @@
     },
     {
       "month": "2025-09",
-      "count": 51
+      "count": 50
     },
     {
       "month": "2025-10",
@@ -2425,7 +2425,7 @@
     },
     {
       "month": "2026-06",
-      "count": 55
+      "count": 54
     },
     {
       "month": "2026-07",
@@ -2433,7 +2433,7 @@
     },
     {
       "month": "2026-08",
-      "count": 19
+      "count": 26
     }
   ],
   "monthly_estimated_new_aircraft_lagged": [
@@ -3255,7 +3255,7 @@
     },
     {
       "month": "2022-05",
-      "count": 24
+      "count": 23
     },
     {
       "month": "2022-06",
@@ -3291,7 +3291,7 @@
     },
     {
       "month": "2023-02",
-      "count": 64
+      "count": 62
     },
     {
       "month": "2023-03",
@@ -3303,7 +3303,7 @@
     },
     {
       "month": "2023-05",
-      "count": 40
+      "count": 39
     },
     {
       "month": "2023-06",
@@ -3343,7 +3343,7 @@
     },
     {
       "month": "2024-03",
-      "count": 22
+      "count": 21
     },
     {
       "month": "2024-04",
@@ -3391,15 +3391,15 @@
     },
     {
       "month": "2025-03",
-      "count": 76
+      "count": 75
     },
     {
       "month": "2025-04",
-      "count": 45
+      "count": 44
     },
     {
       "month": "2025-05",
-      "count": 45
+      "count": 44
     },
     {
       "month": "2025-06",
@@ -3415,7 +3415,7 @@
     },
     {
       "month": "2025-09",
-      "count": 59
+      "count": 58
     },
     {
       "month": "2025-10",
@@ -3451,7 +3451,7 @@
     },
     {
       "month": "2026-06",
-      "count": 59
+      "count": 58
     },
     {
       "month": "2026-07",
@@ -3459,7 +3459,7 @@
     },
     {
       "month": "2026-08",
-      "count": 22
+      "count": 32
     }
   ],
   "monthly_estimated_new_by_model": [
@@ -5306,7 +5306,7 @@
     {
       "month": "2024-03",
       "model": "SR22T",
-      "count": 11
+      "count": 10
     },
     {
       "month": "2024-04",
@@ -5516,12 +5516,12 @@
     {
       "month": "2025-03",
       "model": "SR22T",
-      "count": 36
+      "count": 35
     },
     {
       "month": "2025-04",
       "model": "SF50",
-      "count": 5
+      "count": 4
     },
     {
       "month": "2025-04",
@@ -5636,7 +5636,7 @@
     {
       "month": "2025-09",
       "model": "SR22T",
-      "count": 27
+      "count": 26
     },
     {
       "month": "2025-10",
@@ -5801,7 +5801,7 @@
     {
       "month": "2026-06",
       "model": "SR22T",
-      "count": 17
+      "count": 16
     },
     {
       "month": "2026-07",
@@ -5826,7 +5826,7 @@
     {
       "month": "2026-08",
       "model": "SF50",
-      "count": 2
+      "count": 5
     },
     {
       "month": "2026-08",
@@ -5841,7 +5841,7 @@
     {
       "month": "2026-08",
       "model": "SR22T",
-      "count": 6
+      "count": 10
     }
   ],
   "monthly_estimated_new_lagged_by_model": [
@@ -7743,7 +7743,7 @@
     {
       "month": "2022-05",
       "model": "SR22",
-      "count": 5
+      "count": 4
     },
     {
       "month": "2022-05",
@@ -7903,12 +7903,12 @@
     {
       "month": "2023-02",
       "model": "SF50",
-      "count": 11
+      "count": 10
     },
     {
       "month": "2023-02",
       "model": "SR20",
-      "count": 17
+      "count": 16
     },
     {
       "month": "2023-02",
@@ -7973,7 +7973,7 @@
     {
       "month": "2023-05",
       "model": "SR22",
-      "count": 2
+      "count": 1
     },
     {
       "month": "2023-05",
@@ -8178,7 +8178,7 @@
     {
       "month": "2024-03",
       "model": "SR22T",
-      "count": 12
+      "count": 11
     },
     {
       "month": "2024-04",
@@ -8418,12 +8418,12 @@
     {
       "month": "2025-03",
       "model": "SR22T",
-      "count": 38
+      "count": 37
     },
     {
       "month": "2025-04",
       "model": "SF50",
-      "count": 6
+      "count": 5
     },
     {
       "month": "2025-04",
@@ -8458,7 +8458,7 @@
     {
       "month": "2025-05",
       "model": "SR22T",
-      "count": 24
+      "count": 23
     },
     {
       "month": "2025-06",
@@ -8538,7 +8538,7 @@
     {
       "month": "2025-09",
       "model": "SR22T",
-      "count": 33
+      "count": 32
     },
     {
       "month": "2025-10",
@@ -8718,7 +8718,7 @@
     {
       "month": "2026-06",
       "model": "SR22T",
-      "count": 19
+      "count": 18
     },
     {
       "month": "2026-07",
@@ -8748,7 +8748,7 @@
     {
       "month": "2026-08",
       "model": "SF50",
-      "count": 3
+      "count": 7
     },
     {
       "month": "2026-08",
@@ -8763,25 +8763,25 @@
     {
       "month": "2026-08",
       "model": "SR22T",
-      "count": 8
+      "count": 14
     }
   ],
   "by_model": [
     {
       "model": "SR22",
-      "count": 3915
+      "count": 3919
     },
     {
       "model": "SR22T",
-      "count": 2822
+      "count": 2821
     },
     {
       "model": "SR20",
-      "count": 1533
+      "count": 1534
     },
     {
       "model": "SF50",
-      "count": 689
+      "count": 692
     },
     {
       "model": "SR10",
@@ -8807,25 +8807,25 @@
     },
     {
       "model": "SF50",
-      "count": 314
+      "count": 316
     }
   ],
   "by_model_estimated_new_aircraft_lagged": [
     {
       "model": "SR22T",
-      "count": 1429
+      "count": 1430
     },
     {
       "model": "SR22",
-      "count": 733
+      "count": 731
     },
     {
       "model": "SR20",
-      "count": 567
+      "count": 566
     },
     {
       "model": "SF50",
-      "count": 428
+      "count": 430
     },
     {
       "model": "SR10",
@@ -8884,7 +8884,7 @@
     },
     {
       "year": 2008,
-      "registrations": 53,
+      "registrations": 52,
       "estimated_new_aircraft": 14,
       "estimated_new_aircraft_lagged": 22,
       "year_built_matches": 14
@@ -8898,7 +8898,7 @@
     },
     {
       "year": 2010,
-      "registrations": 46,
+      "registrations": 45,
       "estimated_new_aircraft": 6,
       "estimated_new_aircraft_lagged": 7,
       "year_built_matches": 6
@@ -8940,14 +8940,14 @@
     },
     {
       "year": 2016,
-      "registrations": 174,
+      "registrations": 173,
       "estimated_new_aircraft": 28,
       "estimated_new_aircraft_lagged": 37,
       "year_built_matches": 28
     },
     {
       "year": 2017,
-      "registrations": 208,
+      "registrations": 207,
       "estimated_new_aircraft": 38,
       "estimated_new_aircraft_lagged": 48,
       "year_built_matches": 38
@@ -8968,7 +8968,7 @@
     },
     {
       "year": 2020,
-      "registrations": 456,
+      "registrations": 455,
       "estimated_new_aircraft": 81,
       "estimated_new_aircraft_lagged": 107,
       "year_built_matches": 81
@@ -8982,84 +8982,84 @@
     },
     {
       "year": 2022,
-      "registrations": 650,
+      "registrations": 648,
       "estimated_new_aircraft": 86,
-      "estimated_new_aircraft_lagged": 176,
+      "estimated_new_aircraft_lagged": 175,
       "year_built_matches": 86
     },
     {
       "year": 2023,
-      "registrations": 1246,
+      "registrations": 1241,
       "estimated_new_aircraft": 287,
-      "estimated_new_aircraft_lagged": 497,
+      "estimated_new_aircraft_lagged": 494,
       "year_built_matches": 287
     },
     {
       "year": 2024,
-      "registrations": 1370,
-      "estimated_new_aircraft": 449,
-      "estimated_new_aircraft_lagged": 581,
-      "year_built_matches": 449
+      "registrations": 1365,
+      "estimated_new_aircraft": 448,
+      "estimated_new_aircraft_lagged": 580,
+      "year_built_matches": 448
     },
     {
       "year": 2025,
-      "registrations": 1739,
-      "estimated_new_aircraft": 605,
-      "estimated_new_aircraft_lagged": 745,
-      "year_built_matches": 605
+      "registrations": 1734,
+      "estimated_new_aircraft": 602,
+      "estimated_new_aircraft_lagged": 741,
+      "year_built_matches": 602
     },
     {
       "year": 2026,
-      "registrations": 1119,
-      "estimated_new_aircraft": 272,
-      "estimated_new_aircraft_lagged": 396,
-      "year_built_matches": 272
+      "registrations": 1149,
+      "estimated_new_aircraft": 278,
+      "estimated_new_aircraft_lagged": 405,
+      "year_built_matches": 278
     }
   ],
   "by_state": [
     {
       "state": "FL",
-      "count": 864
+      "count": 861
     },
     {
       "state": "CA",
-      "count": 758
+      "count": 756
     },
     {
       "state": "TX",
-      "count": 689
+      "count": 691
     },
     {
       "state": "DE",
-      "count": 550
+      "count": 555
     },
     {
       "state": "AZ",
-      "count": 312
+      "count": 310
     },
     {
       "state": "GA",
-      "count": 288
+      "count": 291
     },
     {
       "state": "TN",
-      "count": 280
+      "count": 282
     },
     {
       "state": "NC",
-      "count": 252
+      "count": 253
     },
     {
       "state": "OK",
-      "count": 229
+      "count": 230
     },
     {
       "state": "WY",
-      "count": 226
+      "count": 223
     },
     {
       "state": "NY",
-      "count": 222
+      "count": 221
     },
     {
       "state": "MT",
@@ -9071,15 +9071,15 @@
     },
     {
       "state": "CO",
-      "count": 210
+      "count": 209
     },
     {
       "state": "UT",
-      "count": 205
+      "count": 206
     },
     {
       "state": "MI",
-      "count": 187
+      "count": 188
     },
     {
       "state": "VA",
@@ -9087,7 +9087,7 @@
     },
     {
       "state": "MN",
-      "count": 184
+      "count": 185
     },
     {
       "state": "PA",
@@ -9099,11 +9099,11 @@
     },
     {
       "state": "SC",
-      "count": 157
+      "count": 156
     },
     {
       "state": "WI",
-      "count": 154
+      "count": 155
     },
     {
       "state": "IN",
@@ -9111,7 +9111,7 @@
     },
     {
       "state": "WA",
-      "count": 149
+      "count": 148
     },
     {
       "state": "MA",
@@ -9123,7 +9123,7 @@
     },
     {
       "state": "LA",
-      "count": 130
+      "count": 129
     },
     {
       "state": "AL",
@@ -9179,7 +9179,7 @@
     },
     {
       "state": "NH",
-      "count": 53
+      "count": 54
     },
     {
       "state": "ND",
@@ -9187,7 +9187,7 @@
     },
     {
       "state": "ID",
-      "count": 40
+      "count": 41
     },
     {
       "state": "ME",
@@ -9219,7 +9219,7 @@
     },
     {
       "state": "PR",
-      "count": 6
+      "count": 7
     },
     {
       "state": "AK",
@@ -9233,16 +9233,16 @@
   "status_counts_for_cirrus": {
     "17": 1,
     "20": 1,
-    "23": 2,
-    "7": 6,
-    "M": 363,
-    "N": 7,
-    "R": 45,
-    "V": 8962
+    "23": 3,
+    "7": 7,
+    "M": 365,
+    "N": 8,
+    "R": 43,
+    "V": 8969
   },
   "skipped_counts": {
-    "invalid_status": 425,
-    "missing_or_invalid_cert_issue_date": 33
+    "invalid_status": 428,
+    "missing_or_invalid_cert_issue_date": 32
   },
   "sample_records": [
     {
@@ -10114,11 +10114,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2001,
-      "state": "FL",
-      "cert_issue_date": "20080625",
-      "cert_issue_month": "2008-06",
+      "state": "GA",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "TIGER JONES AIRCRAFT INC",
+      "name": "CHARLIE DELTA AVIATION LLC",
       "mode_s_code_hex": "A008A1",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -11788,11 +11788,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22T",
       "year_mfr": 2018,
-      "state": "AZ",
-      "cert_issue_date": "20250401",
-      "cert_issue_month": "2025-04",
+      "state": "SC",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "FALIKS STEPHEN ROBERT",
+      "name": "MILLS JOSEPH LANEY",
       "mode_s_code_hex": "A02B00",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -20392,11 +20392,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2007,
-      "state": "SC",
-      "cert_issue_date": "20220908",
-      "cert_issue_month": "2022-09",
+      "state": "DE",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "BEWILEN LLC",
+      "name": "KYSER LLC",
       "mode_s_code_hex": "A0B9A1",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -21640,6 +21640,24 @@
       "status_code": "V",
       "name": "QUALITAIR LLC TRUSTEE",
       "mode_s_code_hex": "A0D5B8",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:A0D62D",
+      "unique_id": "01372230",
+      "n_number": "153JS",
+      "serial_number": "8788",
+      "mfr_mdl_code": "2130000",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR20",
+      "year_mfr": 2022,
+      "state": "GA",
+      "cert_issue_date": "20260821",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "GG AIR LLC",
+      "mode_s_code_hex": "A0D62D",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -31544,9 +31562,9 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:A1D013",
+      "key": "hex:A1D003",
       "unique_id": "01334376",
-      "n_number": "216CW",
+      "n_number": "216CE",
       "serial_number": "0258",
       "mfr_mdl_code": "2130010",
       "manufacturer": "CIRRUS DESIGN CORP",
@@ -31557,7 +31575,7 @@
       "cert_issue_month": "2021-07",
       "status_code": "V",
       "name": "TOWHEY AVIATION LLC",
-      "mode_s_code_hex": "A1D013",
+      "mode_s_code_hex": "A1D003",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
     },
@@ -32528,7 +32546,7 @@
       "cert_issue_date": "20210227",
       "cert_issue_month": "2021-02",
       "status_code": "V",
-      "name": "MP WORLDWID HOLDINGS LLC",
+      "name": "MP WORLDWIDE HOLDINGS LLC",
       "mode_s_code_hex": "A1DC14",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -37682,24 +37700,6 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:A1FFD6",
-      "unique_id": "01551779",
-      "n_number": "228MK",
-      "serial_number": "11435",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": 2026,
-      "state": "WY",
-      "cert_issue_date": "20260626",
-      "cert_issue_month": "2026-06",
-      "status_code": "V",
-      "name": "VALIAIR LIMITED COMPANY TRUSTEE",
-      "mode_s_code_hex": "A1FFD6",
-      "estimated_new_aircraft": true,
-      "estimated_new_aircraft_lagged": true
-    },
-    {
       "key": "hex:A1FFD8",
       "unique_id": "00159509",
       "n_number": "228MM",
@@ -38092,24 +38092,6 @@
       "status_code": "V",
       "name": "MEW ENTERPRISES LLC",
       "mode_s_code_hex": "A203EF",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
-    },
-    {
-      "key": "hex:A203F3",
-      "unique_id": "00021019",
-      "n_number": "229RM",
-      "serial_number": "0416",
-      "mfr_mdl_code": "2130001",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22",
-      "year_mfr": 2002,
-      "state": "GA",
-      "cert_issue_date": "20240926",
-      "cert_issue_month": "2024-09",
-      "status_code": "V",
-      "name": "MORRIS ROBERT F JR",
-      "mode_s_code_hex": "A203F3",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -43576,7 +43558,7 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2008,
-      "state": "IL",
+      "state": "CA",
       "cert_issue_date": "20130507",
       "cert_issue_month": "2013-05",
       "status_code": "V",
@@ -45404,6 +45386,24 @@
       "estimated_new_aircraft_lagged": true
     },
     {
+      "key": "hex:A27E99",
+      "unique_id": "01545656",
+      "n_number": "26WA",
+      "serial_number": "11378",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": 2026,
+      "state": "OK",
+      "cert_issue_date": "20260815",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "DESERT SKY VENTURES LLC",
+      "mode_s_code_hex": "A27E99",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
       "key": "hex:A27EA4",
       "unique_id": "01333236",
       "n_number": "26WM",
@@ -46086,6 +46086,24 @@
       "mode_s_code_hex": "A28BCE",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:A28C62",
+      "unique_id": "01541057",
+      "n_number": "263ZA",
+      "serial_number": "11549",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": null,
+      "state": "DE",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "CIRRUS SR22 11549 INC",
+      "mode_s_code_hex": "A28C62",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A28DDB",
@@ -47076,6 +47094,24 @@
       "mode_s_code_hex": "A2A56E",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:A2A57F",
+      "unique_id": "01544817",
+      "n_number": "27PY",
+      "serial_number": "11456",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": null,
+      "state": "PR",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "27PY LLC",
+      "mode_s_code_hex": "A2A57F",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A2A5A1",
@@ -50872,24 +50908,6 @@
       "status_code": "V",
       "name": "DUTTON JAMES ALEN",
       "mode_s_code_hex": "A30FB1",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
-    },
-    {
-      "key": "hex:A3102C",
-      "unique_id": "01558334",
-      "n_number": "297HB",
-      "serial_number": "11480",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": null,
-      "state": "WY",
-      "cert_issue_date": "20260707",
-      "cert_issue_month": "2026-07",
-      "status_code": "V",
-      "name": "VALIAIR LC TRUSTEE",
-      "mode_s_code_hex": "A3102C",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -57122,6 +57140,24 @@
       "estimated_new_aircraft_lagged": true
     },
     {
+      "key": "hex:A372F6",
+      "unique_id": "01540751",
+      "n_number": "321KP",
+      "serial_number": "0768",
+      "mfr_mdl_code": "2130010",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SF50",
+      "year_mfr": 2026,
+      "state": "DE",
+      "cert_issue_date": "20260818",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "KBS AIR LLC",
+      "mode_s_code_hex": "A372F6",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
       "key": "hex:A3730C",
       "unique_id": "01362114",
       "n_number": "321LL",
@@ -59228,24 +59264,6 @@
       "estimated_new_aircraft_lagged": false
     },
     {
-      "key": "hex:A3937E",
-      "unique_id": "01485483",
-      "n_number": "33AH",
-      "serial_number": "0640",
-      "mfr_mdl_code": "2130010",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SF50",
-      "year_mfr": 2025,
-      "state": "FL",
-      "cert_issue_date": "20250403",
-      "cert_issue_month": "2025-04",
-      "status_code": "V",
-      "name": "5601 CDD SERVICES LLC",
-      "mode_s_code_hex": "A3937E",
-      "estimated_new_aircraft": true,
-      "estimated_new_aircraft_lagged": true
-    },
-    {
       "key": "hex:A39381",
       "unique_id": "01449035",
       "n_number": "33AL",
@@ -59260,6 +59278,42 @@
       "status_code": "V",
       "name": "BOWLINE AVIATION LLC",
       "mode_s_code_hex": "A39381",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:A39385",
+      "unique_id": "01485483",
+      "n_number": "33AQ",
+      "serial_number": "0640",
+      "mfr_mdl_code": "2130010",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SF50",
+      "year_mfr": 2025,
+      "state": "MN",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "CIRRUS DESIGN CORP",
+      "mode_s_code_hex": "A39385",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:A3938D",
+      "unique_id": "01539776",
+      "n_number": "33AY",
+      "serial_number": "0769",
+      "mfr_mdl_code": "2130010",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SF50",
+      "year_mfr": 2026,
+      "state": "FL",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "5601 CDD SERVICES LLC",
+      "mode_s_code_hex": "A3938D",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
     },
@@ -63214,11 +63268,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2022,
-      "state": "SC",
-      "cert_issue_date": "20240615",
-      "cert_issue_month": "2024-06",
+      "state": "UT",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "ROBERTS AVIATION LLC",
+      "name": "BANK OF UTAH TRUSTEE",
       "mode_s_code_hex": "A3FBD8",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -65842,11 +65896,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2004,
-      "state": "DE",
-      "cert_issue_date": "20240122",
-      "cert_issue_month": "2024-01",
+      "state": "NH",
+      "cert_issue_date": "20260821",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "AMF HOLDINGS LLC",
+      "name": "N374CD LLC",
       "mode_s_code_hex": "A442DD",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -68318,22 +68372,22 @@
       "estimated_new_aircraft_lagged": false
     },
     {
-      "key": "hex:A4813F",
+      "key": "hex:A48139",
       "unique_id": "01376240",
-      "n_number": "39JG",
+      "n_number": "39JA",
       "serial_number": "8880",
       "mfr_mdl_code": "2130000",
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR20",
       "year_mfr": 2022,
-      "state": "FL",
-      "cert_issue_date": "20230225",
-      "cert_issue_month": "2023-02",
+      "state": "IL",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "KINETIC INVESTMENTS LLC",
-      "mode_s_code_hex": "A4813F",
+      "name": "MSD EXPRESS INC",
+      "mode_s_code_hex": "A48139",
       "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A48149",
@@ -74518,11 +74572,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2007,
-      "state": "MN",
-      "cert_issue_date": "20240701",
-      "cert_issue_month": "2024-07",
+      "state": "TN",
+      "cert_issue_date": "20260815",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "SDP LLC",
+      "name": "HALOROC MUPPETS II LLC",
       "mode_s_code_hex": "A50864",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -74627,10 +74681,10 @@
       "model": "SR20",
       "year_mfr": 2004,
       "state": "DE",
-      "cert_issue_date": "20101026",
-      "cert_issue_month": "2010-10",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "MOSNOW AVIATION",
+      "name": "AIRFLEET SOLUTIONS LLC",
       "mode_s_code_hex": "A50AB1",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -78650,6 +78704,24 @@
       "estimated_new_aircraft_lagged": false
     },
     {
+      "key": "hex:A57A59",
+      "unique_id": "00172269",
+      "n_number": "452JG",
+      "serial_number": "1415",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": null,
+      "state": "",
+      "cert_issue_date": "20260818",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "QUALITAIR LLC TRUSTEE",
+      "mode_s_code_hex": "A57A59",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
       "key": "hex:A57AA1",
       "unique_id": "01234039",
       "n_number": "452MD",
@@ -79280,6 +79352,24 @@
       "estimated_new_aircraft_lagged": false
     },
     {
+      "key": "hex:A58965",
+      "unique_id": "00241859",
+      "n_number": "456LE",
+      "serial_number": "1868",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": 2006,
+      "state": "DE",
+      "cert_issue_date": "20260818",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "AEROSPACE TRUST MANAGEMENT LLC TRUSTEE",
+      "mode_s_code_hex": "A58965",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
       "key": "hex:A5896B",
       "unique_id": "01005196",
       "n_number": "456LL",
@@ -79332,6 +79422,24 @@
       "mode_s_code_hex": "A58982",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:A589EF",
+      "unique_id": "00004129",
+      "n_number": "456RT",
+      "serial_number": "0314",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": 2002,
+      "state": "TX",
+      "cert_issue_date": "20260821",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "MASSIVE SOLUTIONS LLC TRUSTEE",
+      "mode_s_code_hex": "A589EF",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A58A07",
@@ -83328,24 +83436,6 @@
       "mode_s_code_hex": "A5FB40",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
-    },
-    {
-      "key": "hex:A5FB78",
-      "unique_id": "00378639",
-      "n_number": "485DA",
-      "serial_number": "1830",
-      "mfr_mdl_code": "2130000",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR20",
-      "year_mfr": 2007,
-      "state": "FL",
-      "cert_issue_date": "20161221",
-      "cert_issue_month": "2016-12",
-      "status_code": "V",
-      "name": "AEROSIM ACADEMY INC",
-      "mode_s_code_hex": "A5FB78",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A5FB82",
@@ -94634,24 +94724,6 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:A6CFE0",
-      "unique_id": "01518057",
-      "n_number": "538TT",
-      "serial_number": "10986",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": 2025,
-      "state": "WI",
-      "cert_issue_date": "20260306",
-      "cert_issue_month": "2026-03",
-      "status_code": "V",
-      "name": "AKN AIR LLC",
-      "mode_s_code_hex": "A6CFE0",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
-    },
-    {
       "key": "hex:A6D0D8",
       "unique_id": "00089839",
       "n_number": "5382W",
@@ -95938,7 +96010,7 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR20",
       "year_mfr": 2008,
-      "state": "CA",
+      "state": "ID",
       "cert_issue_date": "20240924",
       "cert_issue_month": "2024-09",
       "status_code": "V",
@@ -97478,6 +97550,24 @@
       "estimated_new_aircraft_lagged": false
     },
     {
+      "key": "hex:A722CF",
+      "unique_id": "01562603",
+      "n_number": "559WA",
+      "serial_number": "11559",
+      "mfr_mdl_code": "2130000",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR20",
+      "year_mfr": null,
+      "state": "DE",
+      "cert_issue_date": "20260821",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "CIRRUS SR20 11559 INC TRUSTEE",
+      "mode_s_code_hex": "A722CF",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
       "key": "hex:A722DA",
       "unique_id": "01341297",
       "n_number": "559WM",
@@ -97852,24 +97942,6 @@
       "status_code": "V",
       "name": "40 AND RISING AVIATION LLC",
       "mode_s_code_hex": "A7288A",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
-    },
-    {
-      "key": "hex:A72AD7",
-      "unique_id": "00209939",
-      "n_number": "561CD",
-      "serial_number": "1640",
-      "mfr_mdl_code": "2130001",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22",
-      "year_mfr": null,
-      "state": "FL",
-      "cert_issue_date": "",
-      "cert_issue_month": "",
-      "status_code": "V",
-      "name": "GAINESVILLE AIRCRAFT SALES INC",
-      "mode_s_code_hex": "A72AD7",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -98880,6 +98952,24 @@
       "mode_s_code_hex": "A74642",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:A74862",
+      "unique_id": "01537644",
+      "n_number": "569AJ",
+      "serial_number": "0770",
+      "mfr_mdl_code": "2130010",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SF50",
+      "year_mfr": 2026,
+      "state": "WI",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "JAMBER AVIATION VISION JET LLC",
+      "mode_s_code_hex": "A74862",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
     },
     {
       "key": "hex:A74977",
@@ -106702,14 +106792,14 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2022,
-      "state": "DE",
-      "cert_issue_date": "20230521",
-      "cert_issue_month": "2023-05",
+      "state": "UT",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "SCFS LLC",
+      "name": "BANK OF UTAH TRUSTEE",
       "mode_s_code_hex": "A80688",
       "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A8069F",
@@ -109385,12 +109475,12 @@
       "model": "SR22T",
       "year_mfr": 2025,
       "state": "OR",
-      "cert_issue_date": "20250304",
-      "cert_issue_month": "2025-03",
+      "cert_issue_date": "20260818",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "SO FLY AVIATION LLC",
+      "name": "B8 LLC",
       "mode_s_code_hex": "A829D4",
-      "estimated_new_aircraft": true,
+      "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": true
     },
     {
@@ -112364,6 +112454,24 @@
       "estimated_new_aircraft_lagged": true
     },
     {
+      "key": "hex:A87CFE",
+      "unique_id": "01548252",
+      "n_number": "646RB",
+      "serial_number": "11398",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": 2026,
+      "state": "TX",
+      "cert_issue_date": "20260815",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "CANTABRIA AIR INC",
+      "mode_s_code_hex": "A87CFE",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
       "key": "hex:A87D61",
       "unique_id": "01541177",
       "n_number": "646VA",
@@ -112886,24 +112994,6 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:A89074",
-      "unique_id": "01367600",
-      "n_number": "651AC",
-      "serial_number": "0377",
-      "mfr_mdl_code": "2130010",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SF50",
-      "year_mfr": 2022,
-      "state": "AZ",
-      "cert_issue_date": "20230213",
-      "cert_issue_month": "2023-02",
-      "status_code": "V",
-      "name": "CAREFREE VISION LLC",
-      "mode_s_code_hex": "A89074",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
-    },
-    {
       "key": "hex:A89075",
       "unique_id": "01304453",
       "n_number": "651AD",
@@ -112936,6 +113026,24 @@
       "status_code": "V",
       "name": "POINT ZERO VENTURES LLC",
       "mode_s_code_hex": "A89078",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:A8907B",
+      "unique_id": "01367600",
+      "n_number": "651AK",
+      "serial_number": "0377",
+      "mfr_mdl_code": "2130010",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SF50",
+      "year_mfr": 2022,
+      "state": "MN",
+      "cert_issue_date": "20260817",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "CIRRUS DESIGN CORP",
+      "mode_s_code_hex": "A8907B",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -117556,11 +117664,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22T",
       "year_mfr": 2017,
-      "state": "UT",
-      "cert_issue_date": "20260302",
-      "cert_issue_month": "2026-03",
+      "state": "FL",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "TVPX ARS INC TRUSTEE",
+      "name": "ROPER TECHNOLOGIES INC",
       "mode_s_code_hex": "A921ED",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -118907,13 +119015,13 @@
       "model": "SR22T",
       "year_mfr": 2024,
       "state": "MO",
-      "cert_issue_date": "20240320",
-      "cert_issue_month": "2024-03",
+      "cert_issue_date": "20260817",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "RCS LEASING LLC",
+      "name": "A LUX AIR LLC",
       "mode_s_code_hex": "A95164",
-      "estimated_new_aircraft": true,
-      "estimated_new_aircraft_lagged": true
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:A951BC",
@@ -121578,6 +121686,24 @@
       "mode_s_code_hex": "A981E7",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:A98388",
+      "unique_id": "01518057",
+      "n_number": "712AN",
+      "serial_number": "10986",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": 2025,
+      "state": "WI",
+      "cert_issue_date": "20260306",
+      "cert_issue_month": "2026-03",
+      "status_code": "V",
+      "name": "AKN AIR LLC",
+      "mode_s_code_hex": "A98388",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": true
     },
     {
       "key": "hex:A9838D",
@@ -125494,7 +125620,7 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2025,
-      "state": "LA",
+      "state": "FL",
       "cert_issue_date": "20251027",
       "cert_issue_month": "2025-10",
       "status_code": "V",
@@ -128896,13 +129022,13 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22T",
       "year_mfr": 2025,
-      "state": "FL",
-      "cert_issue_date": "20250908",
-      "cert_issue_month": "2025-09",
+      "state": "MI",
+      "cert_issue_date": "20260816",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "NWGP4033 LLC",
+      "name": "UNIVERSAL AIRCRAFT HOLDINGS LLC",
       "mode_s_code_hex": "AA02EE",
-      "estimated_new_aircraft": true,
+      "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": true
     },
     {
@@ -131930,24 +132056,6 @@
       "estimated_new_aircraft_lagged": false
     },
     {
-      "key": "hex:AA5FCE",
-      "unique_id": "01276404",
-      "n_number": "768FS",
-      "serial_number": "1738",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": 2018,
-      "state": "CO",
-      "cert_issue_date": "20231024",
-      "cert_issue_month": "2023-10",
-      "status_code": "V",
-      "name": "CUTTING EDGE AUCTIONS LLC",
-      "mode_s_code_hex": "AA5FCE",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
-    },
-    {
       "key": "hex:AA631A",
       "unique_id": "01305173",
       "n_number": "769BK",
@@ -132108,6 +132216,24 @@
       "mode_s_code_hex": "AA6729",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:AA6764",
+      "unique_id": "01547488",
+      "n_number": "77HG",
+      "serial_number": "11401",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": 2026,
+      "state": "DE",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "MYLES OFFSHORE INC TRUSTEE",
+      "mode_s_code_hex": "AA6764",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
     },
     {
       "key": "hex:AA6793",
@@ -134396,24 +134522,6 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:AA8EFE",
-      "unique_id": "01321337",
-      "n_number": "78JJ",
-      "serial_number": "2150",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": 2020,
-      "state": "FL",
-      "cert_issue_date": "20260503",
-      "cert_issue_month": "2026-05",
-      "status_code": "V",
-      "name": "APEXLUXE INC",
-      "mode_s_code_hex": "AA8EFE",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
-    },
-    {
       "key": "hex:AA8F26",
       "unique_id": "01486468",
       "n_number": "78KZ",
@@ -136664,6 +136772,24 @@
       "estimated_new_aircraft_lagged": true
     },
     {
+      "key": "hex:AAB739",
+      "unique_id": "00274839",
+      "n_number": "79RX",
+      "serial_number": "2066",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": 2006,
+      "state": "GA",
+      "cert_issue_date": "20260821",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "C HOWARD AVIATION LLC",
+      "mode_s_code_hex": "AAB739",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
       "key": "hex:AAB75E",
       "unique_id": "01424065",
       "n_number": "79TJ",
@@ -137878,11 +138004,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22T",
       "year_mfr": 2015,
-      "state": "CA",
-      "cert_issue_date": "20200608",
-      "cert_issue_month": "2020-06",
+      "state": "FL",
+      "cert_issue_date": "20260820",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "LB EAGLE AVIATION LLC",
+      "name": "SOUTHERN CROSS AIRCRAFT LLC",
       "mode_s_code_hex": "AADEC2",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -144232,11 +144358,11 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22T",
       "year_mfr": 2016,
-      "state": "WA",
-      "cert_issue_date": "20230118",
-      "cert_issue_month": "2023-01",
+      "state": "NC",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "PARACHUTE CADDIS LLC",
+      "name": "WHISKEY TANGO FOLKS LLC",
       "mode_s_code_hex": "AB3898",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
@@ -144832,6 +144958,24 @@
       "status_code": "V",
       "name": "CAT AVIATION LLC",
       "mode_s_code_hex": "AB3FED",
+      "estimated_new_aircraft": false,
+      "estimated_new_aircraft_lagged": false
+    },
+    {
+      "key": "hex:AB400B",
+      "unique_id": "01449387",
+      "n_number": "824DJ",
+      "serial_number": "9973",
+      "mfr_mdl_code": "2130001",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22",
+      "year_mfr": null,
+      "state": "GA",
+      "cert_issue_date": "20260818",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "BCD AVIATION LLC",
+      "mode_s_code_hex": "AB400B",
       "estimated_new_aircraft": false,
       "estimated_new_aircraft_lagged": false
     },
@@ -146663,8 +146807,8 @@
       "model": "SR20",
       "year_mfr": 2003,
       "state": "",
-      "cert_issue_date": "20171219",
-      "cert_issue_month": "2017-12",
+      "cert_issue_date": "20260816",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
       "name": "",
       "mode_s_code_hex": "AB5637",
@@ -149624,24 +149768,6 @@
       "estimated_new_aircraft_lagged": true
     },
     {
-      "key": "hex:ABA52A",
-      "unique_id": "01440014",
-      "n_number": "85BT",
-      "serial_number": "10248",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": 2024,
-      "state": "CA",
-      "cert_issue_date": "20250522",
-      "cert_issue_month": "2025-05",
-      "status_code": "V",
-      "name": "AULTON NEW ENERGY INC",
-      "mode_s_code_hex": "ABA52A",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
-    },
-    {
       "key": "hex:ABA54B",
       "unique_id": "00130879",
       "n_number": "85DA",
@@ -151582,6 +151708,24 @@
       "status_code": "V",
       "name": "FLYSC LLC",
       "mode_s_code_hex": "ABDFC0",
+      "estimated_new_aircraft": true,
+      "estimated_new_aircraft_lagged": true
+    },
+    {
+      "key": "hex:ABE177",
+      "unique_id": "01540544",
+      "n_number": "865AN",
+      "serial_number": "11337",
+      "mfr_mdl_code": "2130004",
+      "manufacturer": "CIRRUS DESIGN CORP",
+      "model": "SR22T",
+      "year_mfr": 2026,
+      "state": "TN",
+      "cert_issue_date": "20260819",
+      "cert_issue_month": "2026-08",
+      "status_code": "V",
+      "name": "FRESH WIND GTS LLC",
+      "mode_s_code_hex": "ABE177",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
     },
@@ -154842,24 +154986,6 @@
       "mode_s_code_hex": "AC2E65",
       "estimated_new_aircraft": true,
       "estimated_new_aircraft_lagged": true
-    },
-    {
-      "key": "hex:AC30A2",
-      "unique_id": "01559822",
-      "n_number": "885CH",
-      "serial_number": "11515",
-      "mfr_mdl_code": "2130004",
-      "manufacturer": "CIRRUS DESIGN CORP",
-      "model": "SR22T",
-      "year_mfr": null,
-      "state": "WY",
-      "cert_issue_date": "20260730",
-      "cert_issue_month": "2026-07",
-      "status_code": "V",
-      "name": "VALIAIR LC TRUSTEE",
-      "mode_s_code_hex": "AC30A2",
-      "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:AC30E1",
@@ -169036,14 +169162,14 @@
       "manufacturer": "CIRRUS DESIGN CORP",
       "model": "SR22",
       "year_mfr": 2021,
-      "state": "NY",
-      "cert_issue_date": "20220523",
-      "cert_issue_month": "2022-05",
+      "state": "DE",
+      "cert_issue_date": "20260816",
+      "cert_issue_month": "2026-08",
       "status_code": "V",
-      "name": "SAG PHOENIX LLC",
+      "name": "GOONEY AVIATION LLC",
       "mode_s_code_hex": "ADD170",
       "estimated_new_aircraft": false,
-      "estimated_new_aircraft_lagged": true
+      "estimated_new_aircraft_lagged": false
     },
     {
       "key": "hex:ADD1A6",

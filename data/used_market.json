@@ -1549,6 +1549,186 @@
           }
         ],
         "previous_snapshot_available": true
+      },
+      {
+        "date": "2026-08-23",
+        "transfers": 17,
+        "new": 10,
+        "deregistered": 14,
+        "added": 21,
+        "transfer_sample": [
+          {
+            "key": "hex:A008A1",
+            "n_number": "101CD",
+            "model": "SR22",
+            "previous_name": "TIGER JONES AIRCRAFT INC",
+            "current_name": "CHARLIE DELTA AVIATION LLC",
+            "previous_cert_issue_date": "20080625",
+            "current_cert_issue_date": "20260819",
+            "state": "GA"
+          },
+          {
+            "key": "hex:A02B00",
+            "n_number": "11MU",
+            "model": "SR22T",
+            "previous_name": "FALIKS STEPHEN ROBERT",
+            "current_name": "MILLS JOSEPH LANEY",
+            "previous_cert_issue_date": "20250401",
+            "current_cert_issue_date": "20260819",
+            "state": "SC"
+          },
+          {
+            "key": "hex:A0B9A1",
+            "n_number": "146GS",
+            "model": "SR22",
+            "previous_name": "BEWILEN LLC",
+            "current_name": "KYSER LLC",
+            "previous_cert_issue_date": "20220908",
+            "current_cert_issue_date": "20260819",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A1DC14",
+            "n_number": "219MR",
+            "model": "SR20",
+            "previous_name": "MP WORLDWID HOLDINGS LLC",
+            "current_name": "MP WORLDWIDE HOLDINGS LLC",
+            "previous_cert_issue_date": "20210227",
+            "current_cert_issue_date": "20210227",
+            "state": "FL"
+          },
+          {
+            "key": "hex:A3FBD8",
+            "n_number": "356HT",
+            "model": "SR22",
+            "previous_name": "ROBERTS AVIATION LLC",
+            "current_name": "BANK OF UTAH TRUSTEE",
+            "previous_cert_issue_date": "20240615",
+            "current_cert_issue_date": "20260820",
+            "state": "UT"
+          },
+          {
+            "key": "hex:A442DD",
+            "n_number": "374CD",
+            "model": "SR22",
+            "previous_name": "AMF HOLDINGS LLC",
+            "current_name": "N374CD LLC",
+            "previous_cert_issue_date": "20240122",
+            "current_cert_issue_date": "20260821",
+            "state": "NH"
+          },
+          {
+            "key": "hex:A50864",
+            "n_number": "423SR",
+            "model": "SR22",
+            "previous_name": "SDP LLC",
+            "current_name": "HALOROC MUPPETS II LLC",
+            "previous_cert_issue_date": "20240701",
+            "current_cert_issue_date": "20260815",
+            "state": "TN"
+          },
+          {
+            "key": "hex:A50AB1",
+            "n_number": "424CD",
+            "model": "SR20",
+            "previous_name": "MOSNOW AVIATION",
+            "current_name": "AIRFLEET SOLUTIONS LLC",
+            "previous_cert_issue_date": "20101026",
+            "current_cert_issue_date": "20260819",
+            "state": "DE"
+          },
+          {
+            "key": "hex:A80688",
+            "n_number": "616RJ",
+            "model": "SR22",
+            "previous_name": "SCFS LLC",
+            "current_name": "BANK OF UTAH TRUSTEE",
+            "previous_cert_issue_date": "20230521",
+            "current_cert_issue_date": "20260820",
+            "state": "UT"
+          },
+          {
+            "key": "hex:A829D4",
+            "n_number": "625LK",
+            "model": "SR22T",
+            "previous_name": "SO FLY AVIATION LLC",
+            "current_name": "B8 LLC",
+            "previous_cert_issue_date": "20250304",
+            "current_cert_issue_date": "20260818",
+            "state": "OR"
+          },
+          {
+            "key": "hex:A921ED",
+            "n_number": "688LD",
+            "model": "SR22T",
+            "previous_name": "TVPX ARS INC TRUSTEE",
+            "current_name": "ROPER TECHNOLOGIES INC",
+            "previous_cert_issue_date": "20260302",
+            "current_cert_issue_date": "20260820",
+            "state": "FL"
+          },
+          {
+            "key": "hex:A95164",
+            "n_number": "7RS",
+            "model": "SR22T",
+            "previous_name": "RCS LEASING LLC",
+            "current_name": "A LUX AIR LLC",
+            "previous_cert_issue_date": "20240320",
+            "current_cert_issue_date": "20260817",
+            "state": "MO"
+          },
+          {
+            "key": "hex:AA02EE",
+            "n_number": "744RS",
+            "model": "SR22T",
+            "previous_name": "NWGP4033 LLC",
+            "current_name": "UNIVERSAL AIRCRAFT HOLDINGS LLC",
+            "previous_cert_issue_date": "20250908",
+            "current_cert_issue_date": "20260816",
+            "state": "MI"
+          },
+          {
+            "key": "hex:AADEC2",
+            "n_number": "8SG",
+            "model": "SR22T",
+            "previous_name": "LB EAGLE AVIATION LLC",
+            "current_name": "SOUTHERN CROSS AIRCRAFT LLC",
+            "previous_cert_issue_date": "20200608",
+            "current_cert_issue_date": "20260820",
+            "state": "FL"
+          },
+          {
+            "key": "hex:AB3898",
+            "n_number": "822DD",
+            "model": "SR22T",
+            "previous_name": "PARACHUTE CADDIS LLC",
+            "current_name": "WHISKEY TANGO FOLKS LLC",
+            "previous_cert_issue_date": "20230118",
+            "current_cert_issue_date": "20260819",
+            "state": "NC"
+          },
+          {
+            "key": "hex:AB5637",
+            "n_number": "83CD",
+            "model": "SR20",
+            "previous_name": "",
+            "current_name": "",
+            "previous_cert_issue_date": "20171219",
+            "current_cert_issue_date": "20260816",
+            "state": ""
+          },
+          {
+            "key": "hex:ADD170",
+            "n_number": "99MU",
+            "model": "SR22",
+            "previous_name": "SAG PHOENIX LLC",
+            "current_name": "GOONEY AVIATION LLC",
+            "previous_cert_issue_date": "20220523",
+            "current_cert_issue_date": "20260816",
+            "state": "DE"
+          }
+        ],
+        "previous_snapshot_available": true
       }
     ],
     "by_year_yearmfr_gap": [
@@ -1603,9 +1783,9 @@
       },
       {
         "cert_year": 2008,
-        "registrations": 53,
+        "registrations": 52,
         "new_like": 22,
-        "used_like_incl_renewals": 30,
+        "used_like_incl_renewals": 29,
         "unknown_year_mfr": 1
       },
       {
@@ -1617,9 +1797,9 @@
       },
       {
         "cert_year": 2010,
-        "registrations": 46,
+        "registrations": 45,
         "new_like": 7,
-        "used_like_incl_renewals": 38,
+        "used_like_incl_renewals": 37,
         "unknown_year_mfr": 1
       },
       {
@@ -1659,16 +1839,16 @@
       },
       {
         "cert_year": 2016,
-        "registrations": 174,
+        "registrations": 173,
         "new_like": 37,
-        "used_like_incl_renewals": 134,
+        "used_like_incl_renewals": 133,
         "unknown_year_mfr": 3
       },
       {
         "cert_year": 2017,
-        "registrations": 208,
+        "registrations": 207,
         "new_like": 48,
-        "used_like_incl_renewals": 151,
+        "used_like_incl_renewals": 150,
         "unknown_year_mfr": 9
       },
       {
@@ -1687,9 +1867,9 @@
       },
       {
         "cert_year": 2020,
-        "registrations": 456,
+        "registrations": 455,
         "new_like": 107,
-        "used_like_incl_renewals": 318,
+        "used_like_incl_renewals": 317,
         "unknown_year_mfr": 31
       },
       {
@@ -1701,43 +1881,43 @@
       },
       {
         "cert_year": 2022,
-        "registrations": 650,
-        "new_like": 176,
-        "used_like_incl_renewals": 417,
+        "registrations": 648,
+        "new_like": 175,
+        "used_like_incl_renewals": 416,
         "unknown_year_mfr": 57
       },
       {
         "cert_year": 2023,
-        "registrations": 1246,
-        "new_like": 497,
-        "used_like_incl_renewals": 671,
+        "registrations": 1241,
+        "new_like": 494,
+        "used_like_incl_renewals": 669,
         "unknown_year_mfr": 78
       },
       {
         "cert_year": 2024,
-        "registrations": 1370,
-        "new_like": 581,
-        "used_like_incl_renewals": 732,
+        "registrations": 1365,
+        "new_like": 580,
+        "used_like_incl_renewals": 728,
         "unknown_year_mfr": 57
       },
       {
         "cert_year": 2025,
-        "registrations": 1739,
-        "new_like": 745,
-        "used_like_incl_renewals": 945,
+        "registrations": 1734,
+        "new_like": 741,
+        "used_like_incl_renewals": 944,
         "unknown_year_mfr": 49
       },
       {
         "cert_year": 2026,
-        "registrations": 1119,
-        "new_like": 396,
-        "used_like_incl_renewals": 656,
-        "unknown_year_mfr": 67
+        "registrations": 1149,
+        "new_like": 405,
+        "used_like_incl_renewals": 674,
+        "unknown_year_mfr": 70
       }
     ]
   },
   "listings": {
-    "as_of": "2026-08-16T22:21:12.401653+00:00",
+    "as_of": "2026-08-23T22:21:56.865134+00:00",
     "sources": [],
     "active_listing_count": 0,
     "by_model": [],
@@ -1939,6 +2119,11 @@
       },
       {
         "date": "2026-08-16",
+        "active_listing_count": 0,
+        "by_model": []
+      },
+      {
+        "date": "2026-08-23",
         "active_listing_count": 0,
         "by_model": []
       }
