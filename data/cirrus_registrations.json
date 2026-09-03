@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:58:33.819371+00:00",
+  "generated_at": "2026-09-03T22:58:24.006675+00:00",
   "source_note": "FAA Releasable Aircraft Database; data represents U.S. registrations and estimated new-aircraft registrations use valid Cirrus records where YEAR MFR equals the CERT ISSUE DATE year. The lagged estimate also allows the prior model year to absorb registration timing delays. These remain U.S. registration proxies, not official global Cirrus deliveries.",
   "valid_registration_status_codes": [
     "T",
@@ -10112,7 +10112,7 @@
   "flight_activity": {
     "note": "ADS-B 覆盖有盲区，PIA/LADD 会屏蔽部分飞机；这是机队利用率代理，不是精确飞行统计。",
     "source": "airplanes_live",
-    "as_of": "2026-09-02T22:58:33.678754+00:00",
+    "as_of": "2026-09-03T22:58:23.857597+00:00",
     "window": "current_state_sample",
     "fleet_hex_count": 8969,
     "tracked_lines": {
@@ -10707,6 +10707,13 @@
       },
       {
         "date": "2026-09-02",
+        "distinct_aircraft_seen": 0,
+        "flights": 0,
+        "utilization_pct": 0.0,
+        "source": "airplanes_live"
+      },
+      {
+        "date": "2026-09-03",
         "distinct_aircraft_seen": 0,
         "flights": 0,
         "utilization_pct": 0.0,
