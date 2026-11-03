@@ -978,5 +978,12 @@
     "flights": 0,
     "utilization_pct": 0.0,
     "source": "airplanes_live"
+  },
+  {
+    "date": "2026-11-03",
+    "distinct_aircraft_seen": 0,
+    "flights": 0,
+    "utilization_pct": 0.0,
+    "source": "airplanes_live"
   }
 ]
